@@ -20,11 +20,13 @@ public class Indexer
     public Indexer(String indexdir) throws IOException {
         // create the index
     	File file = new File(indexdir);
+    	
         if(writer == null) {
         writer = new IndexWriter(FSDirectory.open(
                 file), new IndexWriterConfig(Version.LUCENE_36, new StandardAnalyzer(Version.LUCENE_36)));
         }
-        writer.deleteAll();
+        
+    
        
     }
 

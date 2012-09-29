@@ -77,6 +77,20 @@ public class Lucene {
 	}
 
 	public static void indexList() throws IOException {
+		// deleting indexes
+		File indexF = new File(INDEX_DIR);
+		//check if directory exists
+    	if(indexF.exists()){
+           try{
+ 
+               delete(indexF);
+ 
+           }catch(IOException e){
+               e.printStackTrace();
+               System.exit(0);
+           }
+        }
+		
 		// Add Files need to be indexed
 		addFiles(new File(
 				dataFiles));
@@ -98,7 +112,7 @@ public class Lucene {
 				// Read File Line By Line
 
 				while ((drama = dramaList.readLine()) != null) {
-
+					// Skip if contains the headings
 					if (drama.contains("/**")) {
 						continue;
 					}
@@ -146,4 +160,49 @@ public class Lucene {
 			}
 		}
 	}
+	
+	/**
+	 * Deleting index directory if creating new index
+	 * @param file
+	 * @throws IOException
+	 */
+	public static void delete(File file)
+	    	throws IOException{
+	 
+	    	if(file.isDirectory()){
+	 
+	    		//directory is empty, then delete it
+	    		if(file.list().length==0){
+	 
+	    		   file.delete();
+	    		   System.out.println("Directory is deleted : " 
+	                                                 + file.getAbsolutePath());
+	 
+	    		}else{
+	 
+	    		   //list all the directory contents
+	        	   String files[] = file.list();
+	 
+	        	   for (String temp : files) {
+	        	      //construct the file structure
+	        	      File deleteFile = new File(file, temp);
+	 
+	        	      //recursive delete
+	        	     delete(deleteFile);
+	        	   }
+	 
+	        	   //check the directory again, if empty then delete it
+	        	   if(file.list().length==0){
+	           	     file.delete();
+	        	     System.out.println("Directory is deleted : " 
+	                                                  + file.getAbsolutePath());
+	        	   }
+	    		}
+	 
+	    	}else{
+	    		//if file, then delete it
+	    		file.delete();
+	    		System.out.println("File is deleted : " + file.getAbsolutePath());
+	    	}
+	    }
 }

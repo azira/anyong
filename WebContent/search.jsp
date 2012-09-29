@@ -1,6 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
 	pageEncoding="ISO-8859-1"%>
-<%@ taglib prefix="c" uri="http://java.sun.com/jstl/core_rt"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jstl/core"%>
 <%@page import="LuceneSearch.Lucene"%>
 <%@page import="LuceneSearch.spellCheck"%>
 <%@page import="LuceneSearch.Searcher"%>
@@ -15,21 +15,39 @@
 <html>
 <%
 	String userQuery = request.getParameter("query");
-	//session.setAttribute( "query", query );
+	
 %>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Insert title here</title>
+<title>anyoung - your korean web search engine</title>
+<style type="text/css">
+.pg-normal {
+	color: #0000FF;
+	font-weight: normal;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.pg-selected {
+	color: #800080;
+	font-weight: bold;
+	text-decoration: underline;
+	cursor: pointer;
+}
+</style>
+<script type="text/javascript" src="resultPagination.js"></script>
+
 </head>
+
 <body>
 
 	<form method="GET" action='search.jsp' id="searchForm">
 		<p>
-			anyoung<INPUT TYPE=TEXT NAME="query" SIZE=20 value="<%=userQuery%>">
+			anyoung<INPUT TYPE=TEXT NAME="query" SIZE=20 value="<%=userQuery%>"><INPUT TYPE=SUBMIT VALUE="search">
 		</p>
 	</form>
 		
-		<INPUT TYPE=SUBMIT VALUE="search">
+		
 		<P>
 			The query was
 			<%=userQuery %></P>
@@ -39,14 +57,16 @@
 			luceneSearch.indexList();
 			spellCheck checker = new spellCheck();
 				
-				List spellCheck = checker.correctWords(userQuery);
-				if (spellCheck != null) {
+			List spellCheck = checker.correctWords(userQuery);
+			// Check if there's a spell check
+			if (spellCheck != null) {
 			%>
 
 		<p>
 			Do you mean:
 
 			<%
+			// Display spell check suggestions 
 			Iterator spellCheckr = spellCheck.iterator();
 				while (spellCheckr.hasNext()) {
 					String queryCheck = spellCheckr.next().toString();
@@ -65,38 +85,49 @@
 		
 		
 		Searcher searcher = new Searcher();
+		// Search user query
 		List<List<String>> dramaList = searcher.findByTitle(userQuery);
 		
 		%>
 		<p>
 			Total results:
 			<%= dramaList.size() %></p>
+			 <form action="" method="get" enctype="application/x-www-form-urlencoded">
+			 <table id="results">
+		<tr>
+			<td>
 		<% 
+		// Display results into table
 		if (dramaList != null) {
 			for (int i=0; i < dramaList.size(); i++) {
 				List drama = dramaList.get(i);
-				
-				
-		
+
 		%>
-
-
-		<p>
-			<a href=<%= drama.get(1)%>><%= drama.get(0) %></a>
-		</p>
-
-
-		<%
-			
-			
-				 }
-		}
 		
-				
+		<tr><td> <a href=<%= drama.get(1)%>><%= drama.get(0) %></a>
+			</td>
+		</tr>
+		
+		<%
+				 }
 			}
-				
-				
+
+		}
 			%>
+			
+</table>
+		<br>
+	<!-- Pagination -->
+	<div id="pageNavPosition"></div>
+	</form>
 	
+<script type="text/javascript">
+        var pager = new Pager('results', 10); 
+        pager.init(); 
+        pager.showPageNav('pager', 'pageNavPosition'); 
+        pager.showPage(1);
+ </script>
+
+
 </body>
 </html>
