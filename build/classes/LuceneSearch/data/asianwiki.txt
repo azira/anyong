@@ -1,0 +1,57 @@
+/** Text file by Hazirah Hamdani **/
+/** Date: 22 Sept 2012 **/
+/** Tools used: http://www.webconfs.com/search-engine-spider-simulator.php **/
+/** Source retrieved from Asianwiki.com **/
+Big::http://asianwiki.com/Big_(Korean_Drama):
+Gentleman Dignity::http://asianwiki.com/Gentleman%27s_Dignity
+The Scent::http://asianwiki.com/The_Scent_(Korean_Movie)
+Zombie 108::http://asianwiki.com/Zombie_108
+Roadside Fugitive::http://asianwiki.com/Roadside_Fugitive
+Toilet and Women::http://asianwiki.com/Toilet_and_Women
+Duet::http://asianwiki.com/Duet_(Korean_Movie)
+Feast of The Gods::http://asianwiki.com/Feast_of_the_Gods
+Operation Proposal::http://asianwiki.com/Operation_Proposal
+God of War::http://asianwiki.com/God_of_War_(Korean_Drama)
+Just Ordinary Love Story::http://asianwiki.com/Just_Ordinary_Love_Story_(Korean_Drama)
+Hero::http://asianwiki.com/Hero_(Korean_Drama)
+Fashion::http://asianwiki.com/Fashion_King
+Rooftop Prince::http://asianwiki.com/Rooftop_Prince
+The King 2 Hearts::http://asianwiki.com/The_King_2hearts
+Love Rain::http://asianwiki.com/Love_Rain_(Korean_Drama)
+Late Blossom::http://asianwiki.com/Late_Blossom_(Korean_Drama)
+Love Again::http:://asianwiki.com/Love_Again_(Korean_Drama)
+Marriage Plot::http://asianwiki.com/Marriage_Plot
+Queen In Hyun's Man::http://asianwiki.com/Queen_In-Hyun%27s_Man
+Still You::http://asianwiki.com/Still_You_-_Korean_Drama
+Dr. Jin::http://asianwiki.com/Dr._Jin
+The Chaser::http://asianwiki.com/The_Chaser_(Korean_Drama)
+I Love Lee Tae Ri::http://asianwiki.com/I_Love_Lee_Tae-Ri
+Bridal Mask::http://asianwiki.com/Bridal_Mask_-_Korean_Drama
+Ghost::http://asianwiki.com/Ghost_(Korean_Drama)
+I do, I do::http://asianwiki.com/I_Do,_I_Do
+I Need Romance 2::http://asianwiki.com/I_Need_Romance_2
+Beautiful Rain::http://asianwiki.com/Beautiful_Rain
+Golden Time::http://asianwiki.com/Golden_Time_(Korean_Drama)
+Night King::http://asianwiki.com/Night_King_-_Korean_Drama
+Lovers of Haeundae::http://asianwiki.com/Lovers_of_Haeundae
+Knock::http://asianwiki.com/Knock_-_Korean_Drama
+Faith::http://asianwiki.com/Faith_(Korean_Drama)
+Arang and The Magistrate::http://asianwiki.com/Arang_and_the_Magistrate
+To The Beautiful You::http://asianwiki.com/To_The_Beautiful_You
+Natural Burials::http://asianwiki.com/Natural_Burials_-_Korean_Drama
+THe Thousandth Man::http://asianwiki.com/The_Thousandth_Man
+Five Fingers::http://asianwiki.com/Five_Fingers_-_Korean_Drama
+May Queen:http:://asianwiki.com/May_Queen
+Panda and Hedgehog::http://asianwiki.com/Panda_and_Hedgehog
+Beautiful Life::http://asianwiki.com/Beautiful_Life_(Korean_Drama)
+The King's Dream::http://asianwiki.com/King%27s_Dream
+Nice Guy::http://asianwiki.com/The_Innocent_Man_(Nice_Guy_-_Korean_Drama)
+Seo-Young, My Daughter::http://asianwiki.com/Seo-Young,_My_Daughter
+I want to see you::http://asianwiki.com/I_Want_To_See_You_-_Korean_Drama
+The King of Dramas::http://asianwiki.com/The_King_of_Dramas
+Jeon Wo Chi::http://asianwiki.com/Jeon_Woo-Chi_-_Korean_Drama
+Cheongdamdong Alice::http://asianwiki.com/Cheongdamdong_Alice
+The Best Lee Soon Shin::http://asianwiki.com/The_Best_Lee_Soon-Shin
+IRIS 2::http://asianwiki.com/IRIS_2
+Jang Ok Jeong, Live for Love::http://asianwiki.com/Jang_Ok-Jeong,_Live_for_Love
+Kyokuhoku Rhapsody::http://asianwiki.com/Kyokuhoku_Rhapsody
