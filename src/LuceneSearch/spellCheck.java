@@ -50,10 +50,12 @@ public class spellCheck {
 
 	public List correctWords(String userQuery) throws FileNotFoundException,
 			IOException, ParseException {
+	
 		if (!directory.exists() || !dictionary.exists()) {
 			System.out.println("Error: dictionary directory could not be found " + directory);
 			return null;
 		} else {
+			
 			SpellChecker spell = new SpellChecker(FSDirectory.open(directory));
 			spell.indexDictionary(new PlainTextDictionary(dictionary), config,
 					true);
@@ -63,8 +65,6 @@ public class spellCheck {
 
 			List newQuery = new ArrayList();
 			String[] queryword = null;
-			String[] suggestions;
-			String[] spellSuggest = null;
 			String query1 = null;
 
 			// make query to lowercase to easy find incorrect words
@@ -79,14 +79,16 @@ public class spellCheck {
 
 					// check word if in wordDic
 					if (!(wordDic.contains(queryword[i]))) {
-						System.out.println(queryword[i]);
-						spellSuggest = spell.suggestSimilar(queryword[i], 1);
-						// if (spellSuggest != null) {
-						// correctedQuery = spellSuggest[0];
-						// }
-
+						
+						//System.out.println(queryword[i]);
+						String[] spellSuggest = spell.suggestSimilar(queryword[i], 1);
+						if (spellSuggest.length == 0)  {
+							return null;
+						} else {
+					
 						// replacing the wrong word with the suggested words
 						query = query.replace(queryword[i], spellSuggest[0]);
+						}
 
 					}
 
@@ -105,15 +107,21 @@ public class spellCheck {
 
 			} else {
 				if (!(wordDic.contains(query))) {
-					suggestions = spell.suggestSimilar(query, 3);
-					System.out.println(suggestions[0] + " " + suggestions[1]
-							+ " " + suggestions[2]);
+					
+					String[] suggestions = spell.suggestSimilar(query, 3);
+				
+					// if there's no suggestions
+					if (suggestions.length == 1)  {
+						return null;
+					} else {
+
 					// add to newQuery arraylist
 					newQuery.add(suggestions[0]);
 					newQuery.add(suggestions[1]);
 					newQuery.add(suggestions[2]);
-
+					
 					return newQuery;
+					}
 				} else {
 					return null;
 				}

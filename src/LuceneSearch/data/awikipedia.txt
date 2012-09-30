@@ -114,7 +114,7 @@ The Innocent Man ::http://en.wikipedia.org/wiki/The_Innocent_Man_(TV_series)
 The Princess’ Man::http://en.wikipedia.org/wiki/The_Princess%E2%80%99_Man
 Three Brothers ::http://en.wikipedia.org/wiki/Three_Brothers_(TV_series)
 Time Between Dog and Wolf ::http://en.wikipedia.org/wiki/Time_Between_Dog_and_Wolf
-To the Beautiful::http://en.wikipedia.org/wiki/To_the_Beautiful_You
+To the Beautiful You::http://en.wikipedia.org/wiki/To_the_Beautiful_You
 Two Wives ::http://en.wikipedia.org/wiki/Two_Wives
 Vampire Prosecutor ::http://en.wikipedia.org/wiki/Vampire_Prosecutor
 The Vineyard Man ::http://en.wikipedia.org/wiki/The_Vineyard_Man

@@ -43,23 +43,23 @@ public class Lucene {
 		// creating the Searcher to the same index location as the Indexer
 		Searcher searcher = new Searcher();
 
-		String query = "autumn in my heart";
+		String query = "wultz";
 
 		// Check if it returns empty
 
 		// Spell check query
 		spellCheck checker = new spellCheck();
+		
 		List spellCheck = checker.correctWords(query);
+		System.out.println(spellCheck);
 		if (spellCheck != null) {
 			System.out.println("The Query was: " + query);
 			System.out.println("Do you mean: ");
 
-			Iterator spellCheckr = spellCheck.iterator();
-			while (spellCheckr.hasNext()) {
-				System.out.println(spellCheckr.next() + "");
-
+			for (int i=0; i < spellCheck.size(); i++) {
+				System.out.println(spellCheck.get(i) + " ");
 			}
-
+			
 		} else {
 
 			List<List<String>> dramaList = searcher.findByTitle(query);

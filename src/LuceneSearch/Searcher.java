@@ -46,6 +46,9 @@ public class Searcher {
 			System.out.println("Error: could not find directory " + DIRECTORY);
 			return null;
 		} else {
+			
+			// lowercase input
+			phrase = phrase.toLowerCase();
 
 			// open the index directory to search
 			searcher = new IndexSearcher(IndexReader.open(FSDirectory

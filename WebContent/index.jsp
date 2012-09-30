@@ -11,8 +11,8 @@
 <p>Hello!  The time is now <%= new java.util.Date() %></p>
 
 <form method="GET" action='search.jsp' id ="searchForm">
-<p>anyoung<INPUT TYPE=TEXT NAME="query" SIZE=20></p>
-<P><INPUT TYPE=SUBMIT VALUE="search">
+<p>anyoung<INPUT TYPE=TEXT NAME="query" SIZE=20><INPUT TYPE=SUBMIT VALUE="search">
+</form>
 </body>
 </html>
 

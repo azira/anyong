@@ -40,23 +40,15 @@
 </head>
 
 <body>
-
+	<% if (userQuery == null) { userQuery = "";} %>
 	<form method="GET" action='search.jsp' id="searchForm">
 		<p>
-		
-		<% if (userQuery == null) {
-			userQuery = "";
-		}
-		%>
-			anyoung<INPUT TYPE=TEXT NAME="query" id="queryTextBox" SIZE=20 value="<%=userQuery%>"><INPUT TYPE=SUBMIT VALUE="search">
+anyoung<INPUT TYPE=TEXT NAME="query" id="queryTextBox" SIZE=20 value="<%=userQuery%>"><INPUT TYPE=SUBMIT VALUE="search">
 		</p>
 	</form>
 
 
-	<% 
-	 if (userQuery == "") {
-		// Tell user textfield is empty
-	%>
+	<% if (userQuery == "") { // Tell user textfield is empty %>
 		<span class="warning">Search textfield is empty</span>
 		
 		   <%  } else { //Index Files if havent
@@ -65,37 +57,29 @@
 			spellCheck checker = new spellCheck();
 
 			List spellCheck = checker.correctWords(userQuery);
+			
 			// Check if there's a spell check
 			if (spellCheck != null) {
 			%>
 
-		<p>
-			Do you mean:
+				Do you mean:
 
-			<%
-			// Display spell check suggestions 
-			Iterator spellCheckr = spellCheck.iterator();
-				while (spellCheckr.hasNext()) {
-					String queryCheck = spellCheckr.next().toString();
-		%>
+			<% // Display spell check suggestions 
+
+			for (int i=0; i < spellCheck.size(); i++) {
+					String queryCheck = spellCheck.get(i).toString();%>
 
 			<a href="search.jsp?query=<%=queryCheck%>"><%=queryCheck + ""%></a>
 
-			<%
-				}
-			%>
-		</p>
-		<%
-			} else { %>
+			<% } } else { %>
 
-		<%
-
-
-		Searcher searcher = new Searcher();
+		<% Searcher searcher = new Searcher();
 		// Search user query
 		List<List<String>> dramaList = searcher.findByTitle(userQuery);
-
-		%>
+		
+		// Display results into table
+		if (!dramaList.isEmpty()) { 
+			%>
 		<p>
 			Total results:
 			<%= dramaList.size() %></p>
@@ -103,28 +87,25 @@
 			 <table id="results">
 		<tr>
 			<td>
-		<% 
-		// Display results into table
-		if (dramaList != null) {
-			for (int i=0; i < dramaList.size(); i++) {
-				List drama = dramaList.get(i);
+		
+		<% for (int i=0; i < dramaList.size(); i++) { List drama = dramaList.get(i); %>
 
-		%>
+		<tr><td> <a href=<%= drama.get(1)%>><%= drama.get(0) %></a></td></tr>
 
-		<tr><td> <a href=<%= drama.get(1)%>><%= drama.get(0) %></a>
-			</td>
-		</tr>
-
-		<%
-				 }
-			}
-
-		}
-			%>
+		<% } } else { // display msg if no result %> 
+		
+		<p>Cannot found results for <%= userQuery %></p>
+			
+		
+		<% } } %>
+		
 
 </table>
 		<br>
 	<!-- Pagination -->
+	<% Searcher searcher = new Searcher(); 
+	List<List<String>> dramaList = searcher.findByTitle(userQuery);
+	if (dramaList.size() > 10) { // display pagination if result more than 10 %>
 	<div id="pageNavPosition"></div>
 	</form>
 
@@ -134,7 +115,7 @@
         pager.showPageNav('pager', 'pageNavPosition'); 
         pager.showPage(1);
  </script>
-<% } %>
+<% } } %>
 
 </body>
 </html>
