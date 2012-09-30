@@ -15,20 +15,20 @@
 <html>
 <%
 	String userQuery = request.getParameter("query");
-	
+
 %>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>anyoung - your korean web search engine</title>
 <style type="text/css">
-.pg-normal {
+.pg-normal a, .pg-normal a:link, .pg-normal a:active,.pg-normal a:visited {
 	color: #0000FF;
 	font-weight: normal;
 	text-decoration: none;
 	cursor: pointer;
 }
 
-.pg-selected {
+.pg-selected a, .pg-selected a:link, .pg-selected a:active,.pg-selected a:visited{
 	color: #800080;
 	font-weight: bold;
 	text-decoration: underline;
@@ -43,20 +43,27 @@
 
 	<form method="GET" action='search.jsp' id="searchForm">
 		<p>
-			anyoung<INPUT TYPE=TEXT NAME="query" SIZE=20 value="<%=userQuery%>"><INPUT TYPE=SUBMIT VALUE="search">
+		
+		<% if (userQuery == null) {
+			userQuery = "";
+		}
+		%>
+			anyoung<INPUT TYPE=TEXT NAME="query" id="queryTextBox" SIZE=20 value="<%=userQuery%>"><INPUT TYPE=SUBMIT VALUE="search">
 		</p>
 	</form>
+
+
+	<% 
+	 if (userQuery == "") {
+		// Tell user textfield is empty
+	%>
+		<span class="warning">Search textfield is empty</span>
 		
-		
-		<P>
-			The query was
-			<%=userQuery %></P>
-		<%
-		    //Index Files if havent
-		    Lucene luceneSearch = new Lucene();
-			luceneSearch.indexList();
+		   <%  } else { //Index Files if havent
+		    //Lucene luceneSearch = new Lucene();
+			//luceneSearch.indexList();
 			spellCheck checker = new spellCheck();
-				
+
 			List spellCheck = checker.correctWords(userQuery);
 			// Check if there's a spell check
 			if (spellCheck != null) {
@@ -82,12 +89,12 @@
 			} else { %>
 
 		<%
-		
-		
+
+
 		Searcher searcher = new Searcher();
 		// Search user query
 		List<List<String>> dramaList = searcher.findByTitle(userQuery);
-		
+
 		%>
 		<p>
 			Total results:
@@ -103,31 +110,31 @@
 				List drama = dramaList.get(i);
 
 		%>
-		
+
 		<tr><td> <a href=<%= drama.get(1)%>><%= drama.get(0) %></a>
 			</td>
 		</tr>
-		
+
 		<%
 				 }
 			}
 
 		}
 			%>
-			
+
 </table>
 		<br>
 	<!-- Pagination -->
 	<div id="pageNavPosition"></div>
 	</form>
-	
+
 <script type="text/javascript">
         var pager = new Pager('results', 10); 
         pager.init(); 
         pager.showPageNav('pager', 'pageNavPosition'); 
         pager.showPage(1);
  </script>
-
+<% } %>
 
 </body>
 </html>

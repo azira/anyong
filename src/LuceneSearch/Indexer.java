@@ -4,9 +4,9 @@ package LuceneSearch;
 import org.apache.lucene.analysis.standard.StandardAnalyzer;
 import org.apache.lucene.document.Document;
 import org.apache.lucene.document.Field;
+import org.apache.lucene.document.Field.TermVector;
 import org.apache.lucene.index.IndexWriter;
 import org.apache.lucene.index.IndexWriterConfig;
-import org.apache.lucene.index.Term;
 import org.apache.lucene.store.FSDirectory;
 import org.apache.lucene.util.Version;
 
@@ -26,7 +26,7 @@ public class Indexer
                 file), new IndexWriterConfig(Version.LUCENE_36, new StandardAnalyzer(Version.LUCENE_36)));
         }
         
-    
+  
        
     }
 
@@ -34,16 +34,14 @@ public class Indexer
       * Indexing items
       */
     public void index(indexDrama indexItem) throws IOException {
-
-        // deleting the item, if already exists
-        
-
         Document doc = new Document();
 
        
         doc.add(new Field(indexDrama.TITLE, indexItem.getTitle(), Field.Store.YES, Field.Index.ANALYZED)); 
-        doc.add(new Field(indexDrama.WEBURL, indexItem.getweburl(), Field.Store.YES, Field.Index.ANALYZED));
-      //doc.setBoost(1.5f);
+        doc.add(new Field(indexDrama.WEBURL, indexItem.getweburl(), Field.Store.YES, Field.Index.NOT_ANALYZED_NO_NORMS));
+        //doc.add(new Field(indexDrama.WEBCONTENT, indexItem.getWebcontent(), Field.Store.YES, Field.Index.ANALYZED,  TermVector.YES));
+        
+     
         // add the document to the index
         writer.addDocument(doc);
     }

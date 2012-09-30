@@ -3,7 +3,7 @@ package LuceneSearch;
 /**
  * 
  * @author Hazirah Hamdani
- * Title: Halyuuu
+ * Title: anyoung
  * Description: Korea drama search using Lucene
  * 
  * Tutorial from 
@@ -11,20 +11,21 @@ package LuceneSearch;
  * Credit: http://lucene.apache.org/core/
  */
 
-
 import java.io.BufferedReader;
 import java.io.DataInputStream;
 import java.io.File;
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.net.HttpURLConnection;
+import java.net.MalformedURLException;
+import java.net.URL;
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.Iterator;
 import java.util.List;
 
+import org.jsoup.Jsoup;
 import org.apache.lucene.queryParser.ParseException;
 
 public class Lucene {
@@ -34,19 +35,17 @@ public class Lucene {
 	private static final String dataFiles = "/Users/Azira/Documents/Assignment/anyoung/src/LuceneSearch/data";
 	private static ArrayList<File> queue = new ArrayList<File>();
 
+
 	public static void main(String[] args) throws ParseException, IOException {
-
-
-
 		// Remember to comment if already have index
-		 //indexList();
+		//indexList();
 
 		// creating the Searcher to the same index location as the Indexer
-    	Searcher searcher = new Searcher();
+		Searcher searcher = new Searcher();
 
-		String query = "love";
-		
-		// Check if it returns empty 
+		String query = "autumn in my heart";
+
+		// Check if it returns empty
 
 		// Spell check query
 		spellCheck checker = new spellCheck();
@@ -54,46 +53,48 @@ public class Lucene {
 		if (spellCheck != null) {
 			System.out.println("The Query was: " + query);
 			System.out.println("Do you mean: ");
+
 			Iterator spellCheckr = spellCheck.iterator();
-	        while (spellCheckr.hasNext()) {  
-	        	System.out.println(spellCheckr.next() + "");  
-	 
-	        }  
+			while (spellCheckr.hasNext()) {
+				System.out.println(spellCheckr.next() + "");
+
+			}
 
 		} else {
-			 
-			  List<List<String>> dramaList = searcher.findByTitle(query);
-			for (int i=0; i < dramaList.size(); i++) {
-				List drama = dramaList.get(i);
-				
-					System.out.println(drama.get(0));
-					System.out.println(drama.get(1));
-					
-			}
-			
 
-		}
-		searcher.close();
+			List<List<String>> dramaList = searcher.findByTitle(query);
+			// if dramaList returns null = index files does not exist
+
+			
+			// if dramaList returns empty - no results
+			if (dramaList.isEmpty()) {
+				System.out.println("Could not find " + query);
+			} 
+
+			// print results if found
+			else {
+				System.out.println("You results are:");
+				for (int i = 0; i < dramaList.size(); i++) {
+					List drama = dramaList.get(i);
+					System.out.println(drama.get(0));
+				}
+			}
+		}	
 	}
+	
+	
 
 	public static void indexList() throws IOException {
 		// deleting indexes
 		File indexF = new File(INDEX_DIR);
-		//check if directory exists
-    	if(indexF.exists()){
-           try{
- 
-               delete(indexF);
- 
-           }catch(IOException e){
-               e.printStackTrace();
-               System.exit(0);
-           }
-        }
-		
+		// check if directory exists
+		if (indexF.exists()) {
+			delete(indexF);
+		}
+
 		// Add Files need to be indexed
-		addFiles(new File(
-				dataFiles));
+		addFiles(new File(dataFiles));
+
 		Indexer indexer = new Indexer(INDEX_DIR);
 		// Each file, index line by line
 		for (File f : queue) {
@@ -105,7 +106,7 @@ public class Lucene {
 				FileInputStream fstream = new FileInputStream(f);
 				// Get the object of DataInputStream
 				DataInputStream in = new DataInputStream(fstream);
-				@SuppressWarnings("resource")
+
 				BufferedReader dramaList = new BufferedReader(
 						new InputStreamReader(in));
 				String drama;
@@ -127,6 +128,7 @@ public class Lucene {
 					indexer.index(indexItem);
 
 				}
+
 			} catch (Exception e) {
 				System.out.println("Could not add: " + f);
 			} finally {
@@ -134,12 +136,13 @@ public class Lucene {
 			}
 		}
 
+		System.out.println("Successfully added index files");
 		// close the index to enable them index
 		indexer.close();
 
 	}
 
-	/** 
+	/**
 	 * Add files under directory
 	 * 
 	 * @param file
@@ -160,49 +163,85 @@ public class Lucene {
 			}
 		}
 	}
-	
+
 	/**
 	 * Deleting index directory if creating new index
+	 * 
 	 * @param file
 	 * @throws IOException
 	 */
-	public static void delete(File file)
-	    	throws IOException{
-	 
-	    	if(file.isDirectory()){
-	 
-	    		//directory is empty, then delete it
-	    		if(file.list().length==0){
-	 
-	    		   file.delete();
-	    		   System.out.println("Directory is deleted : " 
-	                                                 + file.getAbsolutePath());
-	 
-	    		}else{
-	 
-	    		   //list all the directory contents
-	        	   String files[] = file.list();
-	 
-	        	   for (String temp : files) {
-	        	      //construct the file structure
-	        	      File deleteFile = new File(file, temp);
-	 
-	        	      //recursive delete
-	        	     delete(deleteFile);
-	        	   }
-	 
-	        	   //check the directory again, if empty then delete it
-	        	   if(file.list().length==0){
-	           	     file.delete();
-	        	     System.out.println("Directory is deleted : " 
-	                                                  + file.getAbsolutePath());
-	        	   }
-	    		}
-	 
-	    	}else{
-	    		//if file, then delete it
-	    		file.delete();
-	    		System.out.println("File is deleted : " + file.getAbsolutePath());
-	    	}
-	    }
+	public static void delete(File file) throws IOException {
+
+		if (file.isDirectory()) {
+
+			// directory is empty, then delete it
+			if (file.list().length == 0) {
+
+				file.delete();
+				System.out.println("Directory is deleted : "
+						+ file.getAbsolutePath());
+
+			} else {
+
+				// list all the directory contents
+				String files[] = file.list();
+
+				for (String temp : files) {
+					// construct the file structure
+					File deleteFile = new File(file, temp);
+
+					// recursive delete
+					delete(deleteFile);
+				}
+
+				// check the directory again, if empty then delete it
+				if (file.list().length == 0) {
+					file.delete();
+					System.out.println("Directory is deleted : "
+							+ file.getAbsolutePath());
+				}
+			}
+
+		} else {
+			// if file, then delete it
+			file.delete();
+			System.out.println("File is deleted : " + file.getAbsolutePath());
+		}
+	}
+
+	/**
+	 * Get contents of website for the purpose of search ranking
+	 * 
+	 * @param weburl
+	 * @return webcontents without HTML codes
+	 */
+	private static String getDramaText(String weburl) {
+		BufferedReader reader = null;
+		StringBuilder sb = new StringBuilder();
+		try {
+			URL pageURL = new URL(weburl);
+
+			HttpURLConnection urlConnection = (HttpURLConnection) pageURL
+					.openConnection();
+			urlConnection.setReadTimeout(10000);
+
+			reader = new BufferedReader(new InputStreamReader(
+					pageURL.openStream()));
+
+			while (reader.ready()) {
+				sb.append(reader.readLine());
+			}
+
+			reader.close();
+
+		} catch (MalformedURLException e) {
+			e.getMessage();
+		} catch (IOException e) {
+			e.getMessage();
+		}
+
+		String webcontent = Jsoup.parse(sb.toString()).text();
+
+		return webcontent;
+	}
 }
