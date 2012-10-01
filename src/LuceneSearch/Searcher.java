@@ -41,6 +41,7 @@ public class Searcher {
 	public List<List<String>> findByTitle(String phrase)
 			throws CorruptIndexException, IOException, ParseException {
 		List<List<String>> dramaList = new ArrayList<List<String>>();
+
 		// Check if index directory does not exist
 		if (!DIRECTORY.exists()) {
 			System.out.println("Error: could not find directory " + DIRECTORY);
@@ -86,6 +87,7 @@ public class Searcher {
 					List<String> list = new ArrayList<String>();
 					list.add(doc.get(indexDrama.TITLE));
 					list.add(doc.get(indexDrama.WEBURL));
+					Lucene.createImg(doc.get("weburl"));
 					dramaList.add(list);
 				}
 			}

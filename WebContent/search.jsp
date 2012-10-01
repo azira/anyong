@@ -5,11 +5,15 @@
 <%@page import="LuceneSearch.spellCheck"%>
 <%@page import="LuceneSearch.Searcher"%>
 <%@page import="LuceneSearch.indexDrama"%>
+<%@page import="anyoung.anyoungStyle" %>
 <%@page import="java.util.List"%>
 <%@page import="java.util.Iterator"%>
 <%@page import="java.util.ArrayList"%>
 <%@page import="java.util.Map"%>
 <%@page import="java.util.HashMap"%>
+<%@page import="java.io.File"%>
+<%@page import="java.awt.image.BufferedImage"%>
+<%@page import="javax.imageio.ImageIO"%>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
@@ -34,13 +38,24 @@
 	text-decoration: underline;
 	cursor: pointer;
 }
+.warning {
+color: red
+}
+.externalLink {
+color: green
+}
 </style>
 <script type="text/javascript" src="resultPagination.js"></script>
 
 </head>
 
 <body>
-	<% if (userQuery == null) { userQuery = "";} %>
+	<% if (userQuery == null) { 
+	// check if parameter is not passed - redirect to index page
+			String redirectURL = "index.jsp";
+			response.sendRedirect(redirectURL);
+		
+	} %>
 	<form method="GET" action='search.jsp' id="searchForm">
 		<p>anyoung
 <INPUT TYPE=TEXT NAME="query" id="queryTextBox" SIZE=20 value="<%=userQuery%>"><INPUT TYPE=SUBMIT VALUE="search">
@@ -54,6 +69,9 @@
 		   <%  } else { //Index Files if havent
 		    Lucene luceneSearch = new Lucene();
 			//luceneSearch.indexList();
+			// Create tmp folder for images
+			//File f = new File("/Users/Azira/Documents/Assignment/anyoung/WebContent/tmp");
+			//luceneSearch.delete(f);
 			spellCheck checker = new spellCheck();
 
 			List spellCheck = checker.correctWords(userQuery);
@@ -92,12 +110,28 @@
 				String weburl = drama.get(1).toString();
 				String webSummary = Lucene.getDramaText(drama.get(1).toString());
 				String imageSrc = Lucene.getImageLink(weburl);
+				//Resize image to fit screen
+				anyoungStyle anyoungS = new anyoungStyle();
+				System.out.println(imageSrc);
+				List newSize = anyoungS.resizeThumb(imageSrc);
+				String width = null;
+				String height = null;
+		
+				if (!newSize.isEmpty()) {
+					height = newSize.get(0).toString();
+					width = newSize.get(1).toString();
+				} else {
+					width = "80px";
+					height = "100px";
+				}
 		%>	
 
 		<tr>
-		<td align="center"><img src="<%=imageSrc %>" weight="50px" height="141px"></td>
-		<td> <a href=<%= weburl%>><%= title %></a><br>
-		<%= webSummary %><br><a href="downloads.jsp?drama=<%= title %>">Downloads</a>&nbsp;&nbsp;<a href="streaming.jsp?drama=<%= title %>"">Streaming</a></td></tr>
+		<td align="center"><img src="<%=imageSrc %>" onerror="this.onerror=null;this.src='images/nopic.png';" 
+		height="<%=height %>" width="<%=width %>"></td>
+		<td> <a href=<%= weburl%>><%= title %></a><br>&nbsp<span class="externalLink"><%=weburl %></span><br>
+		<%= webSummary %><br><a href="downloads.jsp?drama=<%= title %>">Downloads</a>&nbsp;-&nbsp;
+		<a href="streaming.jsp?drama=<%= title %>"">Streaming</a></td></tr>
 
 		<% } } else { // display msg if no result %> 
 		
@@ -121,7 +155,20 @@
         pager.init(); 
         pager.showPageNav('pager', 'pageNavPosition'); 
         pager.showPage(1);
+        
+        var thumb = document.getElementById('thumb');
+        var width = thumb.clientWidth;
+        var height = thumb.clientHeight;
+        if (width > height) {
+        	 thumb.style.width = '150px';
+             thumb.style.height = '80px';
+        } else {
+        	 thumb.style.height = '150px';
+             thumb.style.width = '80px';
+        }
+        
  </script>
+ 
 <% } } %>
 
 </body>

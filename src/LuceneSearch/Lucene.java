@@ -14,13 +14,17 @@ package LuceneSearch;
 import edu.depauw.csc.dcheeseman.wgetjava.*;
 
 import java.awt.Toolkit;
+import java.io.BufferedOutputStream;
 import java.io.BufferedReader;
 import java.io.DataInputStream;
 import java.io.File;
 import java.io.FileInputStream;
+import java.io.FileOutputStream;
 import java.io.FileReader;
 import java.io.IOException;
+import java.io.InputStream;
 import java.io.InputStreamReader;
+import java.io.OutputStream;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.ArrayList;
@@ -44,9 +48,10 @@ public class Lucene {
 		// creating the Searcher to the same index location as the Indexer
 		Searcher searcher = new Searcher();
 
-		String content = getImageLink("http://asianwiki.com/Love_Rain_(Korean_Drama)");
-		
-		String query = "love";
+		// String content =
+		// getImageLink("http://asianwiki.com/Faith_(Korean_Drama)");
+
+		String query = "faith";
 
 		// Check if it returns empty
 
@@ -258,41 +263,122 @@ public class Lucene {
 		try {
 			Document doc = Jsoup.connect(weburl).timeout(0).get();
 			Elements content = doc.getElementsByTag("img");
+
 			if ((content.size() == 0)) {
 				return "images/nopic.png";
 
 			} else {
-
 				String imageSrc = content.get(0).toString();
 
 				if (weburl.contains(asianwiki)) {
-					int imageStart = imageSrc.indexOf("http://");
+					int imageStart = imageSrc
+							.indexOf("http://images1.asianwiki.com/images/thumb");
+
 					int imageEnd = imageSrc.lastIndexOf(".jpg") + 4;
-					imageSrc = imageSrc.substring(imageStart, imageEnd);
-					System.out.println(imageSrc);
-					return imageSrc;
+					if (imageStart == -1 || imageEnd == -1) {
+						return "images/nopic.png";
+
+					} else {
+						try {
+							imageSrc = imageSrc.substring(imageStart, imageEnd);
+						} catch (IndexOutOfBoundsException e) {
+							return "images/nopic.png";
+						}
+						// System.out.println(imageSrc);
+						String imgName = null;
+						int indexname = imageSrc.lastIndexOf("/");
+						imgName = imageSrc.substring(indexname + 1,
+								imageSrc.length());
+						imgName = imgName.replace("%27", "");
+						// System.out.println(imgName);
+						boolean saveSuccess = saveFile(imageSrc, imgName);
+						if (saveSuccess == true) {
+							return "tmp/" + imgName;
+						} else {
+							return "images/nopic.png";
+						}
+					}
 				}
 
 				if (weburl.contains(daddicts)) {
-					return "images/nopic.png";
-//
-//					int imageStart = imageSrc.indexOf("/static");
-//					int imageEnd = imageSrc.lastIndexOf(".jpg") + 4;
-//					
-//					if (imageSrc.contains("JPG")) {
-//						imageEnd = imageSrc.lastIndexOf(".JPG") + 4;
-//					}
-//					imageSrc = imageSrc.substring(imageStart, imageEnd);
-//					URL url1 = new URL(weburl);
-//
-//					imageSrc = "http://" + url1.getHost() + imageSrc;
-//					System.out.println(imageSrc);
-//					return imageSrc;
+					int imageStart = imageSrc.indexOf("/static");
 
+					int imageEnd = imageSrc.lastIndexOf(".jpg") + 4;
+
+					if (imageSrc.contains("JPG")) {
+						imageEnd = imageSrc.lastIndexOf(".JPG") + 4;
+					}
+
+					if (imageStart == -1 || imageEnd == -1) {
+						return "images/nopic.png";
+
+					} else {
+						try {
+							imageSrc = imageSrc.substring(imageStart, imageEnd);
+						} catch (IndexOutOfBoundsException e) {
+							return "images/nopic.png";
+						}
+
+						URL url1 = new URL(weburl);
+						imageSrc = "http://" + url1.getHost() + imageSrc;
+						// System.out.println(imageSrc);
+
+						String imgName = null;
+						int indexname = imageSrc.lastIndexOf("/");
+						imgName = imageSrc.substring(indexname + 1,
+								imageSrc.length());
+						imgName = imgName.replace("%27", "");
+						// System.out.println(imgName);
+						boolean saveSuccess = saveFile(imageSrc, imgName);
+						if (saveSuccess == true) {
+							return "tmp/" + imgName;
+						} else {
+							return "images/nopic.png";
+						}
+					}
 				}
 
 				if (weburl.contains(wikipedia)) {
-					return "images/nopic.png";
+					int imageStart = imageSrc.indexOf("upload.wikimedia.org");
+
+					int imageEnd = imageSrc.lastIndexOf(".jpg") + 4;
+					if (imageSrc.contains(".jpg") || imageSrc.contains(".JPG")) {
+
+						if (imageSrc.contains("JPG")) {
+							imageEnd = imageSrc.lastIndexOf(".JPG") + 4;
+						}
+
+						if (imageStart == -1 || imageEnd == -1) {
+							return "images/nopic.png";
+
+						} else {
+							try {
+								imageSrc = "http://"
+										+ imageSrc.substring(imageStart,
+												imageEnd);
+
+							} catch (IndexOutOfBoundsException e) {
+								return "images/nopic.png";
+							}
+							// System.out.println(imageSrc);
+
+							String imgName = null;
+							int indexname = imageSrc.lastIndexOf("/");
+							imgName = imageSrc.substring(indexname + 1,
+									imageSrc.length());
+							imgName = imgName.replace("%27", "");
+							// System.out.println(imgName);
+							boolean saveSuccess = saveFile(imageSrc, imgName);
+							if (saveSuccess == true) {
+								return "tmp/" + imgName;
+							} else {
+								return "images/nopic.png";
+							}
+						}
+					} else {
+						return "images/nopic.png";
+					}
+
 				}
 
 				return "images/nopic.png";
@@ -301,8 +387,54 @@ public class Lucene {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 			return "images/nopic.png";
-			
+
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+			return "images/nopic.png";
 		}
 
+	}
+
+	public static boolean saveFile(String weburl, String name)
+			throws InterruptedException {
+
+		try {
+			// Open a URL Stream
+			URL url = new URL(weburl);
+			InputStream in = url.openStream();
+
+			File f = new File(
+					"/Users/Azira/Documents/Assignment/anyoung/WebContent/tmp");
+			if (!f.exists()) {
+				f.mkdir();
+
+			}
+
+			OutputStream out = new BufferedOutputStream(new FileOutputStream(f
+					+ "/" + name));
+
+			for (int b; (b = in.read()) != -1;) {
+				out.write(b);
+
+			}
+			Thread.sleep(1500);
+			out.close();
+			in.close();
+
+			return true;
+		} catch (IOException e) {
+			return false;
+		}
+
+	}
+
+	public static void createImg(String weburl) {
+		try {
+			getImageLink(weburl);
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 	}
 }
