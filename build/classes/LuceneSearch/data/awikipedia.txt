@@ -2,133 +2,132 @@
 /** Date: 22 Sept 2012 **/
 /** Tools used: http://www.xml-sitemaps.com **/
 /** Source from http://en.wikipedia.org/wiki/Category:South_Korean_television_drama **/
-The 3rd Hospital ::http://en.wikipedia.org/wiki/The_3rd_Hospital
-5th Republic ::http://en.wikipedia.org/wiki/5th_Republic_(TV_series)
-A Thousand Kisses ::http://en.wikipedia.org/wiki/A_Thousand_Kisses_(TV_series)
+The 3rd Hospital::http://en.wikipedia.org/wiki/The_3rd_Hospital
+5th Republic::http://en.wikipedia.org/wiki/5th_Republic_(TV_series)
+A Thousand Kisses::http://en.wikipedia.org/wiki/A_Thousand_Kisses_(TV_series)
 Answer Me 1997::http://en.wikipedia.org/wiki/Answer_Me_1997
-Arang and the Magistrate ::http://en.wikipedia.org/wiki/Arang_and_the_Magistrate
+Arang and the Magistrate::http://en.wikipedia.org/wiki/Arang_and_the_Magistrate
 Baby Faced Beauty::http://en.wikipedia.org/wiki/Baby_Faced_Beauty_(TV_series)
-Bachelor's Vegetable Store ::http://en.wikipedia.org/wiki/Bachelor%27s_Vegetable_Store
-Becoming a Billionaire ::http://en.wikipedia.org/wiki/Becoming_a_Billionaire
-Beethoven Virus ::http://en.wikipedia.org/wiki/Beethoven_Virus
-Bridal Mask ::http://en.wikipedia.org/wiki/Bridal_Mask
-Can't Lose ::http://en.wikipedia.org/wiki/Can%27t_Lose
-The Chaser (TV series) ::http://en.wikipedia.org/wiki/The_Chaser_(TV_series)
-Cinderella Man ::http://en.wikipedia.org/wiki/Cinderella_Man_(TV_series)
-City Conquest City Conquest ::http://en.wikipedia.org/wiki/City_Conquest
-Coma ::http://en.wikipedia.org/wiki/Coma_(South_Korean_TV_miniseries)
+Bachelor's Vegetable Store::http://en.wikipedia.org/wiki/Bachelor%27s_Vegetable_Store
+Becoming a Billionaire::http://en.wikipedia.org/wiki/Becoming_a_Billionaire
+Beethoven Virus::http://en.wikipedia.org/wiki/Beethoven_Virus
+Bridal Mask::http://en.wikipedia.org/wiki/Bridal_Mask
+Can't Lose::http://en.wikipedia.org/wiki/Can%27t_Lose
+The Chaser (TV series)::http://en.wikipedia.org/wiki/The_Chaser_(TV_series)
+Cinderella Man::http://en.wikipedia.org/wiki/Cinderella_Man_(TV_series)
+City Conquest City Conquest::http://en.wikipedia.org/wiki/City_Conquest
+Coma::http://en.wikipedia.org/wiki/Coma_(South_Korean_TV_miniseries)
 Dr. Champ::http://en.wikipedia.org/wiki/Dr._Champ
-Dr. Jin ::http://en.wikipedia.org/wiki/Dr._Jin
+Dr. Jin::http://en.wikipedia.org/wiki/Dr._Jin
 Faith::http://en.wikipedia.org/wiki/Faith_(2012_TV_series)
-Fashion King ::http://en.wikipedia.org/wiki/Fashion_King
-Feast of the Gods ::http://en.wikipedia.org/wiki/Feast_of_the_Gods
-Fermentation Family ::http://en.wikipedia.org/wiki/Fermentation_Family
-Five Fingers ::http://en.wikipedia.org/wiki/Five_Fingers_(2012_TV_series)
-A Gentleman's Dignity ::http://en.wikipedia.org/wiki/A_Gentleman%27s_Dignity
-Golden Time ::http://en.wikipedia.org/wiki/Golden_Time_(TV_series)
+Fashion King::http://en.wikipedia.org/wiki/Fashion_King
+Feast of the Gods::http://en.wikipedia.org/wiki/Feast_of_the_Gods
+Fermentation Family::http://en.wikipedia.org/wiki/Fermentation_Family
+Five Fingers::http://en.wikipedia.org/wiki/Five_Fingers_(2012_TV_series)
+A Gentleman's Dignity::http://en.wikipedia.org/wiki/A_Gentleman%27s_Dignity
+Golden Time::http://en.wikipedia.org/wiki/Golden_Time_(TV_series)
 Goodbye Dear Wife::http://en.wikipedia.org/wiki/Goodbye_Dear_Wife
-The Great Seer ::http://en.wikipedia.org/wiki/The_Great_Seer
-Haeundae Lovers ::http://en.wikipedia.org/wiki/Haeundae_Lovers
+The Great Seer::http://en.wikipedia.org/wiki/The_Great_Seer
+Haeundae Lovers::http://en.wikipedia.org/wiki/Haeundae_Lovers
 Horse Doctor::http://en.wikipedia.org/wiki/Horse_Doctor
-I Do, I Do ::http://en.wikipedia.org/wiki/I_Do,_I_Do
-I Need Romance ::http://en.wikipedia.org/wiki/I_Need_Romance
-I Need Romance 2012 I Need Romance 2012 ::http://en.wikipedia.org/wiki/I_Need_Romance_2012
-Ji Woon-Soo's Stroke of Luck ::http://en.wikipedia.org/wiki/Ji_Woon-Soo%27s_Stroke_of_Luck
-The King 2 Hearts ::http://en.wikipedia.org/wiki/The_King_2_Hearts
-Korean Peninsula ::http://en.wikipedia.org/wiki/Korean_Peninsula_(TV_series)
+I Do, I Do::http://en.wikipedia.org/wiki/I_Do,_I_Do
+I Need Romance::http://en.wikipedia.org/wiki/I_Need_Romance
+I Need Romance 2012 I Need Romance 2012::http://en.wikipedia.org/wiki/I_Need_Romance_2012
+Ji Woon-Soo's Stroke of Luck::http://en.wikipedia.org/wiki/Ji_Woon-Soo%27s_Stroke_of_Luck
+The King 2 Hearts::http://en.wikipedia.org/wiki/The_King_2_Hearts
+Korean Peninsula::http://en.wikipedia.org/wiki/Korean_Peninsula_(TV_series)
 Life is Beautiful::http://en.wikipedia.org/wiki/Life_is_Beautiful_(TV_series)
 Lights and Shadows::http://en.wikipedia.org/wiki/Lights_and_Shadows_(TV_series)
 Love Rain::http://en.wikipedia.org/wiki/Love_Rain
-Magic Touch of Fate ::http://en.wikipedia.org/wiki/Magic_Touch_of_Fate
-Man of the Equator ::http://en.wikipedia.org/wiki/Man_of_the_Equator
-May Queen (TV series) ::http://en.wikipedia.org/wiki/May_Queen_(TV_series)
-Me Too, Flower! ::http://en.wikipedia.org/wiki/Me_Too,_Flower!
+Magic Touch of Fate::http://en.wikipedia.org/wiki/Magic_Touch_of_Fate
+Man of the Equator::http://en.wikipedia.org/wiki/Man_of_the_Equator
+May Queen (TV series)::http://en.wikipedia.org/wiki/May_Queen_(TV_series)
+Me Too, Flower!::http://en.wikipedia.org/wiki/Me_Too,_Flower!
 Ms Panda and Mr Hedgehog::http://en.wikipedia.org/wiki/Ms_Panda_and_Mr_Hedgehog
-My Beloved Sister ::http://en.wikipedia.org/wiki/My_Beloved_Sister
-My Daughter Seo-young ::http://en.wikipedia.org/wiki/My_Daughter_Seo-young
-My Husband Got a Family ::http://en.wikipedia.org/wiki/My_Husband_Got_a_Family
-My Rosy Life ::http://en.wikipedia.org/wiki/My_Rosy_Life
-Mystery 6 ::http://en.wikipedia.org/wiki/Mystery_6
+My Beloved Sister::http://en.wikipedia.org/wiki/My_Beloved_Sister
+My Daughter Seo-young::http://en.wikipedia.org/wiki/My_Daughter_Seo-young
+My Husband Got a Family::http://en.wikipedia.org/wiki/My_Husband_Got_a_Family
+My Rosy Life::http://en.wikipedia.org/wiki/My_Rosy_Life
+Mystery 6::http://en.wikipedia.org/wiki/Mystery_6
 Oh Feel Young::http://en.wikipedia.org/wiki/Oh_Feel_Young
 Operation Proposal::http://en.wikipedia.org/wiki/Operation_Proposal
-Padam Padam... The Sound of His and Her Heartbeats ::http://wiki.d-addicts.com/Padam_Padam..._The_Sound_of_His_and_Her_Heartbeats
-Painter of the Wind ::http://en.wikipedia.org/wiki/Painter_of_the_Wind
-Papa ::http://en.wikipedia.org/wiki/Papa_(TV_series)
-Personal Preference ::http://en.wikipedia.org/wiki/Personal_Preference_(TV_series)
-Phantom ::http://en.wikipedia.org/wiki/Phantom_(TV_series)
+Padam Padam... The Sound of His and Her Heartbeats::http://wiki.d-addicts.com/Padam_Padam..._The_Sound_of_His_and_Her_Heartbeats
+Painter of the Wind::http://en.wikipedia.org/wiki/Painter_of_the_Wind
+Papa::http://en.wikipedia.org/wiki/Papa_(TV_series)
+Personal Preference::http://en.wikipedia.org/wiki/Personal_Preference_(TV_series)
+Phantom::http://en.wikipedia.org/wiki/Phantom_(TV_series)
 Playful Kiss::http://en.wikipedia.org/wiki/Playful_Kiss
-Please Come Back, Soon-Ae ::http://en.wikipedia.org/wiki/Please_Come_Back,_Soon-Ae
+Please Come Back, Soon-Ae::http://en.wikipedia.org/wiki/Please_Come_Back,_Soon-Ae
 Poseidon::http://en.wikipedia.org/wiki/Poseidon_(TV_series)
 Precious Family::http://en.wikipedia.org/wiki/Precious_Family
-The President ::http://en.wikipedia.org/wiki/The_President_(TV_series)
-Princess' Man::http://en.wikipedia.org/wiki/Princess%27_Man
-Prosecutor Princess ::http://en.wikipedia.org/wiki/Prosecutor_Princess
-Protect the Boss ::http://en.wikipedia.org/wiki/Protect_the_Boss
-Queen In-Hyun's Man ::http://en.wikipedia.org/wiki/Queen_In-Hyun%27s_Man
-Queen Insoo ::http://en.wikipedia.org/wiki/Queen_Insoo
-Queen of Reversals ::http://en.wikipedia.org/wiki/Queen_of_Reversals
-The Reputable Family ::http://en.wikipedia.org/wiki/The_Reputable_Family
-The Return of Iljimae ::http://en.wikipedia.org/wiki/The_Return_of_Iljimae
+The President::http://en.wikipedia.org/wiki/The_President_(TV_series)
+Princess Man::http://en.wikipedia.org/wiki/Princess%27_Man
+Prosecutor Princess::http://en.wikipedia.org/wiki/Prosecutor_Princess
+Protect the Boss::http://en.wikipedia.org/wiki/Protect_the_Boss
+Queen In-Hyun's Man::http://en.wikipedia.org/wiki/Queen_In-Hyun%27s_Man
+Queen Insoo::http://en.wikipedia.org/wiki/Queen_Insoo
+Queen of Reversals::http://en.wikipedia.org/wiki/Queen_of_Reversals
+The Reputable Family::http://en.wikipedia.org/wiki/The_Reputable_Family
+The Return of Iljimae::http://en.wikipedia.org/wiki/The_Return_of_Iljimae
 Road No. 1::http://en.wikipedia.org/wiki/Road_No._1
-Romance Zero ::http://en.wikipedia.org/wiki/Romance_Zero
-Rooftop Prince ::http://en.wikipedia.org/wiki/Rooftop_Prince
+Romance Zero::http://en.wikipedia.org/wiki/Romance_Zero
+Rooftop Prince::http://en.wikipedia.org/wiki/Rooftop_Prince
 Rooftop Room Cat::http://en.wikipedia.org/wiki/Rooftop_Room_Cat
-Ruler of Your Own World ::http://en.wikipedia.org/wiki/Ruler_of_Your_Own_World
-Sad Love Story ::http://en.wikipedia.org/wiki/Sad_Love_Story
-Salamander Guru and The Shadows ::http://en.wikipedia.org/wiki/Salamander_Guru_and_The_Shadows
-Salut D'Amour ::http://en.wikipedia.org/wiki/Salut_D%27Amour_(TV_series)
-Sang Doo! Let's Go to School ::http://en.wikipedia.org/wiki/Sang_Doo!_Let%27s_Go_to_School
+Ruler of Your Own World::http://en.wikipedia.org/wiki/Ruler_of_Your_Own_World
+Sad Love Story::http://en.wikipedia.org/wiki/Sad_Love_Story
+Salamander Guru and The Shadows::http://en.wikipedia.org/wiki/Salamander_Guru_and_The_Shadows
+Salut D'Amour::http://en.wikipedia.org/wiki/Salut_D%27Amour_(TV_series)
+Sang Doo! Let's Go to School::http://en.wikipedia.org/wiki/Sang_Doo!_Let%27s_Go_to_School
 Say It with Your Eyes::http://en.wikipedia.org/wiki/Say_It_with_Your_Eyes
 Scent of a Woman::http://en.wikipedia.org/wiki/Scent_of_a_Woman_(TV_series)
 The Secret Lovers::http://en.wikipedia.org/wiki/The_Secret_Lovers
-Seoul 1945 ::http://en.wikipedia.org/wiki/Seoul_1945
-Seoul's Sad Song ::http://en.wikipedia.org/wiki/Seoul%27s_Sad_Song
-Sexi Mong ::http://en.wikipedia.org/wiki/Sexi_Mong
-SF X Fantasy Rayforce ::http://en.wikipedia.org/wiki/SF_X_Fantasy_Rayforce
-Sharp 2 ::http://en.wikipedia.org/wiki/Sharp_2
+Seoul 1945::http://en.wikipedia.org/wiki/Seoul_1945
+Seoul's Sad Song::http://en.wikipedia.org/wiki/Seoul%27s_Sad_Song
+Sexi Mong::http://en.wikipedia.org/wiki/Sexi_Mong
+SF X Fantasy Rayforce::http://en.wikipedia.org/wiki/SF_X_Fantasy_Rayforce
+Sharp 2::http://en.wikipedia.org/wiki/Sharp_2
 Shut Up Flower Boy Band::http://en.wikipedia.org/wiki/Shut_Up_Flower_Boy_Band
-Sign ::http://en.wikipedia.org/wiki/Sign_(TV_series)
-Sisters of The Sea ::http://en.wikipedia.org/wiki/Sisters_of_The_Sea
+Sign::http://en.wikipedia.org/wiki/Sign_(TV_series)
+Sisters of The Sea::http://en.wikipedia.org/wiki/Sisters_of_The_Sea
 The Slingshot::http://en.wikipedia.org/wiki/The_Slingshot
 Smile Again (2006 TV series)::http://en.wikipedia.org/wiki/Smile_Again_(2006_TV_series)
 Smile Again (2010 TV series)::http://en.wikipedia.org/wiki/Smile_Again_(2010_TV_series)
-Snow Flower ::http://en.wikipedia.org/wiki/Snow_Flower_(TV_series)
+Snow Flower::http://en.wikipedia.org/wiki/Snow_Flower_(TV_series)
 The Snow Queen::http://en.wikipedia.org/wiki/The_Snow_Queen_(TV_series)
-Soul ::http://en.wikipedia.org/wiki/Soul_(TV_series)
+Soul::http://en.wikipedia.org/wiki/Soul_(TV_series)
 Spy Myung-wol::http://en.wikipedia.org/wiki/Spy_Myung-wol
 Standby::http://en.wikipedia.org/wiki/Standby_(TV_series)
-Star in My Heart ::http://en.wikipedia.org/wiki/Star_in_My_Heart
+Star in My Heart::http://en.wikipedia.org/wiki/Star_in_My_Heart
 Strongest Chil Woo::http://en.wikipedia.org/wiki/Strongest_Chil_Woo
 Sunok::http://en.wikipedia.org/wiki/Sunok
-Super Junior Mini-Drama ::http://en.wikipedia.org/wiki/Super_Junior_Mini-Drama
-Super Rookie ::http://en.wikipedia.org/wiki/Super_Rookie
-Sweet 18 ::http://en.wikipedia.org/wiki/Sweet_18
+Super Junior Mini-Drama::http://en.wikipedia.org/wiki/Super_Junior_Mini-Drama
+Super Rookie::http://en.wikipedia.org/wiki/Super_Rookie
+Sweet 18::http://en.wikipedia.org/wiki/Sweet_18
 Sweet Buns::http://en.wikipedia.org/wiki/Sweet_Buns
-Sweet Spy ::http://en.wikipedia.org/wiki/Sweet_Spy
-Syndrome ::http://en.wikipedia.org/wiki/Syndrome_(TV_series)
-Taejo Wang Geon ::http://en.wikipedia.org/wiki/Taejo_Wang_Geon_(TV_series)
-Temptation of a Wife ::http://en.wikipedia.org/wiki/Temptation_of_a_Wife
-Temptation of an Angel ::http://en.wikipedia.org/wiki/Temptation_of_an_Angel
-The Accidental Couple ::http://en.wikipedia.org/wiki/The_Accidental_Couple
-The Innocent Man ::http://en.wikipedia.org/wiki/The_Innocent_Man_(TV_series)
-The Princess’ Man::http://en.wikipedia.org/wiki/The_Princess%E2%80%99_Man
-Three Brothers ::http://en.wikipedia.org/wiki/Three_Brothers_(TV_series)
-Time Between Dog and Wolf ::http://en.wikipedia.org/wiki/Time_Between_Dog_and_Wolf
+Sweet Spy::http://en.wikipedia.org/wiki/Sweet_Spy
+Syndrome::http://en.wikipedia.org/wiki/Syndrome_(TV_series)
+Taejo Wang Geon::http://en.wikipedia.org/wiki/Taejo_Wang_Geon_(TV_series)
+Temptation of a Wife::http://en.wikipedia.org/wiki/Temptation_of_a_Wife
+Temptation of an Angel::http://en.wikipedia.org/wiki/Temptation_of_an_Angel
+The Accidental Couple::http://en.wikipedia.org/wiki/The_Accidental_Couple
+The Innocent Man::http://en.wikipedia.org/wiki/The_Innocent_Man_(TV_series)
+Three Brothers::http://en.wikipedia.org/wiki/Three_Brothers_(TV_series)
+Time Between Dog and Wolf::http://en.wikipedia.org/wiki/Time_Between_Dog_and_Wolf
 To the Beautiful You::http://en.wikipedia.org/wiki/To_the_Beautiful_You
-Two Wives ::http://en.wikipedia.org/wiki/Two_Wives
-Vampire Prosecutor ::http://en.wikipedia.org/wiki/Vampire_Prosecutor
-The Vineyard Man ::http://en.wikipedia.org/wiki/The_Vineyard_Man
-Warrior Baek Dong-soo ::http://en.wikipedia.org/wiki/Warrior_Baek_Dong-soo
-We Are Dating Now ::http://en.wikipedia.org/wiki/We_Are_Dating_Now
-Wedding ::http://en.wikipedia.org/wiki/Wedding_(TV_series)
+Two Wives::http://en.wikipedia.org/wiki/Two_Wives
+Vampire Prosecutor::http://en.wikipedia.org/wiki/Vampire_Prosecutor
+The Vineyard Man::http://en.wikipedia.org/wiki/The_Vineyard_Man
+Warrior Baek Dong-soo::http://en.wikipedia.org/wiki/Warrior_Baek_Dong-soo
+We Are Dating Now::http://en.wikipedia.org/wiki/We_Are_Dating_Now
+Wedding::http://en.wikipedia.org/wiki/Wedding_(TV_series)
 The Wedding Scheme::http://en.wikipedia.org/wiki/The_Wedding_Scheme
-What's Up Fox ::http://en.wikipedia.org/wiki/What%27s_Up_Fox
-Which Star Are You From ::http://en.wikipedia.org/wiki/Which_Star_Are_You_From
+What's Up Fox::http://en.wikipedia.org/wiki/What%27s_Up_Fox
+Which Star Are You From::http://en.wikipedia.org/wiki/Which_Star_Are_You_From
 White Nights 3.98::http://en.wikipedia.org/wiki/White_Nights_3.98
 White Tower::http://en.wikipedia.org/wiki/White_Tower_(TV_series)
-Wife Returns ::http://en.wikipedia.org/wiki/Wife_Returns
-Wild Romance ::http://en.wikipedia.org/wiki/Wild_Romance_(TV_series)
-Wuri's Family ::http://en.wikipedia.org/wiki/Wuri%27s_Family
-Yi San ::http://en.wikipedia.org/wiki/Yi_San
-You Are My Destiny ::http://en.wikipedia.org/wiki/You_Are_My_Destiny_(TV_series)
+Wife Returns::http://en.wikipedia.org/wiki/Wife_Returns
+Wild Romance::http://en.wikipedia.org/wiki/Wild_Romance_(TV_series)
+Wuri's Family::http://en.wikipedia.org/wiki/Wuri%27s_Family
+Yi San::http://en.wikipedia.org/wiki/Yi_San
+You Are My Destiny::http://en.wikipedia.org/wiki/You_Are_My_Destiny_(TV_series)
 Winter Sonata::http://en.wikipedia.org/wiki/Winter_Sonata

@@ -42,8 +42,8 @@
 <body>
 	<% if (userQuery == null) { userQuery = "";} %>
 	<form method="GET" action='search.jsp' id="searchForm">
-		<p>
-anyoung<INPUT TYPE=TEXT NAME="query" id="queryTextBox" SIZE=20 value="<%=userQuery%>"><INPUT TYPE=SUBMIT VALUE="search">
+		<p>anyoung
+<INPUT TYPE=TEXT NAME="query" id="queryTextBox" SIZE=20 value="<%=userQuery%>"><INPUT TYPE=SUBMIT VALUE="search">
 		</p>
 	</form>
 
@@ -52,7 +52,7 @@ anyoung<INPUT TYPE=TEXT NAME="query" id="queryTextBox" SIZE=20 value="<%=userQue
 		<span class="warning">Search textfield is empty</span>
 		
 		   <%  } else { //Index Files if havent
-		    //Lucene luceneSearch = new Lucene();
+		    Lucene luceneSearch = new Lucene();
 			//luceneSearch.indexList();
 			spellCheck checker = new spellCheck();
 
@@ -85,12 +85,19 @@ anyoung<INPUT TYPE=TEXT NAME="query" id="queryTextBox" SIZE=20 value="<%=userQue
 			<%= dramaList.size() %></p>
 			 <form action="" method="get" enctype="application/x-www-form-urlencoded">
 			 <table id="results">
-		<tr>
-			<td>
 		
-		<% for (int i=0; i < dramaList.size(); i++) { List drama = dramaList.get(i); %>
+		<% for (int i=0; i < dramaList.size(); i++) { 
+				List drama = dramaList.get(i); 
+				String title = drama.get(0).toString();
+				String weburl = drama.get(1).toString();
+				String webSummary = Lucene.getDramaText(drama.get(1).toString());
+				String imageSrc = Lucene.getImageLink(weburl);
+		%>	
 
-		<tr><td> <a href=<%= drama.get(1)%>><%= drama.get(0) %></a></td></tr>
+		<tr>
+		<td align="center"><img src="<%=imageSrc %>" weight="50px" height="141px"></td>
+		<td> <a href=<%= weburl%>><%= title %></a><br>
+		<%= webSummary %><br><a href="downloads.jsp?drama=<%= title %>">Downloads</a>&nbsp;&nbsp;<a href="streaming.jsp?drama=<%= title %>"">Streaming</a></td></tr>
 
 		<% } } else { // display msg if no result %> 
 		
