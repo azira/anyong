@@ -2,56 +2,56 @@
 /** Date: 22 Sept 2012 **/
 /** Tools used: http://www.webconfs.com/search-engine-spider-simulator.php **/
 /** Source retrieved from Asianwiki.com **/
-Big::http://asianwiki.com/Big_(Korean_Drama):
-Gentleman Dignity::http://asianwiki.com/Gentleman%27s_Dignity
-The Scent::http://asianwiki.com/The_Scent_(Korean_Movie)
-Zombie 108::http://asianwiki.com/Zombie_108
-Roadside Fugitive::http://asianwiki.com/Roadside_Fugitive
-Toilet and Women::http://asianwiki.com/Toilet_and_Women
-Duet::http://asianwiki.com/Duet_(Korean_Movie)
-Feast of The Gods::http://asianwiki.com/Feast_of_the_Gods
-Operation Proposal::http://asianwiki.com/Operation_Proposal
-God of War::http://asianwiki.com/God_of_War_(Korean_Drama)
-Just Ordinary Love Story::http://asianwiki.com/Just_Ordinary_Love_Story_(Korean_Drama)
-Hero::http://asianwiki.com/Hero_(Korean_Drama)
-Fashion::http://asianwiki.com/Fashion_King
-Rooftop Prince::http://asianwiki.com/Rooftop_Prince
-The King 2 Hearts::http://asianwiki.com/The_King_2hearts
-Love Rain::http://asianwiki.com/Love_Rain_(Korean_Drama)
-Late Blossom::http://asianwiki.com/Late_Blossom_(Korean_Drama)
-Love Again::http://asianwiki.com/Love_Again_(Korean_Drama)
-Marriage Plot::http://asianwiki.com/Marriage_Plot
-Queen In Hyun's Man::http://asianwiki.com/Queen_In-Hyun%27s_Man
-Still You::http://asianwiki.com/Still_You_-_Korean_Drama
-Dr. Jin::http://asianwiki.com/Dr._Jin
-The Chaser::http://asianwiki.com/The_Chaser_(Korean_Drama)
-I Love Lee Tae Ri::http://asianwiki.com/I_Love_Lee_Tae-Ri
-Bridal Mask::http://asianwiki.com/Bridal_Mask_-_Korean_Drama
-Ghost::http://asianwiki.com/Ghost_(Korean_Drama)
-I do, I do::http://asianwiki.com/I_Do,_I_Do
-I Need Romance 2::http://asianwiki.com/I_Need_Romance_2
-Beautiful Rain::http://asianwiki.com/Beautiful_Rain
-Golden Time::http://asianwiki.com/Golden_Time_(Korean_Drama)
-Night King::http://asianwiki.com/Night_King_-_Korean_Drama
-Lovers of Haeundae::http://asianwiki.com/Lovers_of_Haeundae
-Knock::http://asianwiki.com/Knock_-_Korean_Drama
-Faith::http://asianwiki.com/Faith_(Korean_Drama)
-Arang and The Magistrate::http://asianwiki.com/Arang_and_the_Magistrate
-To The Beautiful You::http://asianwiki.com/To_The_Beautiful_You
-Natural Burials::http://asianwiki.com/Natural_Burials_-_Korean_Drama
-The Thousandth Man::http://asianwiki.com/The_Thousandth_Man
-Five Fingers::http://asianwiki.com/Five_Fingers_-_Korean_Drama
-May Queen:http:://asianwiki.com/May_Queen
-Panda and Hedgehog::http://asianwiki.com/Panda_and_Hedgehog
-Beautiful Life::http://asianwiki.com/Beautiful_Life_(Korean_Drama)
-The King's Dream::http://asianwiki.com/King%27s_Dream
-Nice Guy::http://asianwiki.com/The_Innocent_Man_(Nice_Guy_-_Korean_Drama)
-Seo-Young, My Daughter::http://asianwiki.com/Seo-Young,_My_Daughter
-I want to see you::http://asianwiki.com/I_Want_To_See_You_-_Korean_Drama
-The King of Dramas::http://asianwiki.com/The_King_of_Dramas
-Jeon Wo Chi::http://asianwiki.com/Jeon_Woo-Chi_-_Korean_Drama
-Cheongdamdong Alice::http://asianwiki.com/Cheongdamdong_Alice
-The Best Lee Soon Shin::http://asianwiki.com/The_Best_Lee_Soon-Shin
-IRIS 2::http://asianwiki.com/IRIS_2
-Jang Ok Jeong, Live for Love::http://asianwiki.com/Jang_Ok-Jeong,_Live_for_Love
-Kyokuhoku Rhapsody::http://asianwiki.com/Kyokuhoku_Rhapsody
+Big::http://asianwiki.com/Big_(Korean_Drama)::images/250px-Big-p2.jpg
+Gentleman Dignity::http://asianwiki.com/Gentleman%27s_Dignity::images/250px-Gentlemans_Dignity-poster1.jpg
+Faith::http://asianwiki.com/Faith_(Korean_Drama)::images/The_Great_Doctor_-_Korean_Drama-p1.jpg
+The Scent::http://asianwiki.com/The_Scent_(Korean_Movie)::images/250px-The_Scent-p1.jpg
+Zombie 108::http://asianwiki.com/Zombie_108::images/250px-Zombie_108-p1.jpg
+Roadside Fugitive::http://asianwiki.com/Roadside_Fugitive::images/250px-RoadsideFugitive.jpg
+Toilet and Women::http://asianwiki.com/Toilet_and_Women::images/250px-Donzumari_Benki.jpg
+Duet::http://asianwiki.com/Duet_(Korean_Movie)::images/250px-Duet-Korean_Movie-p1.jpg
+Feast of The Gods::http://asianwiki.com/Feast_of_the_Gods::images/250px-Feast_of_the_Gods-p1.jpg
+Operation Proposal::http://asianwiki.com/Operation_Proposal::images/330px-Operation_Love-00.jpg
+God of War::http://asianwiki.com/God_of_War_(Korean_Drama)::images/250px-Military_Official_%28Korean_Drama%29-p1.jpg
+Just Ordinary Love Story::http://asianwiki.com/Just_Ordinary_Love_Story_(Korean_Drama)::images/250px-Just_Ordinary_Love_Story-p1.jpg
+Hero::http://asianwiki.com/Hero_(Korean_Drama)::images/250px-Hero_%28Korean_Drama%29-p1.jpg
+Fashion::http://asianwiki.com/Fashion_King::images/330px-Fashionking_p4.jpg
+Rooftop Prince::http://asianwiki.com/Rooftop_Prince::images/250px-Rooftop_Prince-p1.jpg
+The King 2 Hearts::http://asianwiki.com/The_King_2hearts::images/250px-The_King_2Hearts-p1.jpg
+Love Rain::http://asianwiki.com/Love_Rain_(Korean_Drama)::images/250px-Love_Rain-p4.jpg
+Late Blossom::http://asianwiki.com/Late_Blossom_(Korean_Drama)::images/250px-Late_Blossom_%28Korean_Drama%29-p1.jpg
+Love Again::http://asianwiki.com/Love_Again_(Korean_Drama)::images/250px-Love_Again_%28Korean_Drama%29-p1.jpg
+Marriage Plot::http://asianwiki.com/Marriage_Plot::images/330px-Marriage_Plot-p1.jpg
+Queen In Hyun's Man::http://asianwiki.com/Queen_In-Hyun%27s_Man::images/250px-Queen_In-Hyuns_Man-p1.jpg
+Still You::http://asianwiki.com/Still_You_-_Korean_Drama::images/250px-Still_You_%28Korean_Drama%29-01.jpg
+Dr. Jin::http://asianwiki.com/Dr._Jin::images/250px-Time_Slip_Dr._Jin-p1.jpg
+The Chaser::http://asianwiki.com/The_Chaser_(Korean_Drama)::images/250px-The_Chaser_%28Korean_Drama%29-p3.jpg
+I Love Lee Tae Ri::http://asianwiki.com/I_Love_Lee_Tae-Ri::images/250px-I_Love_Lee_Tae-Ri-p1.jpg
+Bridal Mask::http://asianwiki.com/Bridal_Mask_-_Korean_Drama::images/250px-Gaksital-p2.jpg
+Ghost::http://asianwiki.com/Ghost_(Korean_Drama)::images/250px-Ghost_%28Korean_Drama%29-p1.jpg
+I do, I do::http://asianwiki.com/I_Do,_I_Do::images/250px-I_Do%2C_I_Do-p3.jpg
+I Need Romance 2::http://asianwiki.com/I_Need_Romance_2::images/250px-I_Need_Romance_2-p2.jpg
+Beautiful Rain::http://asianwiki.com/Beautiful_Rain::images/250px-Beautiful_Rain-p1.jpg
+Golden Time::http://asianwiki.com/Golden_Time_(Korean_Drama)::images/250px-Golden_Time_%28Korean_Drama%29-p1.jpg
+Night King::http://asianwiki.com/Night_King_-_Korean_Drama::images/330px-Night_King-001.jpg
+Lovers of Haeundae::http://asianwiki.com/Lovers_of_Haeundae::images/250px-Lovers_of_Haeundae-p2.jpg
+Knock::http://asianwiki.com/Knock_-_Korean_Drama::images/330px-Knock_-_Korean_Drama-p1.jpg
+Arang and The Magistrate::http://asianwiki.com/Arang_and_the_Magistrate::images/250px-Arang_and_the_Magistrate-cp.jpg
+To The Beautiful You::http://asianwiki.com/To_The_Beautiful_You::images/330px-To_The_Beautiful_You-p5.jpg
+Natural Burials::http://asianwiki.com/Natural_Burials_-_Korean_Drama::images/330px-Natural_Burials_-_Korean_Drama-p1.jpg
+The Thousandth Man::http://asianwiki.com/The_Thousandth_Man::images/250px-The_Thousandth_Man-p1.jpg
+Five Fingers::http://asianwiki.com/Five_Fingers_-_Korean_Drama::images/250px-Five_Fingers_-_Korean_Drama-p1.jpg
+May Queen::http://asianwiki.com/May_Queen::images/250px-May_Queen-p4.jpg
+Panda and Hedgehog::http://asianwiki.com/Panda_and_Hedgehog::images/330px-Panda_and_Hedgehog-01.jpg
+Beautiful Life::http://asianwiki.com/Beautiful_Life_(Korean_Drama)::images/250px-No_image_available.jpg
+The King's Dream::http://asianwiki.com/King%27s_Dream::images/250px-Kings_Dream-p1.jpg
+Nice Guy::http://asianwiki.com/The_Innocent_Man_(Nice_Guy_-_Korean_Drama)::images/250px-The_Innocent_Man_%28Nice_Guy_-_Korean_Drama%29-p1.jpg
+Seo-Young, My Daughter::http://asianwiki.com/Seo-Young,_My_Daughter::images/250px-Seo-Young%2C_My_Daughter-p1.jpg
+I want to see you::http://asianwiki.com/I_Want_To_See_You_-_Korean_Drama::images/250px-No_image_available.jpg
+The King of Dramas::http://asianwiki.com/The_King_of_Dramas::images/250px-Kim_Myung-Min-p2.jpg
+Jeon Wo Chi::http://asianwiki.com/Jeon_Woo-Chi_-_Korean_Drama::images/330px-Jeon_Woo-Chi-Drama-0001.jpg
+Cheongdamdong Alice::http://asianwiki.com/Cheongdamdong_Alice::images/250px-Cheongdamdong_Alice-0001.jpg
+The Best Lee Soon Shin::http://asianwiki.com/The_Best_Lee_Soon-Shin::images/250px-No_image_available.jpg
+IRIS 2::http://asianwiki.com/IRIS_2::images/330px-IRIS-2_02.jpg
+Jang Ok Jeong, Live for Love::http://asianwiki.com/Jang_Ok-Jeong,_Live_for_Love::images/250px-No_image_available.jpg
+Kyokuhoku Rhapsody::http://asianwiki.com/Kyokuhoku_Rhapsody::images/330px-Kyokuhoku_Rhapsody-0001.jpg

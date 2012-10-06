@@ -11,13 +11,14 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Set;
 import java.util.TreeSet;
+
 import org.apache.lucene.index.IndexWriterConfig;
-import org.apache.lucene.queryParser.ParseException;
 import org.apache.lucene.search.spell.PlainTextDictionary;
 import org.apache.lucene.search.spell.SpellChecker;
-import org.apache.lucene.store.Directory;
 import org.apache.lucene.store.FSDirectory;
 import org.apache.lucene.util.Version;
+
+import com.sun.org.apache.xerces.internal.impl.xpath.regex.ParseException;
 
 public class spellCheck {
 
@@ -32,7 +33,7 @@ public class spellCheck {
 
 		directory = new File(INDEX_DIR);
 		dictionary = new File(DIC_FILE);
-		config = new IndexWriterConfig(Version.LUCENE_36, null);
+		config = new IndexWriterConfig(Version.LUCENE_40, null);
 	}
 
 	/**
@@ -50,12 +51,14 @@ public class spellCheck {
 
 	public List correctWords(String userQuery) throws FileNotFoundException,
 			IOException, ParseException {
-	
+
 		if (!directory.exists() || !dictionary.exists()) {
-			System.out.println("Error: dictionary directory could not be found " + directory);
+			System.out
+					.println("Error: dictionary directory could not be found "
+							+ directory);
 			return null;
 		} else {
-			
+
 			SpellChecker spell = new SpellChecker(FSDirectory.open(directory));
 			spell.indexDictionary(new PlainTextDictionary(dictionary), config,
 					true);
@@ -79,15 +82,17 @@ public class spellCheck {
 
 					// check word if in wordDic
 					if (!(wordDic.contains(queryword[i]))) {
-						
-						//System.out.println(queryword[i]);
-						String[] spellSuggest = spell.suggestSimilar(queryword[i], 1);
-						if (spellSuggest.length == 0)  {
+
+						// System.out.println(queryword[i]);
+						String[] spellSuggest = spell.suggestSimilar(
+								queryword[i], 1);
+						if (spellSuggest.length == 0) {
 							return null;
 						} else {
-					
-						// replacing the wrong word with the suggested words
-						query = query.replace(queryword[i], spellSuggest[0]);
+
+							// replacing the wrong word with the suggested words
+							query = query
+									.replace(queryword[i], spellSuggest[0]);
 						}
 
 					}
@@ -107,25 +112,26 @@ public class spellCheck {
 
 			} else {
 				if (!(wordDic.contains(query))) {
-					
+
 					String[] suggestions = spell.suggestSimilar(query, 3);
-				
 					// if there's no suggestions
-					if (suggestions.length == 1)  {
+					if (suggestions.length == 0) {
 						return null;
 					} else {
 
-					// add to newQuery arraylist
-					newQuery.add(suggestions[0]);
-					newQuery.add(suggestions[1]);
-					newQuery.add(suggestions[2]);
-					
-					return newQuery;
+						// add to newQuery arraylist
+						for (int i = 0; i < suggestions.length; i++) {
+							newQuery.add(suggestions[i]);
+
+						}
+
+						return newQuery;
 					}
 				} else {
 					return null;
 				}
 			}
+
 		}
 	}
 

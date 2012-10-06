@@ -25,19 +25,21 @@
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>anyoung - your korean web search engine</title>
 <style type="text/css">
-.pg-normal a, .pg-normal a:link, .pg-normal a:active,.pg-normal a:visited {
+<style type="text/css">
+.pg-normal {
 	color: #0000FF;
 	font-weight: normal;
 	text-decoration: none;
 	cursor: pointer;
 }
 
-.pg-selected a, .pg-selected a:link, .pg-selected a:active,.pg-selected a:visited{
+.pg-selected {
 	color: #800080;
 	font-weight: bold;
 	text-decoration: underline;
 	cursor: pointer;
 }
+
 .warning {
 color: red
 }
@@ -46,7 +48,24 @@ color: green
 }
 </style>
 <script type="text/javascript" src="resultPagination.js"></script>
-
+<script type="text/javascript">
+	var getjs = function(value) {
+		if (!value)
+			return;
+		url = 'http://en.wikipedia.org/w/api.php?action=opensearch&search='
+				+ value + '&format=json&callback=spellcheck';
+		document.getElementById('loadMsg').innerHTML = 'Loading ... Please wait';
+		var elem = document.createElement('script');
+		elem.setAttribute('src', url);
+		elem.setAttribute('type', 'text/javascript');
+		document.getElementsByTagName('head')[0].appendChild(elem);
+	};
+</script>
+<script language="JavaScript">
+PLT_DisplayFormat = "(%%S%% seconds)";
+PLT_DisplayElementID = "timeTaken";
+</script>
+<script language="JavaScript" src="http://www.hashemian.com/js/PageLoadTime.js"></script>
 </head>
 
 <body>
@@ -58,7 +77,8 @@ color: green
 	} %>
 	<form method="GET" action='search.jsp' id="searchForm">
 		<p>anyoung
-<INPUT TYPE=TEXT NAME="query" id="queryTextBox" SIZE=20 value="<%=userQuery%>"><INPUT TYPE=SUBMIT VALUE="search">
+<INPUT TYPE=TEXT NAME="query" id="queryTextBox" SIZE=20 value="<%=userQuery%>"><INPUT TYPE=SUBMIT VALUE="search" onclick="getjs (this.value);"> <span
+				id="loadMsg"></span>
 		</p>
 	</form>
 
@@ -100,7 +120,7 @@ color: green
 			%>
 		<p>
 			Total results:
-			<%= dramaList.size() %></p>
+			<%= dramaList.size() %> <span id="timeTaken"></span></p>
 			 <form action="" method="get" enctype="application/x-www-form-urlencoded">
 			 <table id="results">
 		
@@ -108,15 +128,13 @@ color: green
 				List drama = dramaList.get(i); 
 				String title = drama.get(0).toString();
 				String weburl = drama.get(1).toString();
+				String imageSrc = drama.get(2).toString();
 				String webSummary = Lucene.getDramaText(drama.get(1).toString());
-				String imageSrc = Lucene.getImageLink(weburl);
 				//Resize image to fit screen
 				anyoungStyle anyoungS = new anyoungStyle();
-				System.out.println(imageSrc);
 				List newSize = anyoungS.resizeThumb(imageSrc);
 				String width = null;
 				String height = null;
-		
 				if (!newSize.isEmpty()) {
 					height = newSize.get(0).toString();
 					width = newSize.get(1).toString();
@@ -131,27 +149,20 @@ color: green
 		height="<%=height %>" width="<%=width %>"></td>
 		<td> <a href=<%= weburl%>><%= title %></a><br>&nbsp<span class="externalLink"><%=weburl %></span><br>
 		<%= webSummary %><br><a href="downloads.jsp?drama=<%= title %>">Downloads</a>&nbsp;-&nbsp;
-		<a href="streaming.jsp?drama=<%= title %>"">Streaming</a></td></tr>
+		<a href="streaming.jsp?drama=<%= title %>"">Streaming</a></td>
+		</tr>
+		<% } %>
+		
+		</table>
+			<!-- Pagination -->
+	<% 
 
-		<% } } else { // display msg if no result %> 
-		
-		<p>Cannot found results for <%= userQuery %></p>
-			
-		
-		<% } } %>
-		
-
-</table>
-		<br>
-	<!-- Pagination -->
-	<% Searcher searcher = new Searcher(); 
-	List<List<String>> dramaList = searcher.findByTitle(userQuery);
 	if (dramaList.size() > 10) { // display pagination if result more than 10 %>
 	<div id="pageNavPosition"></div>
 	</form>
 
 <script type="text/javascript">
-        var pager = new Pager('results', 10); 
+        var pager = new Pager('results', 8); 
         pager.init(); 
         pager.showPageNav('pager', 'pageNavPosition'); 
         pager.showPage(1);
@@ -169,6 +180,16 @@ color: green
         
  </script>
  
+		<%} else { // display msg if no result %> 
+		
+		<p>Cannot found results for <%= userQuery %></p>
+			
+		
+		<% } } %>
+		
+
+		<br>
+
 <% } } %>
 
 </body>
