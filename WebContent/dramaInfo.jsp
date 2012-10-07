@@ -55,7 +55,9 @@
 				List kdrama = dramaList.get(i); 
 				String title = kdrama.get(0).toString();
 				String weburl = kdrama.get(1).toString();
-				imageSrc = kdrama.get(2).toString();
+				if (!kdrama.get(2).toString().contains("nopic")) {
+					imageSrc = kdrama.get(2).toString();
+				}
 				if (weburl.contains("d-addicts")) {
 					// Get from d-addicts - Summary, genre, episodes, broadcastnetwork & casts
 					dramaInfo = data.getDramaInfo(weburl);
@@ -73,7 +75,11 @@
 				
 				
 			 } 
-		 }%>
+		 }
+		 if (imageSrc.equals("")) {
+			 imageSrc = "images/nopic.png";
+		 }
+		 %>
 	<div class="wrapper">
 
 		<!-- #Divider -->

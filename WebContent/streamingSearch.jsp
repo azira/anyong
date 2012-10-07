@@ -7,6 +7,7 @@
 
 %>
 <head>
+ <title>Drama info and streaming for <%= drama %></title>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <!-- Put the following javascript before the closing </head> tag. -->
 <script>
