@@ -19,7 +19,6 @@
 	String drama = request.getParameter("drama");
 	String type = request.getParameter("type");
 	response.setCharacterEncoding("UTF-8");
-
 %>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">

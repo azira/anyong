@@ -2,6 +2,7 @@
 /** Date: 23 Sept 2012 **/
 /** Tools used: http://www.webconfs.com/search-engine-spider-simulator.php **/
 /** Source retrieved from wiki.daddicts.com **/
+Arang and The Magistrate::http://wiki.d-addicts.com/Arang_and_the_Magistrate::images/Arang_and_Magistrate.jpg
 Affection::http://wiki.d-addicts.com/Affection::images/Affection.jpg
 Age of Innocence::http://wiki.d-addicts.com/Age_of_Innocence::images/350px-SBSPurity.jpg
 Bad Girls::http://wiki.d-addicts.com/Bad_Girls::images/350px-Bad_Girls.jpg

@@ -21,7 +21,6 @@
 <%
 	String userQuery = request.getParameter("query");
 	response.setCharacterEncoding("UTF-8");
-
 %>
 <head>
     
