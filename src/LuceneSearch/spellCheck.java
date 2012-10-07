@@ -25,8 +25,8 @@ public class spellCheck {
 	private File directory;
 	private File dictionary;
 	private IndexWriterConfig config;
-	private String DIC_FILE = "/Users/Azira/Documents/Assignment/anyoung/src/LuceneSearch/thedic.txt";
-	private static final String INDEX_DIR = "/Users/Azira/Documents/Assignment/anyoung/index";
+	private String DIC_FILE = "/Users/Azira/Documents/Assignment/anyong/src/LuceneSearch/thedic.txt";
+	private static final String INDEX_DIR = "/Users/Azira/Documents/Assignment/anyong/index";
 	private Set<String> wordDic = new TreeSet<String>();
 
 	public spellCheck() throws IOException {

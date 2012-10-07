@@ -36,8 +36,8 @@ import org.jsoup.select.Elements;
 public class Lucene {
 
 	// location where the index will be stored.
-	private static final String INDEX_DIR = "/Users/Azira/Documents/Assignment/anyoung/index";
-	private static final String dataFiles = "/Users/Azira/Documents/Assignment/anyoung/src/LuceneSearch/data";
+	private static final String INDEX_DIR = "/Users/Azira/Documents/Assignment/anyong/index";
+	private static final String dataFiles = "/Users/Azira/Documents/Assignment/anyong/src/LuceneSearch/data";
 	private static ArrayList<File> queue = new ArrayList<File>();
 
 	public static void main(String[] args) throws IOException, ParseException {
@@ -228,10 +228,18 @@ public class Lucene {
 		String wikipedia = "wikipedia";
 		String daddicts = "d-addicts";
 		Document doc = Jsoup.connect(weburl).timeout(0).get();
-		if (weburl.contains(asianwiki) || (weburl.contains(wikipedia))) {
+		if (weburl.contains(asianwiki)) {
 			String content = doc.text();
 			int plotLoc = content.lastIndexOf("Plot");
 			String webcontent = content.substring(plotLoc + 5, plotLoc + 300)
+					+ "...";
+			return webcontent;
+		}
+		
+		if (weburl.contains(wikipedia)) {
+			String content = doc.text();
+			int sypLoc = content.lastIndexOf("Synopsis");
+			String webcontent = content.substring(sypLoc + 9, sypLoc + 300)
 					+ "...";
 			return webcontent;
 		}

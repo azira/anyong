@@ -3,33 +3,33 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Insert title here</title>
-<script type="text/javascript">
-	var getjs = function(value) {
-		if (!value)
-			return;
-		url = 'http://en.wikipedia.org/w/api.php?action=opensearch&search='
-				+ value + '&format=json&callback=spellcheck';
-		document.getElementById('loadMsg').innerHTML = 'Loading ... Please wait';
-		var elem = document.createElement('script');
-		elem.setAttribute('src', url);
-		elem.setAttribute('type', 'text/javascript');
-		document.getElementsByTagName('head')[0].appendChild(elem);
-	};
-</script>
-</head>
-<body>
-	<p>
-		Hello! The time is now
-		<%=new java.util.Date()%></p>
-
-	<form method="GET" action='search.jsp' id="searchForm">
-		<p>
-			anyoung<INPUT TYPE=TEXT NAME="query" 
-				SIZE=20><INPUT TYPE=SUBMIT VALUE="search" onclick="getjs (this.value);"> <span
-				id="loadMsg"></span>
-	</form>
-</body>
+    
+    <title>anyong - your korean web search for downloads and streaming</title>
+    <meta http-equiv="content-type" content="text/html;charset=utf-8">
+    <meta name="author" content="Hazirah Hamdani, n6945953, INN344-2">
+    <meta name="description" content="Web search for korean drama that contains asianwiki,
+    d-addicts and wikipedia web source. It also includes links to downloads and streaming">
+    <meta name="keywords" content="Korea, drama, korean drama">
+        <link rel="stylesheet" href="style/indexStyle.css" type="text/css" charset="utf-8" />
+    </head>
+    <body>
+        
+        <div class="wrapper">
+       
+            <img src="images/logo.png" alt="anyoung" id="logo">
+                <p>Your korea drama web search</p>
+           <form method="post" action="search.jsp">
+             
+            <input type="text" name="query" id="queryTextBox" id="search" size="70" class="searchbox" autofocus="autofocus"><p></p>
+          <input type="submit" value="SEARCH">
+           </form>
+           <p></p><p></p>
+              <p class="footer">
+            Copyright &#169; 2012 anyoung, inc. All rights reserved.</p>
+        </div>
+     
+     
+    </body>
 </html>
+
 

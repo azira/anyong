@@ -25,7 +25,7 @@ public class Searcher {
 
 	private IndexSearcher searcher;
 	private QueryParser titleParser;
-	private String INDEX_DIR = "/Users/Azira/Documents/Assignment/anyoung/index";
+	private String INDEX_DIR = "/Users/Azira/Documents/Assignment/anyong/index";
 	private static final int DEFAULT_RESULT_SIZE = 50;
 
 	public Searcher() throws IOException {

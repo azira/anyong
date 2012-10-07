@@ -1,0 +1,860 @@
+/** Text file by Hazirah Hamdani **/
+/** Date: 23 Sept 2012 **/
+/** Tools used: http://www.webconfs.com/search-engine-spider-simulator.php **/
+/** Source retrieved from wiki.daddicts.com **/
+Affection::http://wiki.d-addicts.com/Affection::images/Affection.jpg
+Age of Innocence::http://wiki.d-addicts.com/Age_of_Innocence::images/350px-SBSPurity.jpg
+Bad Girls::http://wiki.d-addicts.com/Bad_Girls::images/350px-Bad_Girls.jpg
+Children of Heaven::http://wiki.d-addicts.com/Children_of_Heaven::images/nopic.png
+Chomsungdae's Moon::http://wiki.d-addicts.com/Chomsungdae%27s_Moon::images/350px-ChumsungdaeMonth.jpg
+Confession::http://wiki.d-addicts.com/Confession::images/240px-Confession.jpg
+Dae Bak Family::http://wiki.d-addicts.com/Dae_Bak_Family::images/nopic.png
+Daemang::http://wiki.d-addicts.com/Daemang::images/Daemang.jpg
+Dawn of the Empire::http://wiki.d-addicts.com/Dawn_of_the_Empire::images/Dawn_of_the_Empire.jpg
+Days in the Sun::http://wiki.d-addicts.com/Days_in_the_Sun::images/SunshineHunting.jpg
+Five Brothers and Sisters::http://wiki.d-addicts.com/Five_Brothers_and_Sisters::images/nopic.png
+Friends 2002::http://wiki.d-addicts.com/Friends_2002::images/400px-Friends02-banner.jpg
+Girl School::http://wiki.d-addicts.com/Girl_School::images/350px-GirlSchool.jpg
+Glass Slippers::http://wiki.d-addicts.com/Glass_Slippers::images/204px-GlassSlippers.jpg
+Golden Pond::http://wiki.d-addicts.com/Golden_Pond::images/nopic.png
+Golden Wagon::http://wiki.d-addicts.com/Golden_Wagon::images/350px-GoldenWagon.jpg
+Hard Love::http://wiki.d-addicts.com/Hard_Love::images/HardLove.jpg
+Honest Living::http://wiki.d-addicts.com/Honest_Living::images/300px-Honest_Living.jpg
+I Love Hyun Jung::http://wiki.d-addicts.com/I_Love_Hyun_Jung::images/300px-ILoveHyunJung.jpg
+Ice Flower::http://wiki.d-addicts.com/Ice_Flower::images/300px-IceFlower.JPG
+Inspector Park Moon Soo::http://wiki.d-addicts.com/Inspector_Park_Moon_Soo::images/255px-Inspector_Park_Moon_Soo.jpg
+Jang Hee Bin::http://wiki.d-addicts.com/Jang_Hee_Bin::images/400px-Jang_Hee_Bin.jpg
+Kitchen Maid::http://wiki.d-addicts.com/Kitchen_Maid::images/nopic.png
+Let's Get Married (KBS)::http://wiki.d-addicts.com/Let%27s_Get_Married_(KBS)::images/Letsgetmarried.jpg
+Let's Go!::http://wiki.d-addicts.com/Let%27s_Go!::images/nopic.png
+Like a Flowing River::http://wiki.d-addicts.com/Like_a_Flowing_River::images/400px-Like_a_Flowing_River.jpg
+Love Rollercoaster::http://wiki.d-addicts.com/Love_Rollercoaster::images/nopic.png
+Loving You (KBS)::http://wiki.d-addicts.com/Loving_You_(KBS)::images/280px-Loving_You_Banner.jpg
+Man in Crisis::http://wiki.d-addicts.com/Man_in_Crisis::images/250px-ManInCrisis.jpg
+Man of the Sun, Lee Je-ma::http://wiki.d-addicts.com/Man_of_the_Sun,_Lee_Je-ma::images/320px-LeeJeMa-banner.jpg
+Miss Mermaid::http://wiki.d-addicts.com/Miss_Mermaid::images/250px-MissMermaid.jpg
+My Love Patzzi::http://wiki.d-addicts.com/My_Love_Patzzi::images/270px-MyLovePatzzi.jpg
+My Name is Princess::http://wiki.d-addicts.com/My_Name_is_Princess::images/250px-MyNameIsPrincess.jpg
+My Platoon Leader::http://wiki.d-addicts.com/My_Platoon_Leader::images/300px-Army.jpg
+Nonstop::http://wiki.d-addicts.com/Nonstop::images/300px-Nonstop_1.jpg
+Orange::http://wiki.d-addicts.com/Orange::images/400px-Orange_SBS.jpg
+Passing Rain::http://wiki.d-addicts.com/Passing_Rain::images/Passing_Rain.jpg
+Present::http://wiki.d-addicts.com/Present::images/Present.jpg
+Remember::http://wiki.d-addicts.com/Remember::images/350px-Remember.jpg
+Ring Ring::http://wiki.d-addicts.com/Ring_Ring::images/350px-RingRing.jpg
+Rival::http://wiki.d-addicts.com/Rival::images/200px-RivalKimMinJungandKimJooHyuk.jpg
+Romance (MBC)::http://wiki.d-addicts.com/Romance_(MBC)::images/300px-Romantical.jpg
+Ruler of Your Own World::http://wiki.d-addicts.com/Ruler_of_Your_Own_World::images/250px-RulerOfYourOwnWorld.jpg
+Rustic Period::http://wiki.d-addicts.com/Rustic_Period::images/240px-RusticPeriod.jpg
+Saxophone::http://wiki.d-addicts.com/Saxophone::images/300px-Saxaphone.jpg
+Shoot for the Star::http://wiki.d-addicts.com/Shoot_for_the_Star::images/300px-Shoot_For_The_Stars.jpg
+Sidestreet People::http://wiki.d-addicts.com/Sidestreet_People::images/Side_Street_People.jpg
+Since We Met::http://wiki.d-addicts.com/Since_We_Met::images/320px-Since_I_Met_You.jpg
+Solitude::http://wiki.d-addicts.com/Solitude::images/200px-Solitude.jpg
+Successful Story of a Bright Girl::http://wiki.d-addicts.com/Successful_Story_of_a_Bright_Girl::images/250px-Successful_Story_of_A_Bright_Girl_Banner.jpg
+Sunrise House::http://wiki.d-addicts.com/Sunrise_House::images/nopic.png
+Sunshine::http://wiki.d-addicts.com/Sunshine::images/Sunshine%282002%29.jpg
+Sweet Home (MBC)::http://wiki.d-addicts.com/Sweet_Home_(MBC)::images/nopic.png
+The Maengs' Golden Era::http://wiki.d-addicts.com/The_Maengs%27_Golden_Era::images/The_Maengs_Golden_Era.jpg
+The Woman::http://wiki.d-addicts.com/The_Woman::images/350px-TheWoman.JPG
+To Be With You::http://wiki.d-addicts.com/To_Be_With_You::images/To_Be_With_You.jpg
+Trio::http://wiki.d-addicts.com/Trio::images/240px-Trio.jpg
+We Are Dating Now::http://wiki.d-addicts.com/We_Are_Dating_Now::images/200px-517-17_20020115095328.jpg
+Whenever the Heart Beats::http://wiki.d-addicts.com/Whenever_the_Heart_Beats::images/nopic.png
+Who's My Love::http://wiki.d-addicts.com/Who%27s_My_Love::images/nopic.png
+Winter Sonata::http://wiki.d-addicts.com/Winter_Sonata::images/250px-WinterSonata1.jpg
+A Problem at My Younger Brother's House::http://wiki.d-addicts.com/A_Problem_at_My_Younger_Brother%27s_House::images/S_House.jpg
+A Saint and a Witch::http://wiki.d-addicts.com/A_Saint_and_a_Witch::images/nopic.png
+Age of Warriors::http://wiki.d-addicts.com/Age_of_Warriors::images/280px-Age_of_Warriors.jpg
+Album of Life::http://wiki.d-addicts.com/Album_of_Life::images/nopic.png
+All In::http://wiki.d-addicts.com/All_In::images/250px-All_in_drama.jpg
+Apgujeong House::http://wiki.d-addicts.com/Apgujeong_House::images/200px-ApgujeongHouse.jpg
+Argon::http://wiki.d-addicts.com/Argon::images/300px-Argon.jpg
+Attic Cat::http://wiki.d-addicts.com/Attic_Cat::images/240px-AtticCat.jpg
+The Bean Chaff of My Life::http://wiki.d-addicts.com/The_Bean_Chaff_of_My_Life::images/My_Better_Half.jpg
+Bodyguard::http://wiki.d-addicts.com/Bodyguard::images/nopic.png
+Breathless::http://wiki.d-addicts.com/Breathless::images/Breathless.jpg
+Briar Flower::http://wiki.d-addicts.com/Briar_Flower::images/250px-BriarFlower.jpg
+Buni::http://wiki.d-addicts.com/Buni::images/nopic.png
+Country Princess::http://wiki.d-addicts.com/Country_Princess::images/300px-Country_Princess.jpg
+Dae Jang Geum::http://wiki.d-addicts.com/Dae_Jang_Geum::images/350px-Dae_Jang_Geum.jpg
+Dal-Joong's Cinderella::http://wiki.d-addicts.com/Dal-Joong%27s_Cinderella::images/nopic.png
+Damo::http://wiki.d-addicts.com/Damo::images/240px-Damo.jpg
+Desert Spring::http://wiki.d-addicts.com/Desert_Spring::images/350px-DesertSpring.jpg
+Detectives::http://wiki.d-addicts.com/Detectives::images/250px-Detectives.jpg
+Escape From Unemployment::http://wiki.d-addicts.com/Escape_From_Unemployment::images/200px-Baek_su_tal_chul.jpg
+Fairy and Swindler::http://wiki.d-addicts.com/Fairy_and_Swindler::images/300px-TheFairyandtheSwindler.jpg
+First Love (SBS)::http://wiki.d-addicts.com/First_Love_(SBS)::images/FirstLoveSBS.jpg
+Forever Love::http://wiki.d-addicts.com/Forever_Love::images/400px-DyingLoveMBC.jpg
+Garden of Eve::http://wiki.d-addicts.com/Garden_of_Eve::images/400px-EveGarden.jpg
+Go Mom Go!::http://wiki.d-addicts.com/Go_Mom_Go!::images/350px-GoMomGo.JPG
+Good News (MBC)::http://wiki.d-addicts.com/Good_News_(MBC)::images/300px-Good_News_MBC.jpg
+Good Person::http://wiki.d-addicts.com/Good_Person::images/AGoodPerson.jpg
+Hello! Balbari::http://wiki.d-addicts.com/Hello!_Balbari::images/250px-HelloBalbari.jpg
+Into the Sun::http://wiki.d-addicts.com/Into_the_Sun::images/IntotheSun.jpg
+King's Woman::http://wiki.d-addicts.com/King%27s_Woman::images/380px-Kings_Woman.jpg
+Land of Wine::http://wiki.d-addicts.com/Land_of_Wine::images/Alcoholland.jpg
+Long Live Love::http://wiki.d-addicts.com/Long_Live_Love::images/nopic.png
+Love Letter::http://wiki.d-addicts.com/Love_Letter::images/300px-SarangLetter.jpg
+Merry Go Round::http://wiki.d-addicts.com/Merry_Go_Round::images/250px-Photo_33.jpg
+My Fair Lady::http://wiki.d-addicts.com/My_Fair_Lady::images/Perfectgirl.jpg
+Near to You::http://wiki.d-addicts.com/Near_to_You::images/400px-NearToYou.jpg
+Nonstop::http://wiki.d-addicts.com/Nonstop::images/300px-Nonstop_1.jpg
+Not Divorced::http://wiki.d-addicts.com/Not_Divorced::images/350px-Not_Divorced.jpg
+On the Prairie::http://wiki.d-addicts.com/On_the_Prairie::images/nopic.png
+One Million Roses::http://wiki.d-addicts.com/One_Million_Roses::images/300px-OneMillionRoses.jpg
+One Percent of Anything::http://wiki.d-addicts.com/One_Percent_of_Anything::images/360px-1percent.jpg
+Pearl Necklace::http://wiki.d-addicts.com/Pearl_Necklace::images/200px-Pearl_Necklace_Correlation_Chart.jpg
+Perfect Love (SBS)::http://wiki.d-addicts.com/Perfect_Love_(SBS)::images/500px-Perfect_Love.jpg
+Pretty Woman::http://wiki.d-addicts.com/Pretty_Woman::images/PrettyWoman.jpg
+Punch::http://wiki.d-addicts.com/Punch::images/400px-Punch.jpg
+Rose Fence::http://wiki.d-addicts.com/Rose_Fence::images/250px-RoseFence.jpg
+Rosemary::http://wiki.d-addicts.com/Rosemary::images/300px-Rosmarykbs.jpg
+Sang Doo, Let's Go To School::http://wiki.d-addicts.com/Sang_Doo,_Let%27s_Go_To_School::images/SangDooLGTS.jpg
+Scent of Love::http://wiki.d-addicts.com/Scent_of_Love::images/250px-Scent01.jpg
+Scent of a Man::http://wiki.d-addicts.com/Scent_of_a_Man::images/200px-Scent_of_a_Man.jpg
+Screen::http://wiki.d-addicts.com/Screen::images/200px-Screen.jpg
+Sharp 1::http://wiki.d-addicts.com/Sharp_1::images/nopic.png
+She is Cool::http://wiki.d-addicts.com/She_is_Cool::images/300px-SheIsCool.jpg
+Snowman::http://wiki.d-addicts.com/Snowman::images/Snowman.jpg
+South of the Sun::http://wiki.d-addicts.com/South_of_the_Sun::images/South_of_the_Sun.jpg
+Stairway to Heaven::http://wiki.d-addicts.com/Stairway_to_Heaven::images/240px-Stairway2Heaven.jpg
+Summer Scent::http://wiki.d-addicts.com/Summer_Scent::images/250px-SummerScent.jpg
+Sun Duk::http://wiki.d-addicts.com/Sun_Duk::images/nopic.png
+Swan Lake::http://wiki.d-addicts.com/Swan_Lake::images/nopic.png
+Sweetheart::http://wiki.d-addicts.com/Sweetheart::images/nopic.png
+Thousand Years of Love::http://wiki.d-addicts.com/Thousand_Years_of_Love::images/200px-Thousand_Years_Of_Love.jpg
+Twenty Years::http://wiki.d-addicts.com/Twenty_Years::images/nopic.png
+Wedding Gift::http://wiki.d-addicts.com/Wedding_Gift::images/nopic.png
+While You Were Dreaming::http://wiki.d-addicts.com/While_You_Were_Dreaming::images/nopic.png
+Wife::http://wiki.d-addicts.com/Wife::images/300px-Wife_KBS.jpg
+Women Next Door::http://wiki.d-addicts.com/Women_Next_Door::images/300px-WomenNextDoor.jpg
+Yellow Handkerchief::http://wiki.d-addicts.com/Yellow_Handkerchief::images/230px-Yellowhandkerchief.jpg
+The Age of Heroes::http://wiki.d-addicts.com/The_Age_of_Heroes::images/200px-Ageofheroes.jpg
+April Kiss::http://wiki.d-addicts.com/April_Kiss::images/350px-AprilKiss.jpg
+Beautiful Temptation::http://wiki.d-addicts.com/Beautiful_Temptation::images/250px-BeautifulTemptationChart.jpg
+Beijing My Love::http://wiki.d-addicts.com/Beijing_My_Love::images/Wysx10E.JPG
+Choice::http://wiki.d-addicts.com/Choice::images/400px-Choice.jpg
+Count of Myeongdong::http://wiki.d-addicts.com/Count_of_Myeongdong::images/400px-Count_of_Myeongdong.jpg
+Dog Bowl::http://wiki.d-addicts.com/Dog_Bowl::images/nopic.png
+Exciting Change::http://wiki.d-addicts.com/Exciting_Change::images/220px-Exciting_Change.jpg
+Forgiveness::http://wiki.d-addicts.com/Forgiveness::images/230px-Forgiveness.jpg
+Freezing Point::http://wiki.d-addicts.com/Freezing_Point::images/nopic.png
+Full House::http://wiki.d-addicts.com/Full_House::images/320px-FullHouse.jpg
+Han River Ballad::http://wiki.d-addicts.com/Han_River_Ballad::images/180px-HanRiverBallad2.jpg
+Hyung::http://wiki.d-addicts.com/Hyung::images/nopic.png
+I'm From Chosun::http://wiki.d-addicts.com/I%27m_From_Chosun::images/350px-ImFromChosum.jpg
+If You Only Knew::http://wiki.d-addicts.com/If_You_Only_Knew::images/nopic.png
+The Immortal Lee Soon-Shin::http://wiki.d-addicts.com/The_Immortal_Lee_Soon-Shin::images/300px-Immortal.jpg
+Into The Storm::http://wiki.d-addicts.com/Into_The_Storm::images/350px-Into_The_Storm_2004.jpg
+Ireland::http://wiki.d-addicts.com/Ireland::images/Ireland.jpg
+Island Village Teacher::http://wiki.d-addicts.com/Island_Village_Teacher::images/250px-VillageTeacher.jpg
+Jang Gil San::http://wiki.d-addicts.com/Jang_Gil_San::images/330px-JangGilSan-drama.jpg
+Land::http://wiki.d-addicts.com/Land::images/330px-Toji.jpg
+Little Women::http://wiki.d-addicts.com/Little_Women::images/Little_Women.jpg
+Lotus Flower Fairy::http://wiki.d-addicts.com/Lotus_Flower_Fairy::images/250px-Lotus_cast.jpg
+Love Story in Harvard::http://wiki.d-addicts.com/Love_Story_in_Harvard::images/200px-LSIH_couple.jpg
+Love is All Around::http://wiki.d-addicts.com/Love_is_All_Around::images/LoveAllAround.jpg
+Lovers in Paris::http://wiki.d-addicts.com/Lovers_in_Paris::images/Paris.jpg
+Magic::http://wiki.d-addicts.com/Magic::images/400px-Magic.jpg
+Match Made in Heaven::http://wiki.d-addicts.com/Match_Made_in_Heaven::images/200px-Mmih.jpg
+Miss Kim Makes 1 Million::http://wiki.d-addicts.com/Miss_Kim_Makes_1_Million::images/250px-Misskim.jpg
+More Beautiful Than a Flower::http://wiki.d-addicts.com/More_Beautiful_Than_a_Flower::images/MoreBeautifulThanAFlowerKBS2-2004.jpg
+My Hidden Love::http://wiki.d-addicts.com/My_Hidden_Love::images/300px-MyHiddenLove.jpg
+My Lovely Family::http://wiki.d-addicts.com/My_Lovely_Family::images/My_lov_fam.jpg
+New Human Market::http://wiki.d-addicts.com/New_Human_Market::images/250px-NewHumanMarketChart.jpg
+Nine Tailed Fox::http://wiki.d-addicts.com/Nine_Tailed_Fox::images/350px-Gumiho01.jpg
+Nonstop::http://wiki.d-addicts.com/Nonstop::images/300px-Nonstop_1.jpg
+Not Alone::http://wiki.d-addicts.com/Not_Alone::images/nopic.png
+Oh! Pil Seung And Bong Soon Young::http://wiki.d-addicts.com/Oh!_Pil_Seung_And_Bong_Soon_Young::images/360px-Oh_Pil_Seung.jpg
+Old Miss Diary::http://wiki.d-addicts.com/Old_Miss_Diary::images/250px-OldMissDiary%28sitcom%29.jpg
+Papa Sea::http://wiki.d-addicts.com/Papa_Sea::images/nopic.png
+Passion::http://wiki.d-addicts.com/Passion::images/250px-Passion.jpg
+People of the Water Flower Village::http://wiki.d-addicts.com/People_of_the_Water_Flower_Village::images/250px-Water_Flower.jpg
+Phoenix::http://wiki.d-addicts.com/Phoenix::images/250px-Phoenix_Fire_Bird.jpg
+Precious Family::http://wiki.d-addicts.com/Precious_Family::images/Precious_family.jpg
+Prince's First Love::http://wiki.d-addicts.com/Prince%27s_First_Love::images/250px-Princesfirstlove.jpg
+Proposal::http://wiki.d-addicts.com/Proposal::images/350px-Proposal.jpg
+Radish Kimchi::http://wiki.d-addicts.com/Radish_Kimchi::images/350px-Radish_Kimchi.jpg
+Save the Last Dance for Me::http://wiki.d-addicts.com/Save_the_Last_Dance_for_Me::images/200px-Lastdance.jpg
+Say You Love Me::http://wiki.d-addicts.com/Say_You_Love_Me::images/250px-Say_You_Love_Me_.jpg
+Sea God::http://wiki.d-addicts.com/Sea_God::images/250px-Haeshin.jpg
+Second Proposal::http://wiki.d-addicts.com/Second_Proposal::images/320px-SecondProposal.jpg
+She is Nineteen::http://wiki.d-addicts.com/She_is_Nineteen::images/350px-SheIs19.jpg
+Shining Days::http://wiki.d-addicts.com/Shining_Days::images/300px-Rays_of_Sunshine.jpg
+Snow White::http://wiki.d-addicts.com/Snow_White::images/300px-Snow.jpg
+Sorry I Love You::http://wiki.d-addicts.com/Sorry_I_Love_You::images/350px-Misa.jpg
+Stained Glass::http://wiki.d-addicts.com/Stained_Glass::images/320px-StainedGlass.jpg
+Star's Echo::http://wiki.d-addicts.com/Star%27s_Echo::images/250px-StarsEcho_Poster.jpg
+Sweet 18::http://wiki.d-addicts.com/Sweet_18::images/350px-Sweet18.jpg
+Sweet Buns::http://wiki.d-addicts.com/Sweet_Buns::images/250px-SweetBuns.jpg
+Terms of Endearment::http://wiki.d-addicts.com/Terms_of_Endearment::images/340px-Terms_of_Endearment.jpg
+The Woman Who Wants to Marry::http://wiki.d-addicts.com/The_Woman_Who_Wants_to_Marry::images/nopic.png
+Three Wives::http://wiki.d-addicts.com/Three_Wives::images/ThreeWives.jpg
+Traveling Women::http://wiki.d-addicts.com/Traveling_Women::images/nopic.png
+Tropical Nights in December::http://wiki.d-addicts.com/Tropical_Nights_in_December::images/350px-Tropical_Night_In_December.jpg
+War of the Roses::http://wiki.d-addicts.com/War_of_the_Roses::images/350px-WarOfTheRoses2.jpg
+What Happened in Bali::http://wiki.d-addicts.com/What_Happened_in_Bali::images/320px-Bali.jpg
+When a Man is in Love::http://wiki.d-addicts.com/When_a_Man_is_in_Love::images/nopic.png
+You are a Star::http://wiki.d-addicts.com/You_are_a_Star::images/300px-StarForYou.jpg
+18 vs. 29::http://wiki.d-addicts.com/18_vs._29::images/240px-18vs29.jpg
+5th Republic::http://wiki.d-addicts.com/5th_Republic::images/300px-Fifthrepublic.jpg
+A Love to Kill::http://wiki.d-addicts.com/A_Love_to_Kill::images/240px-17dl.jpg
+Autumn Shower::http://wiki.d-addicts.com/Autumn_Shower::images/AutumnShower.jpg
+Bad Housewife::http://wiki.d-addicts.com/Bad_Housewife::images/320px-Bad_Housewife.jpg
+Ballad of Suh Dong::http://wiki.d-addicts.com/Ballad_of_Suh_Dong::images/300px-BalladOfSuhDong.jpg
+Be Strong Geum Soon::http://wiki.d-addicts.com/Be_Strong_Geum_Soon::images/250px-BeStrongGS.jpg
+Beating Heart::http://wiki.d-addicts.com/Beating_Heart::images/300px-Beating_Heart.jpg
+Best Mother::http://wiki.d-addicts.com/Best_Mother::images/nopic.png
+Can We Refill the Love%3F::http://wiki.d-addicts.com/Can_We_Refill_the_Love%3F::images/330px-Refill.jpg
+Chosun Police (2005)::http://wiki.d-addicts.com/Chosun_Police_(2005)::images/250px-ChosunPolice2005.jpg
+Coma::http://wiki.d-addicts.com/Coma::images/250px-Coma2.jpg
+Cute or Crazy::http://wiki.d-addicts.com/Cute_or_Crazy::images/350px-CuteOrCrazy.jpg
+Dangerous Love::http://wiki.d-addicts.com/Dangerous_Love::images/Dangerouslove.jpg
+Dear Heaven::http://wiki.d-addicts.com/Dear_Heaven::images/350px-DearHeaven.jpg
+Delightful Girl Choon Hyang::http://wiki.d-addicts.com/Delightful_Girl_Choon_Hyang::images/350px-DelightfulGirlChoonHyang.jpg
+Don't Worry (KBS)::http://wiki.d-addicts.com/Don%27t_Worry_(KBS)::images/DontWorry.jpg
+Encounter (MBC)::http://wiki.d-addicts.com/Encounter_(MBC)::images/240px-Encounter_MBC.jpg
+Fashion 70's::http://wiki.d-addicts.com/Fashion_70%27s::images/Fashion70s.jpg
+Golden Apple::http://wiki.d-addicts.com/Golden_Apple::images/Goldenapple.jpg
+Green Rose::http://wiki.d-addicts.com/Green_Rose::images/Green_Rose.jpg
+Hanoi Bride::http://wiki.d-addicts.com/Hanoi_Bride::images/550px-HanoiBride.jpg
+Hello Franceska::http://wiki.d-addicts.com/Hello_Franceska::images/200px-Hello_Franceska.jpg
+Hello My Teacher::http://wiki.d-addicts.com/Hello_My_Teacher::images/680px-HelloMyTeacher.jpg
+Hometown Station::http://wiki.d-addicts.com/Hometown_Station::images/HometownStation.jpg
+Hong Kong Express::http://wiki.d-addicts.com/Hong_Kong_Express::images/230px-HongKongExpress.jpg
+I Love You, My Enemy::http://wiki.d-addicts.com/I_Love_You,_My_Enemy::images/I_Love_You%2C_My_Enemy.jpg
+Ice Girl::http://wiki.d-addicts.com/Ice_Girl::images/320px-Icegirl.jpg
+Lawyers::http://wiki.d-addicts.com/Lawyers::images/200px-Lawyers.jpg
+Let's Go To The Beach::http://wiki.d-addicts.com/Let%27s_Go_To_The_Beach::images/330px-Letsbeach.jpg
+Let's Marry::http://wiki.d-addicts.com/Let%27s_Marry::images/nopic.png
+Love Hymn::http://wiki.d-addicts.com/Love_Hymn::images/nopic.png
+Love Needs a Miracle::http://wiki.d-addicts.com/Love_Needs_a_Miracle::images/200px-LoveNeedsAMiracle.jpg
+Love and Sympathy::http://wiki.d-addicts.com/Love_and_Sympathy::images/nopic.png
+Loveholic::http://wiki.d-addicts.com/Loveholic::images/200px-Loveholic.jpg
+Lovers in Prague::http://wiki.d-addicts.com/Lovers_in_Prague::images/230px-LoversinPrague.jpg
+Marrying a Millionaire::http://wiki.d-addicts.com/Marrying_a_Millionaire::images/300px-Photo12.jpg
+My Girl (SBS)::http://wiki.d-addicts.com/My_Girl_(SBS)::images/300px-MyGirl.jpg
+My Love Toram::http://wiki.d-addicts.com/My_Love_Toram::images/nopic.png
+My Lovely Sam-Soon::http://wiki.d-addicts.com/My_Lovely_Sam-Soon::images/240px-Normal_200552618180ms.jpg
+My Rosy Life::http://wiki.d-addicts.com/My_Rosy_Life::images/240px-Life_in_pink.jpg
+My Sweetheart My Darling::http://wiki.d-addicts.com/My_Sweetheart_My_Darling::images/300px-Msmd.jpg
+Next::http://wiki.d-addicts.com/Next::images/280px-Next2.jpg
+Nonstop::http://wiki.d-addicts.com/Nonstop::images/300px-Nonstop_1.jpg
+Oh! Sarah::http://wiki.d-addicts.com/Oh!_Sarah::images/400px-Oh%21_Sarah.jpg
+Only You (SBS)::http://wiki.d-addicts.com/Only_You_(SBS)::images/330px-Onlyyou.jpg
+Our Attitude to Prepare Parting::http://wiki.d-addicts.com/Our_Attitude_to_Prepare_Parting::images/320px-Our_own_way_against_Breaking_Up.jpg
+Pearl Earring::http://wiki.d-addicts.com/Pearl_Earring::images/250px-PearlEarring.jpg
+Pharmacist Kim's Daughters::http://wiki.d-addicts.com/Pharmacist_Kim%27s_Daughters::images/300px-PharmacistKimDaughters.jpg
+Princess Lulu::http://wiki.d-addicts.com/Princess_Lulu::images/280px-Princess_Lulu.jpg
+Queen of Conditions::http://wiki.d-addicts.com/Queen_of_Conditions::images/400px-QueenOfConditions.jpg
+Resurrection::http://wiki.d-addicts.com/Resurrection::images/300px-Revenge.jpg
+Sad Goodbye::http://wiki.d-addicts.com/Sad_Goodbye::images/250px-Sad_Goodbye.jpg
+Sad Love Song::http://wiki.d-addicts.com/Sad_Love_Song::images/320px-SadLoveSong.jpg
+The Secret Lovers::http://wiki.d-addicts.com/The_Secret_Lovers::images/350px-All0110242bn.jpg
+Sharp 2::http://wiki.d-addicts.com/Sharp_2::images/nopic.png
+Shi Eun %26 Soo Ha::http://wiki.d-addicts.com/Shi_Eun_%26_Soo_Ha::images/Shi_Eun_Soo_Ha.jpg
+Shin Don::http://wiki.d-addicts.com/Shin_Don::images/330px-Shin_Don.JPG
+Single Again::http://wiki.d-addicts.com/Single_Again::images/220px-SingleAgain1.jpg
+Sisters of the Sea::http://wiki.d-addicts.com/Sisters_of_the_Sea::images/350px-SeaSisters.jpg
+Smile of Spring Day::http://wiki.d-addicts.com/Smile_of_Spring_Day::images/350px-SmileOfSpringDay.jpg
+Spring Day::http://wiki.d-addicts.com/Spring_Day::images/250px-Spring_day.jpg
+Sunok::http://wiki.d-addicts.com/Sunok::images/Sunok.jpg
+Super Rookie::http://wiki.d-addicts.com/Super_Rookie::images/300px-Super_Rookie.jpg
+Sweet Spy::http://wiki.d-addicts.com/Sweet_Spy::images/240px-Sweet_spy.jpg
+Tears of Diamond::http://wiki.d-addicts.com/Tears_of_Diamond::images/250px-Tears_Of_Diamond.jpg
+That Summer Typhoon::http://wiki.d-addicts.com/That_Summer_Typhoon::images/300px-That_summer_typhoon.jpg
+That Woman::http://wiki.d-addicts.com/That_Woman::images/250px-ThatWoman.jpg
+The Bizarre Bunch::http://wiki.d-addicts.com/The_Bizarre_Bunch::images/300px-Pecliarman.jpg
+The Youth in Bare Foot::http://wiki.d-addicts.com/The_Youth_in_Bare_Foot::images/270px-Youth_In_Bare_Foot_.jpg
+Three Leaf Clover::http://wiki.d-addicts.com/Three_Leaf_Clover::images/300px-3LeafClover.jpg
+Wedding::http://wiki.d-addicts.com/Wedding::images/350px-Wedding.jpg
+Wild Flower::http://wiki.d-addicts.com/Wild_Flower::images/350px-WildFlower.jpg
+Wind Flower::http://wiki.d-addicts.com/Wind_Flower::images/nopic.png
+Woman Above Flower::http://wiki.d-addicts.com/Woman_Above_Flower::images/350px-Women_Above_Flower.jpg
+Wonderful Life (MBC)::http://wiki.d-addicts.com/Wonderful_Life_(MBC)::images/350px-WonderfulLife.jpg
+Young Jae Golden Days::http://wiki.d-addicts.com/Young_Jae_Golden_Days::images/300px-Young_Jae_Golden_Days.jpg
+101st Proposal (SBS)::http://wiki.d-addicts.com/101st_Proposal_(SBS)::images/300px-101.jpg
+90 Days, Falling in Love Days::http://wiki.d-addicts.com/90_Days,_Falling_in_Love_Days::images/200px-90_days.jpg
+A Woman's Choice::http://wiki.d-addicts.com/A_Woman%27s_Choice::images/250px-AWomansChoice.jpg
+Alien Sam::http://wiki.d-addicts.com/Alien_Sam::images/240px-Aliensamposter.jpg
+Alone in Love::http://wiki.d-addicts.com/Alone_in_Love::images/300px-Alone_in_Love.jpg
+As the River Flows::http://wiki.d-addicts.com/As_the_River_Flows::images/230px-As_the_River_Flows.jpg
+Bad Family::http://wiki.d-addicts.com/Bad_Family::images/350px-Wanted_Perfect_Family.jpg
+Banjun Drama::http://wiki.d-addicts.com/Banjun_Drama::images/nopic.png
+Barefoot Love::http://wiki.d-addicts.com/Barefoot_Love::images/250px-BarefootLove.jpg
+Billie Jean, Look at Me::http://wiki.d-addicts.com/Billie_Jean,_Look_at_Me::images/200px-BillieJeanLookatMe.jpg
+Can We Love Again::http://wiki.d-addicts.com/Can_We_Love_Again::images/240px-Can_We_Love_Again.jpg
+Cloud Stairs::http://wiki.d-addicts.com/Cloud_Stairs::images/330px-Cloud_Stairs.jpg
+Common Single::http://wiki.d-addicts.com/Common_Single::images/280px-Common_Single.jpg
+Couple of Fantasy::http://wiki.d-addicts.com/Couple_of_Fantasy::images/350px-Fantasycouple.jpg
+Dae Jo Yeong::http://wiki.d-addicts.com/Dae_Jo_Yeong::images/Dae_Jo_Yeong.jpg
+Dr. Kkang::http://wiki.d-addicts.com/Dr._Kkang::images/300px-DrKang.jpg
+End of Love::http://wiki.d-addicts.com/End_of_Love::images/nopic.png
+Exhibition of Fireworks::http://wiki.d-addicts.com/Exhibition_of_Fireworks::images/240px-Eofw.jpg
+Famous Princesses::http://wiki.d-addicts.com/Famous_Princesses::images/300px-Famous_Princesses.jpg
+Fog Street::http://wiki.d-addicts.com/Fog_Street::images/250px-FogStreet.jpg
+Freeze::http://wiki.d-addicts.com/Freeze::images/250px-Freeze.jpg
+Fugitive Lee Doo Young::http://wiki.d-addicts.com/Fugitive_Lee_Doo_Young::images/nopic.png
+Get Up::http://wiki.d-addicts.com/Get_Up::images/300px-GetUp.jpg
+Goodbye Solo::http://wiki.d-addicts.com/Goodbye_Solo::images/260px-Solo.jpg
+Goong::http://wiki.d-addicts.com/Goong::images/320px-Goong.jpg
+Great Inheritance::http://wiki.d-addicts.com/Great_Inheritance::images/240px-Inherit.jpg
+Hello, God::http://wiki.d-addicts.com/Hello,_God::images/460px-Hgugbe4.jpg
+Here Comes Ajumma::http://wiki.d-addicts.com/Here_Comes_Ajumma::images/300px-HereComesAjumma.jpg
+How Much Love::http://wiki.d-addicts.com/How_Much_Love::images/300px-How_Much_Love01.jpg
+Hwang Jin Yi::http://wiki.d-addicts.com/Hwang_Jin_Yi::images/240px-KBS_Han_Ji_Won.jpg
+Hwarang Fighter Maru::http://wiki.d-addicts.com/Hwarang_Fighter_Maru::images/nopic.png
+Hyena::http://wiki.d-addicts.com/Hyena::images/230px-Hyena.jpg
+I Go With You::http://wiki.d-addicts.com/I_Go_With_You::images/nopic.png
+I Really Really Like You::http://wiki.d-addicts.com/I_Really_Really_Like_You::images/300px-Reallylikeyou.jpg
+I Want to Love::http://wiki.d-addicts.com/I_Want_to_Love::images/nopic.png
+Invincible Parachute Agent::http://wiki.d-addicts.com/Invincible_Parachute_Agent::images/300px-Ksm01uq1.jpg
+Jumong::http://wiki.d-addicts.com/Jumong::images/230px-Jumong.jpg
+Just Run!::http://wiki.d-addicts.com/Just_Run!::images/350px-Runnow01.jpg
+Look Back With a Smile::http://wiki.d-addicts.com/Look_Back_With_a_Smile::images/260px-Look_Back_With_a_Smile.jpg
+Looking For Dorothy::http://wiki.d-addicts.com/Looking_For_Dorothy::images/350px-Looking_For_Dorothy.jpg
+Love Can't Wait::http://wiki.d-addicts.com/Love_Can%27t_Wait::images/220px-Love_Cant_Wait.jpg
+Love Me When You Can::http://wiki.d-addicts.com/Love_Me_When_You_Can::images/300px-Love_Me_When_You_Can_Poster.jpg
+Love and Ambition::http://wiki.d-addicts.com/Love_and_Ambition::images/Love_and_Ambition.jpg
+Love and Hate::http://wiki.d-addicts.com/Love_and_Hate::images/nopic.png
+Lovers::http://wiki.d-addicts.com/Lovers::images/250px-Folder.jpg
+Miracle::http://wiki.d-addicts.com/Miracle::images/220px-Miracle_2006.jpg
+Mr Goodbye::http://wiki.d-addicts.com/Mr_Goodbye::images/300px-MrGoodbye.jpg
+My Love::http://wiki.d-addicts.com/My_Love::images/250px-My_love_alalala.jpg
+My Lovely Fool::http://wiki.d-addicts.com/My_Lovely_Fool::images/300px-Lovely_Fool.jpg
+My Lovely Miss Dal Ja::http://wiki.d-addicts.com/My_Lovely_Miss_Dal_Ja::images/280px-My_Lovely_Miss_Dalja.jpg
+My Sister::http://wiki.d-addicts.com/My_Sister::images/350px-Noonacast.jpg
+One Day Suddenly::http://wiki.d-addicts.com/One_Day_Suddenly::images/240px-OneDaySuddenly_promo.jpg
+One Fine Day::http://wiki.d-addicts.com/One_Fine_Day::images/350px-Ofd.jpg
+Outrageous Women::http://wiki.d-addicts.com/Outrageous_Women::images/300px-Rude_women.jpg
+Over the Rainbow::http://wiki.d-addicts.com/Over_the_Rainbow::images/300px-4s_04L.jpg
+Please Come Back, Soon-Ae::http://wiki.d-addicts.com/Please_Come_Back,_Soon-Ae::images/300px-Soon-Ae.jpg
+Pure 19::http://wiki.d-addicts.com/Pure_19::images/300px-Pure_19.jpg
+Queen of the Game::http://wiki.d-addicts.com/Queen_of_the_Game::images/200px-Queen_of_Game.jpg
+Secret Campus::http://wiki.d-addicts.com/Secret_Campus::images/240px-SecretCampus.jpg
+Seoul 1945::http://wiki.d-addicts.com/Seoul_1945::images/350px-Seoul1945.jpg
+Sharp 3::http://wiki.d-addicts.com/Sharp_3::images/330px-Sharp3.jpg
+Smile Again::http://wiki.d-addicts.com/Smile_Again::images/300px-Smile_Again.jpg
+Snow Flower::http://wiki.d-addicts.com/Snow_Flower::images/300px-Snowwflower.jpg
+Someday::http://wiki.d-addicts.com/Someday::images/250px-SomedayOCN.jpg
+Soulmate::http://wiki.d-addicts.com/Soulmate::images/240px-Soulmate.jpg
+Special Crime Investigation::http://wiki.d-addicts.com/Special_Crime_Investigation::images/250px-Special_Crime_Investigation.jpg
+Special of My Life::http://wiki.d-addicts.com/Special_of_My_Life::images/220px-My_Lifes_Special.jpg
+Spring Waltz::http://wiki.d-addicts.com/Spring_Waltz::images/200px-Spring_Waltz.jpg
+Stranger than Paradise::http://wiki.d-addicts.com/Stranger_than_Paradise::images/350px-Strangerparadise.jpg
+Thank You Life::http://wiki.d-addicts.com/Thank_You_Life::images/300px-Thankyoulife.jpg
+The Invisible Man::http://wiki.d-addicts.com/The_Invisible_Man::images/200px-InvisibleMan.jpg
+The Snow Queen::http://wiki.d-addicts.com/The_Snow_Queen::images/380px-Snoww.jpg
+The Vineyard Man::http://wiki.d-addicts.com/The_Vineyard_Man::images/200px-Grapes.jpg
+Tree of Heaven::http://wiki.d-addicts.com/Tree_of_Heaven::images/Heaventree.jpg
+Unstoppable High Kick::http://wiki.d-addicts.com/Unstoppable_High_Kick::images/250px-HighKick.jpg
+Vacation::http://wiki.d-addicts.com/Vacation::images/300px-Vacation_TVDRAMA.jpg
+What Star Did You Come From::http://wiki.d-addicts.com/What_Star_Did_You_Come_From::images/Star.jpg
+What's Up Fox%3F::http://wiki.d-addicts.com/What%27s_Up_Fox%3F::images/220px-Foxcouple.jpg
+Wolf::http://wiki.d-addicts.com/Wolf::images/352px-Wolf.jpg
+Yeon Gae Somun::http://wiki.d-addicts.com/Yeon_Gae_Somun::images/200px-Djakjdfkdjae.jpg
+9 End 2 Outs::http://wiki.d-addicts.com/9_End_2_Outs::images/300px-Bottom9end2outs.jpg
+Air City::http://wiki.d-addicts.com/Air_City::images/350px-Air_City.jpg
+Auction House::http://wiki.d-addicts.com/Auction_House::images/400px-AuctionHouse.jpg
+Bad Couple::http://wiki.d-addicts.com/Bad_Couple::images/350px-Badcouple.jpg
+Bad Love::http://wiki.d-addicts.com/Bad_Love::images/350px-CruelLove.jpg
+Bad Woman, Good Woman::http://wiki.d-addicts.com/Bad_Woman,_Good_Woman::images/300px-Goodbadwoman.jpg
+Belle::http://wiki.d-addicts.com/Belle::images/450px-Belle.jpg
+Blissful Woman::http://wiki.d-addicts.com/Blissful_Woman::images/350px-Blissful.jpg
+Blue Fish::http://wiki.d-addicts.com/Blue_Fish::images/300px-Blue-fish.jpg
+By Land and Sky::http://wiki.d-addicts.com/By_Land_and_Sky::images/350px-AMAHAEarth.jpg
+By My Side::http://wiki.d-addicts.com/By_My_Side::images/350px-Bymyside.jpg
+Cannot Hate You::http://wiki.d-addicts.com/Cannot_Hate_You::images/500px-Butlike.jpg
+Capital Scandal::http://wiki.d-addicts.com/Capital_Scandal::images/300px-Capital_Scandal.jpg
+Catch a Kang Nam Mother::http://wiki.d-addicts.com/Catch_a_Kang_Nam_Mother::images/250px-KangNam.jpg
+Chosun Police::http://wiki.d-addicts.com/Chosun_Police::images/240px-ChosunPolice.jpg
+Company Love::http://wiki.d-addicts.com/Company_Love::images/CompanyLove.jpg
+Couple Breaking::http://wiki.d-addicts.com/Couple_Breaking::images/300px-Couple_breaking_01_01.jpg
+Crazy for You::http://wiki.d-addicts.com/Crazy_for_You::images/300px-Crazy_for_You.jpg
+Dal Ja's Spring::http://wiki.d-addicts.com/Dal_Ja%27s_Spring::images/280px-Dlaja%5Cs_Spring.jpg
+Evasive Inquiry Agency::http://wiki.d-addicts.com/Evasive_Inquiry_Agency::images/350px-EvasiveInquiryAgency.jpg
+Even So Love::http://wiki.d-addicts.com/Even_So_Love::images/350px-EvenSoLove.jpg
+Finding Love::http://wiki.d-addicts.com/Finding_Love::images/450px-LoveDiscovery.jpg
+First Wives Club::http://wiki.d-addicts.com/First_Wives_Club::images/350px-Club.jpg
+Fly High::http://wiki.d-addicts.com/Fly_High::images/350px-Fly_High.jpg
+Get Karl! Oh Soo Jung::http://wiki.d-addicts.com/Get_Karl!_Oh_Soo_Jung::images/250px-GetKarlOSJ.jpg
+Ghost Pang Pang::http://wiki.d-addicts.com/Ghost_Pang_Pang::images/200px-GhostPangPangChart.jpg
+Golden Bride::http://wiki.d-addicts.com/Golden_Bride::images/200px-GoldenBride.jpg
+Golden Era of Daughter in Law::http://wiki.d-addicts.com/Golden_Era_of_Daughter_in_Law::images/250px-Goldeneraofdaughter-in-law.jpg
+Good Day to Love::http://wiki.d-addicts.com/Good_Day_to_Love::images/300px-LoveDay.jpg
+Goong S::http://wiki.d-addicts.com/Goong_S::images/350px-Goong_S.jpg
+Ground Zero::http://wiki.d-addicts.com/Ground_Zero::images/200px-GroundZero.jpg
+H.I.T::http://wiki.d-addicts.com/H.I.T::images/300px-HIT.jpg
+Hello! Miss::http://wiki.d-addicts.com/Hello!_Miss::images/200px-Hello%21Miss.jpg
+Hometown over the Hill::http://wiki.d-addicts.com/Hometown_over_the_Hill::images/nopic.png
+How to Meet a Perfect Neighbor::http://wiki.d-addicts.com/How_to_Meet_a_Perfect_Neighbor::images/350px-Neighbor.jpg
+I Came in Search of a Flower::http://wiki.d-addicts.com/I_Came_in_Search_of_a_Flower::images/350px-CAMEflower.jpg
+I Hate You, But It's Fine::http://wiki.d-addicts.com/I_Hate_You,_But_It%27s_Fine::images/240px-ButFine.jpg
+I'm Sam::http://wiki.d-addicts.com/I%27m_Sam::images/350px-Sam.jpg
+In-Soon is Pretty::http://wiki.d-addicts.com/In-Soon_is_Pretty::images/300px-In-Soon_is_Pretty.jpg
+The Innocent Woman::http://wiki.d-addicts.com/The_Innocent_Woman::images/nopic.png
+Its Ok Because I Love You::http://wiki.d-addicts.com/Its_Ok_Because_I_Love_You::images/300px-LoveIsOk.jpg
+Kid Gang::http://wiki.d-addicts.com/Kid_Gang::images/300px-KidGang.jpg
+Kimcheed Radish Cubes::http://wiki.d-addicts.com/Kimcheed_Radish_Cubes::images/350px-Ggak.jpg
+Kimchi Cheese Smile::http://wiki.d-addicts.com/Kimchi_Cheese_Smile::images/350px-KimchiSmile.jpg
+Landscape in My Heart::http://wiki.d-addicts.com/Landscape_in_My_Heart::images/350px-Landscape.jpg
+Legend of Hyang Dan::http://wiki.d-addicts.com/Legend_of_Hyang_Dan::images/300px-HyangDan.jpg
+Lobbyist::http://wiki.d-addicts.com/Lobbyist::images/250px-Lobby.jpg
+Love in the City 2::http://wiki.d-addicts.com/Love_in_the_City_2::images/200px-NCNM2.jpg
+Mackerel Run::http://wiki.d-addicts.com/Mackerel_Run::images/300px-MackerelRuncast.jpg
+Mermaid Story::http://wiki.d-addicts.com/Mermaid_Story::images/nopic.png
+Money's Warfare::http://wiki.d-addicts.com/Money%27s_Warfare::images/240px-Moneys_Warfare.jpg
+Mun Hee::http://wiki.d-addicts.com/Mun_Hee::images/250px-Munhee.jpg
+My Man's Woman::http://wiki.d-addicts.com/My_Man%27s_Woman::images/200px-My-mans-woman.jpg
+New Heart::http://wiki.d-addicts.com/New_Heart::images/350px-New_Heart.jpg
+New Wise Mother, Good Wife::http://wiki.d-addicts.com/New_Wise_Mother,_Good_Wife::images/300px-Wife.jpg
+Oh Lovers::http://wiki.d-addicts.com/Oh_Lovers::images/nopic.png
+Perhaps Love::http://wiki.d-addicts.com/Perhaps_Love::images/220px-Perhaps_Love.jpg
+Que Sera, Sera::http://wiki.d-addicts.com/Que_Sera,_Sera::images/250px-Que_serasera.jpg
+Queen of Ahyun::http://wiki.d-addicts.com/Queen_of_Ahyun::images/350px-QueenAhHyeon.jpg
+Romance Hunter::http://wiki.d-addicts.com/Romance_Hunter::images/300px-RomanceHunter.jpg
+Rude Miss Young-Ae::http://wiki.d-addicts.com/Rude_Miss_Young-Ae::images/260px-Rude_Miss_Young_Ae_season_1.jpg
+Sa Yug Shin::http://wiki.d-addicts.com/Sa_Yug_Shin::images/350px-SaYugShin.jpg
+Salt Doll::http://wiki.d-addicts.com/Salt_Doll::images/300px-SaltDoll.jpg
+Seoul's Sad Song::http://wiki.d-addicts.com/Seoul%27s_Sad_Song::images/250px-Seoul-sad-song.jpg
+Several Questions That Make Us Happy::http://wiki.d-addicts.com/Several_Questions_That_Make_Us_Happy::images/nopic.png
+Snow in August::http://wiki.d-addicts.com/Snow_in_August::images/300px-SnowinAugust.jpg
+Supermom::http://wiki.d-addicts.com/Supermom::images/350px-Supermom.jpg
+Surgeon Bong Dal Hee::http://wiki.d-addicts.com/Surgeon_Bong_Dal_Hee::images/300px-Kbongdalbon.jpg
+Thank You::http://wiki.d-addicts.com/Thank_You::images/350px-Thank_You.jpg
+That Woman is Scary::http://wiki.d-addicts.com/That_Woman_is_Scary::images/300px-ThatWomanScary.jpg
+The 1st Shop of Coffee Prince::http://wiki.d-addicts.com/The_1st_Shop_of_Coffee_Prince::images/400px-Coffeprince.jpg
+The Devil::http://wiki.d-addicts.com/The_Devil::images/250px-Devil_poster_01.jpg
+The Devil That Pours Red Wine::http://wiki.d-addicts.com/The_Devil_That_Pours_Red_Wine::images/450px-DevilDrinkWine.jpg
+The Great Catsby::http://wiki.d-addicts.com/The_Great_Catsby::images/300px-Catsby.jpg
+The King and I::http://wiki.d-addicts.com/The_King_and_I::images/300px-KingandMe.jpg
+The Legend::http://wiki.d-addicts.com/The_Legend::images/300px-King%5Csfourgods.jpg
+The Person I Love::http://wiki.d-addicts.com/The_Person_I_Love::images/300px-PersonILove.jpg
+The Return of Shim Chung::http://wiki.d-addicts.com/The_Return_of_Shim_Chung::images/370px-The_Return_of_Shim_Chung.jpg
+Thirty Thousand Miles in Search of My Son::http://wiki.d-addicts.com/Thirty_Thousand_Miles_in_Search_of_My_Son::images/250px-30000Miles.jpg
+Time Between Dog and Wolf::http://wiki.d-addicts.com/Time_Between_Dog_and_Wolf::images/240px-TBDAW_Poster.jpg
+Unstoppable Marriage::http://wiki.d-addicts.com/Unstoppable_Marriage::images/240px-Marriage.jpg
+When Spring Comes::http://wiki.d-addicts.com/When_Spring_Comes::images/300px-When_Spring_Comes.jpg
+White Tower::http://wiki.d-addicts.com/White_Tower::images/350px-White_Tower.jpg
+Winter Bird::http://wiki.d-addicts.com/Winter_Bird::images/250px-WinterBird.jpg
+Witch Amusement::http://wiki.d-addicts.com/Witch_Amusement::images/300px-YooHee2.jpg
+Yi San::http://wiki.d-addicts.com/Yi_San::images/280px-Yi_San_KJJ.jpg
+Aeja's Older Sister, Minja::http://wiki.d-addicts.com/Aeja%27s_Older_Sister,_Minja::images/320px-AejaMinja.jpg
+Amnok River Flows::http://wiki.d-addicts.com/Amnok_River_Flows::images/240px-Amnok_River_Flows.jpg
+Aquarius::http://wiki.d-addicts.com/Aquarius::images/500px-Aquarius.jpg
+Beethoven Virus::http://wiki.d-addicts.com/Beethoven_Virus::images/240px-BeethovenVirus.jpg
+Before and After: Plastic Surgery Clinic::http://wiki.d-addicts.com/Before_and_After:_Plastic_Surgery_Clinic::images/380px-CosmeticSurgery.jpg
+Bicheonmu::http://wiki.d-addicts.com/Bicheonmu::images/250px-Bicheonmoo.jpg
+Big Sister::http://wiki.d-addicts.com/Big_Sister::images/500px-Bigsister.jpg
+Bittersweet Life::http://wiki.d-addicts.com/Bittersweet_Life::images/300px-BittersweetLife.jpg
+Chosun Police::http://wiki.d-addicts.com/Chosun_Police::images/240px-ChosunPolice.jpg
+Chunja's Happy Events::http://wiki.d-addicts.com/Chunja%27s_Happy_Events::images/350px-ChunJa%5CsHappyEvents.jpg
+City of Glass::http://wiki.d-addicts.com/City_of_Glass::images/250px-City_of_Glass.jpg
+Dae Wang Sejong::http://wiki.d-addicts.com/Dae_Wang_Sejong::images/270px-Daewangsejong_poster.jpg
+Daughter in Law::http://wiki.d-addicts.com/Daughter_in_Law::images/350px-DaughterinLaw.jpg
+Detective Mr. Lee::http://wiki.d-addicts.com/Detective_Mr._Lee::images/250px-DetMrLee.jpg
+Don't Ask Me About the Past::http://wiki.d-addicts.com/Don%27t_Ask_Me_About_the_Past::images/230px-MyPast.jpg
+Don't Be Swayed::http://wiki.d-addicts.com/Don%27t_Be_Swayed::images/320px-DontGoAway.jpg
+East of Eden::http://wiki.d-addicts.com/East_of_Eden::images/300px-EOE_Poster.JPG
+Family's Honor::http://wiki.d-addicts.com/Family%27s_Honor::images/240px-GloryofFamily.jpg
+Fight (TVN)::http://wiki.d-addicts.com/Fight_(TVN)::images/300px-FightTVN.jpg
+Four Colours of Love::http://wiki.d-addicts.com/Four_Colours_of_Love::images/350px-Things_We_Do_That_We_Know_We_Will_Regret.jpg
+General Hospital 2::http://wiki.d-addicts.com/General_Hospital_2::images/300px-GH2.jpg
+Gourmet::http://wiki.d-addicts.com/Gourmet::images/280px-Gourmet2.jpg
+Hometown Legends::http://wiki.d-addicts.com/Hometown_Legends::images/300px-Hometown_of_Legends.jpg
+Hong Gil Dong::http://wiki.d-addicts.com/Hong_Gil_Dong::images/300px-HGD_cast.jpg
+I Am Happy::http://wiki.d-addicts.com/I_Am_Happy::images/330px-I_Am_Happy.jpg
+I Love You::http://wiki.d-addicts.com/I_Love_You::images/350px-I_Love_You.jpg
+I Love You, Don't Cry::http://wiki.d-addicts.com/I_Love_You,_Don%27t_Cry::images/300px-ILoveYouDontCry.jpg
+Iljimae::http://wiki.d-addicts.com/Iljimae::images/250px-Iljimae_poster.jpg
+Innocent You::http://wiki.d-addicts.com/Innocent_You::images/300px-Purity.jpg
+Jungle Fish::http://wiki.d-addicts.com/Jungle_Fish::images/300px-JungleFish.jpg
+Kokkiri::http://wiki.d-addicts.com/Kokkiri::images/380px-Elephant.jpg
+Last Scandal::http://wiki.d-addicts.com/Last_Scandal::images/350px-Last_Scandal_02.jpg
+The Lawyers of The Great Republic Korea::http://wiki.d-addicts.com/The_Lawyers_of_The_Great_Republic_Korea::images/300px-LawyersofKorea.jpg
+Life Special Investigation Team::http://wiki.d-addicts.com/Life_Special_Investigation_Team::images/230px-InvestigationTeam.jpg
+Little Mom Scandal::http://wiki.d-addicts.com/Little_Mom_Scandal::images/200px-Little_Mom_Scandal_Season_1.jpg
+Lottery Trio::http://wiki.d-addicts.com/Lottery_Trio::images/250px-LotteryTrio.jpg
+Love Is Delicious::http://wiki.d-addicts.com/Love_Is_Delicious::images/LoveIsDelicious.jpg
+Love Marriage::http://wiki.d-addicts.com/Love_Marriage::images/300px-Love_and_Marriage.jpg
+Mom Has Grown Horns::http://wiki.d-addicts.com/Mom_Has_Grown_Horns::images/250px-MomHorns.jpg
+My Ex-wife Lives Next Door::http://wiki.d-addicts.com/My_Ex-wife_Lives_Next_Door::images/300px-My_Ex-wife_Lives_Next_Door.jpg
+My Lady Boss, My Hero::http://wiki.d-addicts.com/My_Lady_Boss,_My_Hero::images/230px-BossLady.jpg
+My Life's Golden Age::http://wiki.d-addicts.com/My_Life%27s_Golden_Age::images/300px-AllAboutMyFamily.jpg
+My Precious Child::http://wiki.d-addicts.com/My_Precious_Child::images/200px-MyPreciousYou.jpg
+My Sweet City::http://wiki.d-addicts.com/My_Sweet_City::images/280px-SweetSeoul.jpg
+My Woman::http://wiki.d-addicts.com/My_Woman::images/300px-My_Woman.jpg
+New Birth of Married Couple::http://wiki.d-addicts.com/New_Birth_of_Married_Couple::images/200px-New_Birth.jpg
+On Air (2008)::http://wiki.d-addicts.com/On_Air_(2008)::images/350px-On_Air.jpg
+One Mom and Three Dads::http://wiki.d-addicts.com/One_Mom_and_Three_Dads::images/230px-ThreeDads%26OneMom.jpg
+Our Happy Ending::http://wiki.d-addicts.com/Our_Happy_Ending::images/300px-OurHappyEnding.jpg
+Powerful Opponents::http://wiki.d-addicts.com/Powerful_Opponents::images/300px-Kangjeok.jpg
+Returned Earthen Bowl::http://wiki.d-addicts.com/Returned_Earthen_Bowl::images/280px-ReturnedBowl.jpg
+Robber::http://wiki.d-addicts.com/Robber::images/350px-RobbeR.jpg
+Rude Miss Young-Ae::http://wiki.d-addicts.com/Rude_Miss_Young-Ae::images/260px-Rude_Miss_Young_Ae_season_1.jpg
+Seoul Warrior Story::http://wiki.d-addicts.com/Seoul_Warrior_Story::images/280px-SeoulWarrior.jpg
+Single Dad in Love::http://wiki.d-addicts.com/Single_Dad_in_Love::images/250px-SingleDadinLove.jpg
+Sirasoni::http://wiki.d-addicts.com/Sirasoni::images/nopic.png
+Spotlight::http://wiki.d-addicts.com/Spotlight::images/250px-Spotlight2.jpg
+Star's Lover::http://wiki.d-addicts.com/Star%27s_Lover::images/240px-StarLover.jpg
+Strongest Chil Woo::http://wiki.d-addicts.com/Strongest_Chil_Woo::images/240px-ChilWoo.jpg
+Tazza::http://wiki.d-addicts.com/Tazza::images/275px-Tazza02.jpg
+Temptation of Wife::http://wiki.d-addicts.com/Temptation_of_Wife::images/300px-TemptingWIfe.jpg
+Terroir::http://wiki.d-addicts.com/Terroir::images/300px-Terroir.jpg
+That Person Is Coming::http://wiki.d-addicts.com/That_Person_Is_Coming::images/300px-ThatPersonComing.jpg
+The Art of Seduction::http://wiki.d-addicts.com/The_Art_of_Seduction::images/450px-The_Art_of_Seduction.jpg
+The Kingdom of the Winds::http://wiki.d-addicts.com/The_Kingdom_of_the_Winds::images/360px-Kingdom_of_the_Winds.jpg
+The Painter of the Wind::http://wiki.d-addicts.com/The_Painter_of_the_Wind::images/250px-PainterWind.jpg
+The Scale of Providence::http://wiki.d-addicts.com/The_Scale_of_Providence::images/350px-Scale_Providence.jpg
+The Secret of Keu Keu Island::http://wiki.d-addicts.com/The_Secret_of_Keu_Keu_Island::images/300px-KeuKeuIsland.jpg
+The World That They Live In::http://wiki.d-addicts.com/The_World_That_They_Live_In::images/300px-Worlds_Within.jpg
+Timeless::http://wiki.d-addicts.com/Timeless::images/nopic.png
+Tokyo Shower::http://wiki.d-addicts.com/Tokyo_Shower::images/190px-Tokyo_shower.jpg
+U-Turn::http://wiki.d-addicts.com/U-Turn::images/nopic.png
+When It's At Night::http://wiki.d-addicts.com/When_It%27s_At_Night::images/300px-WhenIt%5CsAtNight.jpg
+White Lies::http://wiki.d-addicts.com/White_Lies::images/300px-WhiteLie.jpg
+Who Are You%3F::http://wiki.d-addicts.com/Who_Are_You%3F::images/300px-Who_are_you_02.jpg
+Why Did You Come to My House::http://wiki.d-addicts.com/Why_Did_You_Come_to_My_House::images/240px-Come_our_house_02.jpg
+Wife and Woman::http://wiki.d-addicts.com/Wife_and_Woman::images/240px-WIndyCIty.jpg
+Woman of Matchless Beauty, Park Jung Kum::http://wiki.d-addicts.com/Woman_of_Matchless_Beauty,_Park_Jung_Kum::images/350px-ParkJungKum.jpg
+Women of the Sun::http://wiki.d-addicts.com/Women_of_the_Sun::images/250px-Women_of_the_Sun.jpg
+Working Mom::http://wiki.d-addicts.com/Working_Mom::images/300px-WorkingMomStayHome.jpg
+You Are My Destiny::http://wiki.d-addicts.com/You_Are_My_Destiny::images/300px-YAMD.jpg
+You Are Very Good::http://wiki.d-addicts.com/You_Are_Very_Good::images/300px-ILikeYou.jpg
+2009 Alien Baseball Team::http://wiki.d-addicts.com/2009_Alien_Baseball_Team::images/300px-StrikeLove.jpg
+A Man's Story::http://wiki.d-addicts.com/A_Man%27s_Story::images/240px-The_Slingshot.jpg
+Assorted Gems::http://wiki.d-addicts.com/Assorted_Gems::images/300px-Assorted_Gems.jpg
+Boys Before Flowers::http://wiki.d-addicts.com/Boys_Before_Flowers::images/300px-BoysOverFlowers.jpg
+Cain and Abel::http://wiki.d-addicts.com/Cain_and_Abel::images/350px-Cain_and_abel.jpg
+Can Anyone Love::http://wiki.d-addicts.com/Can_Anyone_Love::images/240px-LoveCAL.jpg
+Cinderella Man::http://wiki.d-addicts.com/Cinderella_Man::images/300px-Cinderella_Man.JPG
+City Hall::http://wiki.d-addicts.com/City_Hall::images/300px-CITYHALL.jpg
+Creating Destiny::http://wiki.d-addicts.com/Creating_Destiny::images/340px-Creatingdestiny.jpg
+Don't Hesitate::http://wiki.d-addicts.com/Don%27t_Hesitate::images/250px-Donthesitate.jpg
+Dream (SBS)::http://wiki.d-addicts.com/Dream_(SBS)::images/300px-Dream_%28SBS%29.jpg
+Empress Chun Chu::http://wiki.d-addicts.com/Empress_Chun_Chu::images/330px-IronEmpress.jpg
+Enjoy Life::http://wiki.d-addicts.com/Enjoy_Life::images/320px-EnjoyLife.jpg
+Everybody Cha Cha Cha::http://wiki.d-addicts.com/Everybody_Cha_Cha_Cha::images/250px-JollyWidows.jpg
+Father's House::http://wiki.d-addicts.com/Father%27s_House::images/200px-FathersHouse.jpg
+Father's Place::http://wiki.d-addicts.com/Father%27s_Place::images/250px-Fathers_Place.jpg
+Four Seasons::http://wiki.d-addicts.com/Four_Seasons::images/nopic.png
+Friend, Our Legend::http://wiki.d-addicts.com/Friend,_Our_Legend::images/300px-Friend%2CLegend.jpg
+Give Me Food::http://wiki.d-addicts.com/Give_Me_Food::images/280px-Serve_Me.jpg
+Glory of Youth::http://wiki.d-addicts.com/Glory_of_Youth::images/260px-GloryYouth.jpg
+Good Job, Good Job::http://wiki.d-addicts.com/Good_Job,_Good_Job::images/300px-GoodJob2.jpg
+Green Coach::http://wiki.d-addicts.com/Green_Coach::images/300px-GreenCoach.jpg
+Hateful But Once Again::http://wiki.d-addicts.com/Hateful_But_Once_Again::images/300px-HatefulAgainLove.jpg
+Heading to the Ground::http://wiki.d-addicts.com/Heading_to_the_Ground::images/300px-Heading_to_the_Ground.JPG
+Her Style::http://wiki.d-addicts.com/Her_Style::images/250px-Her_Style.jpg
+Hero (MBC)::http://wiki.d-addicts.com/Hero_(MBC)::images/360px-Hero01.jpg
+High Kick Through the Roof::http://wiki.d-addicts.com/High_Kick_Through_the_Roof::images/300px-HighKick2.jpg
+Hometown Legends (2009)::http://wiki.d-addicts.com/Hometown_Legends_(2009)::images/300px-Koreanghost09.jpg
+Hot Blood::http://wiki.d-addicts.com/Hot_Blood::images/240px-Hot_Blood.jpg
+I Can't Stop::http://wiki.d-addicts.com/I_Can%27t_Stop::images/320px-I_Cant_Stop.jpg
+I'll Give You Everything::http://wiki.d-addicts.com/I%27ll_Give_You_Everything::images/250px-Ill_Give_You_Everything.jpg
+IRIS::http://wiki.d-addicts.com/IRIS::images/300px-Iris.jpg
+Invincible Lee Pyung Kang::http://wiki.d-addicts.com/Invincible_Lee_Pyung_Kang::images/300px-The_Invincible_LPK.jpg
+Ja Myung Go::http://wiki.d-addicts.com/Ja_Myung_Go::images/250px-PrincessJMG.jpg
+Jung Yak Yong::http://wiki.d-addicts.com/Jung_Yak_Yong::images/250px-Jeong_Yak_Yong.jpg
+Kyung Sook's Father::http://wiki.d-addicts.com/Kyung_Sook%27s_Father::images/300px-KyungSook.JPG
+Loving You a Thousand Times::http://wiki.d-addicts.com/Loving_You_a_Thousand_Times::images/240px-Lovingyoumillion.jpg
+Magazine Allo::http://wiki.d-addicts.com/Magazine_Allo::images/nopic.png
+Mrs. Town::http://wiki.d-addicts.com/Mrs._Town::images/250px-MrsTown.jpg
+My Love For You::http://wiki.d-addicts.com/My_Love_For_You::images/nopic.png
+Partner::http://wiki.d-addicts.com/Partner::images/300px-Partner.jpg
+Queen Seon Deok::http://wiki.d-addicts.com/Queen_Seon_Deok::images/300px-QueenSunDeok.JPG
+Queen of Housewives::http://wiki.d-addicts.com/Queen_of_Housewives::images/300px-Queenbanner.jpg
+Romance Zero::http://wiki.d-addicts.com/Romance_Zero::images/280px-Romance_Zero.jpg
+Rude Miss Young-Ae::http://wiki.d-addicts.com/Rude_Miss_Young-Ae::images/260px-Rude_Miss_Young_Ae_season_1.jpg
+Shining Inheritance::http://wiki.d-addicts.com/Shining_Inheritance::images/300px-Brilliant_Legacy.jpg
+Smile, You::http://wiki.d-addicts.com/Smile,_You::images/320px-Smile%2CYou.jpg
+Soul::http://wiki.d-addicts.com/Soul::images/300px-HON.jpg
+Style::http://wiki.d-addicts.com/Style::images/240px-Style_poster4.jpg
+Swallow the Sun::http://wiki.d-addicts.com/Swallow_the_Sun::images/300px-SwallowTheSun.jpg
+Tae Hee, Hye Kyo, Ji Hyun::http://wiki.d-addicts.com/Tae_Hee,_Hye_Kyo,_Ji_Hyun::images/240px-THHKJH.jpg
+Take Care of the Young Lady::http://wiki.d-addicts.com/Take_Care_of_the_Young_Lady::images/300px-Takecare.jpg
+Temptation of an Angel::http://wiki.d-addicts.com/Temptation_of_an_Angel::images/350px-TemptationofanAngel.jpg
+Tempted Again::http://wiki.d-addicts.com/Tempted_Again::images/260px-Tamra%2C_the_Island.jpg
+That Fool::http://wiki.d-addicts.com/That_Fool::images/230px-ThatFool.jpg
+The Man Who Can't Get Married::http://wiki.d-addicts.com/The_Man_Who_Can%27t_Get_Married::images/300px-CantMarry.jpg
+The Queen Returns::http://wiki.d-addicts.com/The_Queen_Returns::images/225px-The_Queen_Returns.jpg
+The Return of Iljimae::http://wiki.d-addicts.com/The_Return_of_Iljimae::images/250px-ReturningILJIMAE.jpg
+The Road Home::http://wiki.d-addicts.com/The_Road_Home::images/240px-Way_Home.jpg
+The Sons of Sol Pharmacy House::http://wiki.d-addicts.com/The_Sons_of_Sol_Pharmacy_House::images/240px-SolPharmacy.jpg
+The Tale of Janghwa and Hongryeon::http://wiki.d-addicts.com/The_Tale_of_Janghwa_and_Hongryeon::images/300px-JanghwaHongryeon.jpg
+Three Brothers::http://wiki.d-addicts.com/Three_Brothers::images/240px-Three_Brothers.jpg
+Three Men::http://wiki.d-addicts.com/Three_Men::images/230px-ThreeMen.jpg
+Triple::http://wiki.d-addicts.com/Triple::images/300px-TRIPLE.jpg
+Two Wives::http://wiki.d-addicts.com/Two_Wives::images/250px-Two_Wives_Poster.jpg
+Wife Returns::http://wiki.d-addicts.com/Wife_Returns::images/240px-Wife_Returns.jpg
+Will it Snow at Christmas%3F::http://wiki.d-addicts.com/Will_it_Snow_at_Christmas%3F::images/400px-WillitSnowatChristmas%3F.jpg
+You're Beautiful::http://wiki.d-addicts.com/You%27re_Beautiful::images/240px-Beautiful.jpg
+A Good Day for the Wind to Blow::http://wiki.d-addicts.com/A_Good_Day_for_the_Wind_to_Blow::images/250px-AGoodDayForTheWindToBlowPoster.jpg
+A Man Called God::http://wiki.d-addicts.com/A_Man_Called_God::images/350px-A_Man_Called_God.JPG
+After the Opera::http://wiki.d-addicts.com/After_the_Opera::images/350px-AftertheOpera.jpg
+All My Love::http://wiki.d-addicts.com/All_My_Love::images/250px-All_My_Love.jpg
+An Awful Lot of Coincidences::http://wiki.d-addicts.com/An_Awful_Lot_of_Coincidences::images/350px-AnAwfulLotofCoincidences.jpg
+Ang Shim Jung::http://wiki.d-addicts.com/Ang_Shim_Jung::images/225px-Ang_Shim_Jung.jpg
+Aridong's Last Cowboy::http://wiki.d-addicts.com/Aridong%27s_Last_Cowboy::images/300px-Aridongs_Last_Cowboy.jpg
+Athena: Goddess of War::http://wiki.d-addicts.com/Athena:_Goddess_of_War::images/350px-ATHENA.jpg
+Bad Guy::http://wiki.d-addicts.com/Bad_Guy::images/230px-Badguy.jpg
+Boy Meets Girl::http://wiki.d-addicts.com/Boy_Meets_Girl::images/300px-Boy_Meets_Girl.jpg
+Call of the Country::http://wiki.d-addicts.com/Call_of_the_Country::images/260px-Call_of_the_Country.jpg
+Chosun Police::http://wiki.d-addicts.com/Chosun_Police::images/240px-ChosunPolice.jpg
+Chuno::http://wiki.d-addicts.com/Chuno::images/250px-SlaveHunters.jpg
+Cinderella's Sister::http://wiki.d-addicts.com/Cinderella%27s_Sister::images/240px-CinderellaUnni.jpg
+Coffee House::http://wiki.d-addicts.com/Coffee_House::images/240px-Coffee_House_Poster.jpg
+Comrades::http://wiki.d-addicts.com/Comrades::images/240px-Comrades.jpg
+Dae Mul::http://wiki.d-addicts.com/Dae_Mul::images/250px-DaeMul.jpg
+Dandelion Family::http://wiki.d-addicts.com/Dandelion_Family::images/340px-DandelionFamilyPoster.jpg
+Daring Women::http://wiki.d-addicts.com/Daring_Women::images/250px-DaringWomen.jpg
+Definitely Neighbors::http://wiki.d-addicts.com/Definitely_Neighbors::images/400px-DefinitelyNeighbors1.jpg
+Dong Yi::http://wiki.d-addicts.com/Dong_Yi::images/350px-DongYiWholeMainCasts.jpg
+Dr. Champ::http://wiki.d-addicts.com/Dr._Champ::images/250px-Dr_Champ.jpg
+Drama Special::http://wiki.d-addicts.com/Drama_Special::images/nopic.png
+Face Me and Smile::http://wiki.d-addicts.com/Face_Me_and_Smile::images/400px-Face_Me_and_Smile.jpg
+Family Secrets::http://wiki.d-addicts.com/Family_Secrets::images/350px-Family_Secrets.jpg
+First Marriage::http://wiki.d-addicts.com/First_Marriage::images/230px-Chohon.jpg
+Flames of Ambition::http://wiki.d-addicts.com/Flames_of_Ambition::images/nopic.png
+Freedom Fighter, Lee Hoe Young::http://wiki.d-addicts.com/Freedom_Fighter,_Lee_Hoe_Young::images/360px-Freedom_Fighter%2C_Lee_Hoe_Young.jpg
+Fugitive: Plan B::http://wiki.d-addicts.com/Fugitive:_Plan_B::images/350px-Fugitive.jpg
+Giant::http://wiki.d-addicts.com/Giant::images/350px-Giant.jpg
+Gloria::http://wiki.d-addicts.com/Gloria::images/330px-Gloria_Poster.jpg
+God of Study::http://wiki.d-addicts.com/God_of_Study::images/380px-LordofStudy.jpg
+God's Quiz::http://wiki.d-addicts.com/God%27s_Quiz::images/240px-GodsQuiz.jpg
+Golden Fish::http://wiki.d-addicts.com/Golden_Fish::images/250px-GoldenFish.jpg
+The Great Gye Choon Bin::http://wiki.d-addicts.com/The_Great_Gye_Choon_Bin::images/300px-Gye_Choon_Bin.jpg
+Gumiho: Tale of the Fox's Child::http://wiki.d-addicts.com/Gumiho:_Tale_of_the_Fox%27s_Child::images/245px-Gumiho_Poster.jpg
+Harvest Villa::http://wiki.d-addicts.com/Harvest_Villa::images/350px-Harvest_Villa.jpg
+Home Sweet Home::http://wiki.d-addicts.com/Home_Sweet_Home::images/300px-HomeSweetHome.jpg
+Hot Coffee::http://wiki.d-addicts.com/Hot_Coffee::images/300px-Hot_Coffee.jpg
+Hurry and Tell Me::http://wiki.d-addicts.com/Hurry_and_Tell_Me::images/350px-HurryandTellMe.jpg
+I Am Legend::http://wiki.d-addicts.com/I_Am_Legend::images/240px-IAmLegend.jpg
+I Live Without Incident::http://wiki.d-addicts.com/I_Live_Without_Incident::images/240px-I_Live_Without_Anything.jpg
+I'll Teach You Love::http://wiki.d-addicts.com/I%27ll_Teach_You_Love::images/340px-Ill_Teach_You_Love.jpg
+I'm Glad I Loved You::http://wiki.d-addicts.com/I%27m_Glad_I_Loved_You::images/300px-GladILovedYou.jpg
+I'm a Butterfly::http://wiki.d-addicts.com/I%27m_a_Butterfly::images/350px-Im_a_Butterfly.jpg
+It's Me, Grandmother::http://wiki.d-addicts.com/It%27s_Me,_Grandmother::images/350px-ItsMeGrandmother.jpg
+It's Okay, Daddy's Girl::http://wiki.d-addicts.com/It%27s_Okay,_Daddy%27s_Girl::images/260px-ItsOkayDaddysGirl.jpg
+Jejoongwon::http://wiki.d-addicts.com/Jejoongwon::images/240px-Jejoongwon.jpg
+Jo Eun Ji's Family::http://wiki.d-addicts.com/Jo_Eun_Ji%27s_Family::images/350px-Jo_Eun_Ji_Family.jpg
+Jungle Fish::http://wiki.d-addicts.com/Jungle_Fish::images/300px-JungleFish.jpg
+Kim Soo Ro (MBC)::http://wiki.d-addicts.com/Kim_Soo_Ro_(MBC)::images/252px-KimSooRo%28MBC%29.jpg
+King Geunchogo::http://wiki.d-addicts.com/King_Geunchogo::images/220px-Kingg.jpg
+King of Baking, Kim Tak Goo::http://wiki.d-addicts.com/King_of_Baking,_Kim_Tak_Goo::images/240px-BakerKingKimTakGu.jpg
+Last Flashman::http://wiki.d-addicts.com/Last_Flashman::images/300px-Last_Flashman.jpg
+Life is Beautiful (SBS)::http://wiki.d-addicts.com/Life_is_Beautiful_(SBS)::images/300px-Life_is_Beautiful_SBS.jpg
+Lunch Box::http://wiki.d-addicts.com/Lunch_Box::images/350px-Lunch_Box.jpg
+MBC Best Theater::http://wiki.d-addicts.com/MBC_Best_Theater::images/180px-MBC_Best_Theatre.jpg
+Mary Stayed Out All Night::http://wiki.d-addicts.com/Mary_Stayed_Out_All_Night::images/220px-Mary_Stayed_Out_All_Night.jpg
+Merchant Kim Man Deok::http://wiki.d-addicts.com/Merchant_Kim_Man_Deok::images/240px-Merchant_Kim_Man_Deok.jpg
+Mischievous Kiss::http://wiki.d-addicts.com/Mischievous_Kiss::images/240px-MischievousKiss.jpg
+Mom is Pretty Too::http://wiki.d-addicts.com/Mom_is_Pretty_Too::images/350px-MomisPrettyToo.jpg
+More Charming by the Day::http://wiki.d-addicts.com/More_Charming_by_the_Day::images/300px-CharmingDay.jpg
+My Girlfriend is a Nine-Tailed Fox::http://wiki.d-addicts.com/My_Girlfriend_is_a_Nine-Tailed_Fox::images/220px-MyGirlfriendGumiho.jpg
+My Sister's March::http://wiki.d-addicts.com/My_Sister%27s_March::images/250px-Sistersmarch.jpg
+Obstetrics and Gynecology Doctors::http://wiki.d-addicts.com/Obstetrics_and_Gynecology_Doctors::images/250px-OBGYN.jpg
+Oh! My Lady::http://wiki.d-addicts.com/Oh!_My_Lady::images/350px-Oh%21MyLady.jpg
+Once Upon a Time in Saengchori::http://wiki.d-addicts.com/Once_Upon_a_Time_in_Saengchori::images/220px-Saengchori.jpg
+Our Slightly Risque Relationship::http://wiki.d-addicts.com/Our_Slightly_Risque_Relationship::images/300px-Our_Slightly_Risque_Relationship.jpg
+Pasta::http://wiki.d-addicts.com/Pasta::images/350px-Pasta15.jpg
+Personal Preference::http://wiki.d-addicts.com/Personal_Preference::images/250px-PersonalTastePoster.jpg
+Pianist::http://wiki.d-addicts.com/Pianist::images/350px-Pianist.jpg
+Pink Lipstick::http://wiki.d-addicts.com/Pink_Lipstick::images/350px-Pink3.jpg
+Please Marry Me::http://wiki.d-addicts.com/Please_Marry_Me::images/250px-PleaseMarryMe.jpg
+Postman to Heaven::http://wiki.d-addicts.com/Postman_to_Heaven::images/250px-Heavenpostman.jpg
+President::http://wiki.d-addicts.com/President::images/300px-President.jpg
+Prosecutor Princess::http://wiki.d-addicts.com/Prosecutor_Princess::images/250px-ProsecutorPrincess.jpg
+Pure Pumpkin Flower::http://wiki.d-addicts.com/Pure_Pumpkin_Flower::images/240px-Pure_Pumpkin_Flower.jpg
+Queen of Reversals::http://wiki.d-addicts.com/Queen_of_Reversals::images/350px-QueenofReversals.jpg
+Reason::http://wiki.d-addicts.com/Reason::images/300px-Reason_Drama_Special.jpg
+Red Candy::http://wiki.d-addicts.com/Red_Candy::images/300px-Redcandy.jpg
+Road Number One::http://wiki.d-addicts.com/Road_Number_One::images/250px-RoadNumberOne.jpg
+Rock Rock Rock::http://wiki.d-addicts.com/Rock_Rock_Rock::images/230px-RockRockRock.jpg
+Rude Miss Young-Ae::http://wiki.d-addicts.com/Rude_Miss_Young-Ae::images/260px-Rude_Miss_Young_Ae_season_1.jpg
+Running::http://wiki.d-addicts.com/Running::images/340px-Running_MBC.jpg
+The Scary One, The Ghost and I::http://wiki.d-addicts.com/The_Scary_One,_The_Ghost_and_I::images/300px-The_Ghost_and_I.jpg
+Secret Garden::http://wiki.d-addicts.com/Secret_Garden::images/240px-SecretGarden.jpg
+Secret Garden (KBS)::http://wiki.d-addicts.com/Secret_Garden_(KBS)::images/380px-Secret_Garden_KBS.jpg
+Secret Investigation Record::http://wiki.d-addicts.com/Secret_Investigation_Record::images/235px-SecretInvestigationRecord.jpg
+Severed Feelings::http://wiki.d-addicts.com/Severed_Feelings::images/350px-SeveredFeelings.jpg
+Smile, Dong Hae::http://wiki.d-addicts.com/Smile,_Dong_Hae::images/250px-SmileDongHae.jpg
+Smile, Mom::http://wiki.d-addicts.com/Smile,_Mom::images/270px-Smilemom.jpg
+Snail Boarding House::http://wiki.d-addicts.com/Snail_Boarding_House::images/350px-SnailGosiwon.jpg
+Stars Falling From the Sky::http://wiki.d-addicts.com/Stars_Falling_From_the_Sky::images/240px-StarsFall.jpg
+Stone::http://wiki.d-addicts.com/Stone::images/330px-Stone.jpg
+Stormy Lovers::http://wiki.d-addicts.com/Stormy_Lovers::images/350px-StormyLovers.jpg
+Summer Story::http://wiki.d-addicts.com/Summer_Story::images/300px-Summer_Story.jpg
+Sungkyunkwan Scandal::http://wiki.d-addicts.com/Sungkyunkwan_Scandal::images/380px-Sungkyungwan_Scandal.jpg
+Telecinema::http://wiki.d-addicts.com/Telecinema::images/200px-Heavenpostman.jpg
+Texas Hit::http://wiki.d-addicts.com/Texas_Hit::images/350px-Texas_Hit.jpg
+Thank You for Your Smile::http://wiki.d-addicts.com/Thank_You_for_Your_Smile::images/300px-Thank_You_for_Your_Smile.jpg
+The Birth of the Rich::http://wiki.d-addicts.com/The_Birth_of_the_Rich::images/240px-The_Birth_of_the_Rich.jpg
+The Miracle of Love::http://wiki.d-addicts.com/The_Miracle_of_Love::images/235px-The_Miracle_of_Love.jpg
+The Reputable Family::http://wiki.d-addicts.com/The_Reputable_Family::images/250px-TheReputableFamily1.jpg
+The Scarlet Letter::http://wiki.d-addicts.com/The_Scarlet_Letter::images/340px-ScarletLetter.jpg
+The Woman Who Still Wants to Marry::http://wiki.d-addicts.com/The_Woman_Who_Still_Wants_to_Marry::images/350px-TheWomanWhoStillWantsToMarry.jpg
+Three Sisters::http://wiki.d-addicts.com/Three_Sisters::images/250px-Three_Sisters_Poster.jpg
+Typically Women::http://wiki.d-addicts.com/Typically_Women::images/280px-TypicallyWomen.jpg
+The Woman Next Door::http://wiki.d-addicts.com/The_Woman_Next_Door::images/300px-The_Woman_Next_Door.jpg
+Would We Love%3F::http://wiki.d-addicts.com/Would_We_Love%3F::images/250px-Would_We_Love.jpg
+Yaksha::http://wiki.d-addicts.com/Yaksha::images/255px-Yaksha.jpg
+You Don't Know Women::http://wiki.d-addicts.com/You_Don%27t_Know_Women::images/300px-YouDontKnowWomen.jpg
+Your Heaven::http://wiki.d-addicts.com/Your_Heaven::images/330px-Your_Heaven.jpg
+49 Days::http://wiki.d-addicts.com/49_Days::images/245px-49_Days.jpg
+A Thousand Days' Promise::http://wiki.d-addicts.com/A_Thousand_Days%27_Promise::images/250px-1000_Days_Promise.jpg
+A Thousand Kisses::http://wiki.d-addicts.com/A_Thousand_Kisses::images/300px-Thousand_Kisses.jpg
+Baby-faced Beauty::http://wiki.d-addicts.com/Baby-faced_Beauty::images/350px-Baby-faced_Beauty.jpg
+Bachelor's Vegetable Store::http://wiki.d-addicts.com/Bachelor%27s_Vegetable_Store::images/350px-BachelorVegetableStore.jpg
+Bang Ja Chronicles::http://wiki.d-addicts.com/Bang_Ja_Chronicles::images/250px-Bang_Ja_Chronicles.jpg
+Big Heat::http://wiki.d-addicts.com/Big_Heat::images/330px-Big_Heat.jpg
+Birdie Buddy::http://wiki.d-addicts.com/Birdie_Buddy::images/250px-BirdieBuddy.jpg
+Bolder By the Day::http://wiki.d-addicts.com/Bolder_By_the_Day::images/250px-BolderbytheDay.jpg
+Brain::http://wiki.d-addicts.com/Brain::images/250px-Brain05.jpg
+Bride of the Sun::http://wiki.d-addicts.com/Bride_of_the_Sun::images/250px-Sun_Bride.jpg
+Can You Hear My Heart::http://wiki.d-addicts.com/Can_You_Hear_My_Heart::images/320px-Can_You_Hear_My_Heart.jpg
+Can't Lose::http://wiki.d-addicts.com/Can%27t_Lose::images/330px-Cant_lose.jpg
+City Hunter::http://wiki.d-addicts.com/City_Hunter::images/228px-Cityhunter.jpg
+Color of Woman::http://wiki.d-addicts.com/Color_of_Woman::images/250px-Color_of_Woman.jpg
+Crime Squad::http://wiki.d-addicts.com/Crime_Squad::images/240px-Crime_Squad.jpg
+Crossing the Youngdo Bridge::http://wiki.d-addicts.com/Crossing_the_Youngdo_Bridge::images/235px-Crossing_the_Youngdo_Bridge.jpg
+Cupid Factory::http://wiki.d-addicts.com/Cupid_Factory::images/340px-Cupid_Factory.jpg
+Dangerous Women::http://wiki.d-addicts.com/Dangerous_Women::images/300px-Dangerous_Women.jpg
+Daughters of Bilitis Club::http://wiki.d-addicts.com/Daughters_of_Bilitis_Club::images/340px-ClubBilitis.jpg
+Drama Special::http://wiki.d-addicts.com/Drama_Special::images/nopic.png
+Dream High::http://wiki.d-addicts.com/Dream_High::images/350px-Dream_High_Poster.jpg
+Dream of 400 Years::http://wiki.d-addicts.com/Dream_of_400_Years::images/230px-Dream_of_400_Years.jpg
+Fermentation Family::http://wiki.d-addicts.com/Fermentation_Family::images/260px-FermentationFamily.jpg
+Flower Boy Ramyun Shop::http://wiki.d-addicts.com/Flower_Boy_Ramyun_Shop::images/235px-FlowerBoyRamyunShop.jpg
+God's Quiz::http://wiki.d-addicts.com/God%27s_Quiz::images/240px-GodsQuiz.jpg
+Guardian Angel Kim Young Goo::http://wiki.d-addicts.com/Guardian_Angel_Kim_Young_Goo::images/340px-Guardian_KYG.jpg
+Gye Baek::http://wiki.d-addicts.com/Gye_Baek::images/250px-GyeBaek.jpg
+Hair Show::http://wiki.d-addicts.com/Hair_Show::images/370px-Hair_Show.jpg
+Heaven's Garden::http://wiki.d-addicts.com/Heaven%27s_Garden::images/250px-HeavensGarden.jpg
+Hooray for Love::http://wiki.d-addicts.com/Hooray_for_Love::images/300px-HoorayforLove.jpg
+Human Casino::http://wiki.d-addicts.com/Human_Casino::images/340px-HumanCasino.jpg
+I Believe in Love::http://wiki.d-addicts.com/I_Believe_in_Love::images/250px-BelieveinLove.jpg
+I Believed in Men::http://wiki.d-addicts.com/I_Believed_in_Men::images/320px-I_Believed_in_Men.jpg
+I Live in Cheongdam-dong::http://wiki.d-addicts.com/I_Live_in_Cheongdam-dong::images/240px-LiveinCheongdongdam.jpg
+I Need Romance::http://wiki.d-addicts.com/I_Need_Romance::images/330px-I_Need_Romance.jpg
+Identical Criminals::http://wiki.d-addicts.com/Identical_Criminals::images/340px-Identical_Criminals.jpg
+If Tomorrow Comes::http://wiki.d-addicts.com/If_Tomorrow_Comes::images/350px-If_tomorrow_comes_poster.jpg
+Indomitable Daughters-in-Law::http://wiki.d-addicts.com/Indomitable_Daughters-in-Law::images/300px-IndomitableDaughters.jpg
+Jeon Woo Chi::http://wiki.d-addicts.com/Jeon_Woo_Chi::images/300px-JeonWooChi.jpg
+Just Like Today::http://wiki.d-addicts.com/Just_Like_Today::images/340px-JustLikeToday.jpg
+Just You::http://wiki.d-addicts.com/Just_You::images/250px-Justyou.jpg
+Killer K::http://wiki.d-addicts.com/Killer_K::images/260px-KillerK.jpg
+King Gwanggaeto the Great::http://wiki.d-addicts.com/King_Gwanggaeto_the_Great::images/240px-KingGwanggaeto.jpg
+Late Night Hospital::http://wiki.d-addicts.com/Late_Night_Hospital::images/350px-Late_Night_Hospital.jpg
+Lie to Me::http://wiki.d-addicts.com/Lie_to_Me::images/250px-LietoMe.jpg
+Lights and Shadows::http://wiki.d-addicts.com/Lights_and_Shadows::images/340px-LightsandShadows.jpg
+Live in Style::http://wiki.d-addicts.com/Live_in_Style::images/320px-LiveinStyle.jpg
+Man of Honor::http://wiki.d-addicts.com/Man_of_Honor::images/250px-Honor45.jpg
+Manny::http://wiki.d-addicts.com/Manny::images/250px-Manny.jpg
+Me Too, Flower!::http://wiki.d-addicts.com/Me_Too,_Flower!::images/300px-MeTooFlower.jpg
+Men Cry::http://wiki.d-addicts.com/Men_Cry::images/380px-MenCry.jpg
+Midas::http://wiki.d-addicts.com/Midas::images/240px-Midas.jpg
+Miss Ajumma::http://wiki.d-addicts.com/Miss_Ajumma::images/340px-Miss_Ajumma.jpg
+Miss Ripley::http://wiki.d-addicts.com/Miss_Ripley::images/300px-Miss_Ripley.jpg
+My Daughter the Flower::http://wiki.d-addicts.com/My_Daughter_the_Flower::images/nopic.png
+My Love By My Side (SBS)::http://wiki.d-addicts.com/My_Love_By_My_Side_(SBS)::images/380px-Mlbms.jpg
+My Princess::http://wiki.d-addicts.com/My_Princess::images/300px-MyPrincess.jpg
+Myung Wol the Spy::http://wiki.d-addicts.com/Myung_Wol_the_Spy::images/240px-SpyMyungWol.jpg
+New Tales of Gisaeng::http://wiki.d-addicts.com/New_Tales_of_Gisaeng::images/240px-New_Tales_of_Gisaeng.jpg
+Noriko Goes to Seoul::http://wiki.d-addicts.com/Noriko_Goes_to_Seoul::images/260px-NorikoGoestoSeoul.jpg
+Ojakgyo Brothers::http://wiki.d-addicts.com/Ojakgyo_Brothers::images/300px-OJKbrothers.jpg
+Padam Padam... The Sound of His and Her HeartBeats::http://wiki.d-addicts.com/Padam_Padam..._The_Sound_of_His_and_Her_Heartbeats::images/280px-Padam_Padam.jpg
+Paradise Ranch::http://wiki.d-addicts.com/Paradise_Ranch::images/230px-Paradise_Ranch.jpg
+Perfect Spy::http://wiki.d-addicts.com/Perfect_Spy::images/430px-Perfect_Spy.jpg
+Poseidon::http://wiki.d-addicts.com/Poseidon::images/330px-Poseidon.jpg
+Princess Hwapyung's Weight Loss::http://wiki.d-addicts.com/Princess_Hwapyung%27s_Weight_Loss::images/340px-PrincessHwapyungWeightLoss.jpg
+Protect the Boss::http://wiki.d-addicts.com/Protect_the_Boss::images/240px-Protect_the_Boss.jpg
+Queen Insoo::http://wiki.d-addicts.com/Queen_Insoo::images/350px-QueenInsoo.jpg
+Real School!::http://wiki.d-addicts.com/Real_School!::images/250px-Real_School%21.jpg
+Romance Town::http://wiki.d-addicts.com/Romance_Town::images/330px-Romance_Town.jpg
+Royal Family::http://wiki.d-addicts.com/Royal_Family::images/330px-Royal_Family.jpg
+Rude Miss Young-Ae::http://wiki.d-addicts.com/Rude_Miss_Young-Ae::images/260px-Rude_Miss_Young_Ae_season_1.jpg
+Saving Madame Go Bong Shil::http://wiki.d-addicts.com/Saving_Madame_Go_Bong_Shil::images/280px-SavingMadameGo.jpg
+Scent of a Woman::http://wiki.d-addicts.com/Scent_of_a_Woman::images/250px-ScentofaWoman.jpg
+Sign::http://wiki.d-addicts.com/Sign::images/230px-Sign.jpg
+Sparkling::http://wiki.d-addicts.com/Sparkling::images/320px-Sparkling.jpg
+Special Crime Squad MSS::http://wiki.d-addicts.com/Special_Crime_Squad_MSS::images/300px-Special_Crime_Squad_MSS.jpg
+Sweet Palpitations::http://wiki.d-addicts.com/Sweet_Palpitations::images/240px-Sweet_Palpitations.jpg
+Ten::http://wiki.d-addicts.com/Ten::images/300px-TEN.jpg
+Terminal::http://wiki.d-addicts.com/Terminal::images/340px-Terminal.jpg
+That Man is There::http://wiki.d-addicts.com/That_Man_is_There::images/350px-ThatManisThere.jpg
+The 7th Day::http://wiki.d-addicts.com/The_7th_Day::images/340px-The_7th_Day.jpg
+The Duo::http://wiki.d-addicts.com/The_Duo::images/243px-The_Duo_Poster.jpg
+The Empress::http://wiki.d-addicts.com/The_Empress::images/350px-Empress.jpg
+The Great Gift::http://wiki.d-addicts.com/The_Great_Gift::images/260px-TheGreatGift.jpg
+The Greatest Love::http://wiki.d-addicts.com/The_Greatest_Love::images/240px-The_Greatest_Love.jpg
+The Musical::http://wiki.d-addicts.com/The_Musical::images/240px-TheMusical.jpg
+The Peak (MBC)::http://wiki.d-addicts.com/The_Peak_(MBC)::images/380px-ThePeakMBC.jpg
+The Princess' Man::http://wiki.d-addicts.com/The_Princess%27_Man::images/300px-Princess_Man.jpg
+The Sound of My Wife Breathing::http://wiki.d-addicts.com/The_Sound_of_My_Wife_Breathing::images/340px-Sound_of_Wife_Breathing.jpg
+The Women of Our Home::http://wiki.d-addicts.com/The_Women_of_Our_Home::images/255px-The_Women_of_Our_Home.jpg
+Thorn Birds::http://wiki.d-addicts.com/Thorn_Birds::images/250px-Thorn_Birds.jpg
+Tree With Deep Roots (2011)::http://wiki.d-addicts.com/Tree_With_Deep_Roots_(2011)::images/250px-TreewithDeepRoots.jpg
+Vampire Idol::http://wiki.d-addicts.com/Vampire_Idol::images/250px-Vampire_Idol.jpg
+Vampire Prosecutor::http://wiki.d-addicts.com/Vampire_Prosecutor::images/200px-Vampire_Prosecutor.jpg
+War of the Roses (SBS)::http://wiki.d-addicts.com/War_of_the_Roses_(SBS)::images/330px-War_of_the_Roses_SBS.jpg
+Warrior Baek Dong Soo::http://wiki.d-addicts.com/Warrior_Baek_Dong_Soo::images/250px-Warrior_Baek_Dong_Soo.jpg
+Welcome to the Show::http://wiki.d-addicts.com/Welcome_to_the_Show::images/270px-Welcome_to_the_Show.jpg
+What's Up%3F::http://wiki.d-addicts.com/What%27s_Up%3F::images/240px-WhatsUp.jpg
+When Women Powder Twice::http://wiki.d-addicts.com/When_Women_Powder_Twice::images/250px-WhenWomenPowderTwice.jpg
+While You Were Sleeping::http://wiki.d-addicts.com/While_You_Were_Sleeping::images/230px-WhileYouSleeping.jpg
+White Christmas::http://wiki.d-addicts.com/White_Christmas::images/300px-White_Christmas.jpg
+Yeongdeok Women's Wrestling Team::http://wiki.d-addicts.com/Yeongdeok_Women%27s_Wrestling_Team::images/300px-YeongdeokWrestlingTeam.jpg
+You're Fine That Way::http://wiki.d-addicts.com/You%27re_Fine_That_Way::images/Youre_Fine_That_Way.jpg
+You're So Pretty::http://wiki.d-addicts.com/You%27re_So_Pretty::images/300px-YourPretty.jpg
+You've Fallen for Me::http://wiki.d-addicts.com/You%27ve_Fallen_for_Me::images/240px-YouveFallenforMe.jpg
+A Gentleman's Dignity::http://wiki.d-addicts.com/A_Gentleman%27s_Dignity::images/350px-A_Gentlemans_Dignity.jpg
+A Wife's Credentials::http://wiki.d-addicts.com/A_Wife%27s_Credentials::images/nopic.png
+Absolutely Him::http://wiki.d-addicts.com/Absolutely_Him::images/nopic.png
+Amore Mio::http://wiki.d-addicts.com/Amore_Mio::images/250px-Amore_Mio.jpg
+An Angel's Choice::http://wiki.d-addicts.com/An_Angel%27s_Choice::images/300px-AnAngelsChoice.jpg
+Can Love Become Money%3F::http://wiki.d-addicts.com/Can_Love_Become_Money%3F::images/250px-Can_Love_Become_Money.jpg
+Dream High::http://wiki.d-addicts.com/Dream_High::images/350px-Dream_High_Poster.jpg
+Dummy Mommy::http://wiki.d-addicts.com/Dummy_Mommy::images/350px-Dummy_Mommy.jpg
+Family Portrait::http://wiki.d-addicts.com/Family_Portrait::images/400px-Family_Photo.jpg
+Faith::http://wiki.d-addicts.com/Faith::images/350px-Faith.jpg
+Fashion King::http://wiki.d-addicts.com/Fashion_King::images/300px-FashionKing.jpg
+Father is Sorry::http://wiki.d-addicts.com/Father_is_Sorry::images/250px-FatherSorry.jpg
+Feast of the Gods::http://wiki.d-addicts.com/Feast_of_the_Gods::images/300px-FeastofGods.jpg
+Full House 2::http://wiki.d-addicts.com/Full_House_2::images/240px-Full_House_2_Japan_Poster.jpg
+Hero (OCN)::http://wiki.d-addicts.com/Hero_(OCN)::images/nopic.png
+History of the Salaryman::http://wiki.d-addicts.com/History_of_the_Salaryman::images/350px-Salaryman_Chohanji.jpg
+I Need a Fairy::http://wiki.d-addicts.com/I_Need_a_Fairy::images/240px-INeedaFairy.jpg
+Immortal Classic::http://wiki.d-addicts.com/Immortal_Classic::images/230px-Immortal_Classic.jpg
+K-POP - The Ultimate Audition::http://wiki.d-addicts.com/K-POP_-_The_Ultimate_Audition::images/nopic.png
+Korean Peninsula::http://wiki.d-addicts.com/Korean_Peninsula::images/250px-KoreanPeninsula.jpg
+Love Rain::http://wiki.d-addicts.com/Love_Rain::images/240px-LoveRain.jpg
+Monster::http://wiki.d-addicts.com/Monster::images/330px-Monster_Poster.jpg
+My Shining Girl::http://wiki.d-addicts.com/My_Shining_Girl::images/240px-MyShiningGirl.jpg
+Ordinary Love::http://wiki.d-addicts.com/Ordinary_Love::images/nopic.png
+Operation Proposal::http://wiki.d-addicts.com/Operation_Proposal::images/300px-Operation.jpg
+Ordinary Love::http://wiki.d-addicts.com/Ordinary_Love::images/nopic.png
+Queen In Hyun's Man::http://wiki.d-addicts.com/Queen_In_Hyun%27s_Man::images/240px-QueenInhyunsMan.jpg
+Rooftop Prince::http://wiki.d-addicts.com/Rooftop_Prince::images/240px-RooftopPrince.jpg
+Salamander Guru::http://wiki.d-addicts.com/Salamander_Guru::images/200px-Salamander_Guru.jpg
+Shut Up Flower Boy Band::http://wiki.d-addicts.com/Shut_Up_Flower_Boy_Band::images/300px-FBB.jpg
+Soldier::http://wiki.d-addicts.com/Soldier::images/350px-Soldier-Poster.jpg
+Speed::http://wiki.d-addicts.com/Speed::images/nopic.png
+Standby::http://wiki.d-addicts.com/Standby::images/300px-Standby.jpg
+Strangers 6::http://wiki.d-addicts.com/Strangers_6::images/250px-Strangers6.jpg
+Syndrome::http://wiki.d-addicts.com/Syndrome::images/250px-Syndrome.jpg
+The 3rd Hospital::http://wiki.d-addicts.com/The_3rd_Hospital::images/250px-ThirdHospital.jpg
+Take Care of Us, Captain::http://wiki.d-addicts.com/Take_Care_of_Us,_Captain::images/250px-TCUC_poster.jpg
+The Equator Man::http://wiki.d-addicts.com/The_Equator_Man::images/240px-The_Equator_Man.jpg
+The King 2 Hearts::http://wiki.d-addicts.com/The_King_2_Hearts::images/nopic.png
+The Equator Man::http://wiki.d-addicts.com/The_Equator_Man::images/240px-The_Equator_Man.jpg
+The Marriage Plot::http://wiki.d-addicts.com/The_Marriage_Plot::images/300px-TheMarriagePlot.jpg
+The Marriage Plot::http://wiki.d-addicts.com/The_Marriage_Plot::images/300px-TheMarriagePlot.jpg
+The Moon That Embraces the Sun::http://wiki.d-addicts.com/The_Moon_That_Embraces_the_Sun::images/350px-The_Moon_That_Embraces_the_Sun.jpg
+True Steel::http://wiki.d-addicts.com/True_Steel::images/450px-TrueSteel.jpg
+Twelve Men in a Year::http://wiki.d-addicts.com/Twelve_Men_in_a_Year::images/250px-TwelveMeninaYear.jpg
+Welcome Rain to My Life::http://wiki.d-addicts.com/Welcome_Rain_to_My_Life::images/240px-WelcomeRaintoMyLife.jpg
+Wild Romance::http://wiki.d-addicts.com/Wild_Romance::images/220px-Wild_Romance.jpg
+Yellow Boots::http://wiki.d-addicts.com/Yellow_Boots::images/200px-Yellow_Boots.jpg
+You Who Rolled In Unexpectedly::http://wiki.d-addicts.com/You_Who_Rolled_In_Unexpectedly::images/nopic.png
