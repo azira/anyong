@@ -11,27 +11,20 @@ package LuceneSearch;
  * http://fazlansabar.blogspot.com.au/2012/06/apache-lucene-tutorial-lucene-for-text.html
  * Credit: http://lucene.apache.org/core/
  */
-import java.awt.Toolkit;
-import java.io.BufferedOutputStream;
 import java.io.BufferedReader;
 import java.io.DataInputStream;
 import java.io.File;
 import java.io.FileInputStream;
-import java.io.FileOutputStream;
 import java.io.FileReader;
 import java.io.IOException;
-import java.io.InputStream;
 import java.io.InputStreamReader;
-import java.io.OutputStream;
-import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.ArrayList;
 import java.util.List;
-
 import org.apache.lucene.queryparser.classic.ParseException;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
-import org.jsoup.select.Elements;
+
 
 public class Lucene {
 
@@ -42,7 +35,7 @@ public class Lucene {
 
 	public static void main(String[] args) throws IOException, ParseException {
 		// Remember to comment if already have index
-		indexList();
+		//indexList();
 
 		// creating the Searcher to the same index location as the Indexer
 		Searcher searcher = new Searcher();
@@ -227,7 +220,7 @@ public class Lucene {
 		String asianwiki = "asianwiki";
 		String wikipedia = "wikipedia";
 		String daddicts = "d-addicts";
-		Document doc = Jsoup.connect(weburl).timeout(0).get();
+		Document doc = Jsoup.parse(new URL(weburl).openStream(), "UTF-8", weburl);
 		if (weburl.contains(asianwiki)) {
 			String content = doc.text();
 			int plotLoc = content.lastIndexOf("Plot");

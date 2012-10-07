@@ -20,12 +20,13 @@
 
 <jsp:include page="dramaInfo.jsp">
  <jsp:param name="drama" value="<%=drama %>"/>
+  <jsp:param name="type" value="streaming" />
 </jsp:include>
-
+<center>
  <IFRAME frameborder="0"  
-            style="width: 100%; height: 500px; border: margin: 0px;"  
+            style="width: 993px; height: 500px; border: margin: 0px;"  
             id="streamingGCS" name="streamingGCS" scrolling="yes"  
-            src="streamingSearch.jsp?q=<%=drama %>">  
+            src="streamingSearch.jsp?q=<%=drama %>">  </center>
         </IFRAME>  
 
 <% } %>

@@ -8,7 +8,6 @@
 %>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Drama downloads search</title>
 <!-- Put the following javascript before the closing </head> tag. -->
 <script>
   (function() {
@@ -19,19 +18,17 @@
     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(gcse, s);
   })();
 </script>
-
 </head>
-
 <body>
+
 <% if (drama == "") { // check if parameter is not passed 
 	String redirectURL = "index.jsp";
 	response.sendRedirect(redirectURL);
 } else {
 %>
-
 <!-- Place this tag where you want the search results to render -->
 <gcse:searchresults-only></gcse:searchresults-only> 
-      
+
 <% } %>
 </body>
 </html>

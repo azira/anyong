@@ -17,7 +17,7 @@
         <div class="wrapper">
        
             <img src="images/logo.png" alt="anyoung" id="logo">
-                <p>Your korea drama web search</p>
+                <p>Your korean drama web search</p>
            <form method="post" action="search.jsp">
              
             <input type="text" name="query" id="queryTextBox" id="search" size="70" class="searchbox" autofocus="autofocus"><p></p>
@@ -25,7 +25,7 @@
            </form>
            <p></p><p></p>
               <p class="footer">
-            Copyright &#169; 2012 anyoung, inc. All rights reserved.</p>
+            Copyright &#169; 2012 anyong, inc. All rights reserved.</p>
         </div>
      
      

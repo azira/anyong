@@ -38,5 +38,6 @@
 	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/lucene-sandbox-4.0.0-ALPHA.jar"/>
 	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/lucene-spatial-4.0.0-ALPHA.jar"/>
 	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/lucene-suggest-4.0.0-ALPHA.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/commons-lang-2.5.jar"/>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>
