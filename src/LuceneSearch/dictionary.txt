@@ -1,4 +1,4 @@
-101st proposal (sbs)
+101st proposal
 18 vs. 29
 2009 alien baseball team
 49 days
@@ -47,7 +47,6 @@ attic cat
 auction house
 autumn shower
 baby faced beauty
-baby-faced beauty
 bachelor's vegetable store
 bad couple
 bad family
@@ -174,7 +173,7 @@ duet
 dummy mommy
 east of eden
 empress chun chu
-encounter (mbc)
+encounter 
 end of love
 enjoy life
 escape from unemployment
@@ -248,7 +247,7 @@ golden time
 golden wagon
 good day to love
 good job, good job
-good news (mbc)
+good news
 good person
 goodbye dear wife
 goodbye solo
@@ -280,13 +279,10 @@ hello, god
 her style
 here comes ajumma
 hero
-hero (mbc)
-hero (ocn)
 high kick through the roof
 history of the salaryman
 home sweet home
 hometown legends
-hometown legends (2009)
 hometown over the hill
 hometown station
 honest living
@@ -373,7 +369,7 @@ just run!
 just you
 kid gang
 killer k
-kim soo ro (mbc)
+kim soo ro 
 kimcheed radish cubes
 kimchi cheese smile
 king geunchogo
@@ -452,7 +448,6 @@ marrying a millionaire
 mary stayed out all night
 match made in heaven
 may queen
-may queen (tv series)
 mbc best theater
 me too, flower!
 men cry
@@ -480,14 +475,14 @@ my daughter seo-young
 my daughter the flower
 my ex-wife lives next door
 my fair lady
-my girl (sbs)
+my girl
 my girlfriend is a nine-tailed fox
 my hidden love
 my husband got a family
 my lady boss, my hero
 my life's golden age
 my love
-my love by my side (sbs)
+my love by my side 
 my love for you
 my love patzzi
 my love toram
@@ -532,7 +527,7 @@ oh! pil seung and bong soon young
 oh! sarah
 ojakgyo brothers
 old miss diary
-on air (2008)
+on air 
 on the prairie
 once upon a time in saengchori
 one day suddenly
@@ -540,7 +535,7 @@ one fine day
 one million roses
 one mom and three dads
 one percent of anything
-only you (sbs)
+only you 
 operation proposal
 orange
 ordinary love
@@ -562,7 +557,7 @@ pasta
 pearl earring
 pearl necklace
 people of the water flower village
-perfect love (sbs)
+perfect love
 perfect spy
 perhaps love
 personal preference
@@ -593,7 +588,6 @@ pure 19
 pure pumpkin flower
 que sera, sera
 queen in hyun's man
-queen in-hyun's man
 queen insoo
 queen of ahyun
 queen of conditions
@@ -615,7 +609,7 @@ road number one
 roadside fugitive
 robber
 rock rock rock
-romance (mbc)
+romance 
 romance hunter
 romance town
 romance zero
@@ -737,7 +731,7 @@ swallow the sun
 swan lake
 sweet 18
 sweet buns
-sweet home (mbc)
+sweet home
 sweet palpitations
 sweet spy
 sweetheart
@@ -807,7 +801,7 @@ the miracle of love
 the moon that embraces the sun
 the musical
 the painter of the wind
-the peak (mbc)
+the peak 
 the person i love
 the president
 the princess' man
@@ -869,9 +863,7 @@ vacation
 vampire idol
 vampire prosecutor
 war of the roses
-war of the roses (sbs)
 warrior baek dong soo
-warrior baek dong-soo
 we are dating now
 wedding
 wedding gift
@@ -880,8 +872,7 @@ welcome to the show
 what happened in bali
 what star did you come from
 what's up fox
-what's up fox%3f
-what's up%3f
+what's up
 when a man is in love
 when it's at night
 when spring comes
@@ -902,7 +893,7 @@ wife and woman
 wife returns
 wild flower
 wild romance
-will it snow at christmas%3f
+will it snow at christmas
 wind flower
 winter bird
 winter sonata
@@ -912,7 +903,7 @@ woman above flower
 woman of matchless beauty, park jung kum
 women next door
 women of the sun
-wonderful life (mbc)
+wonderful life
 working mom
 would we love%3f
 wuri's family

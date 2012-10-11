@@ -13,10 +13,12 @@
 <%@page import="java.util.Map"%>
 <%@page import="java.util.HashMap"%>
 <%@page import="java.io.File"%>
+<%@page import="org.apache.commons.lang.StringUtils" %>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <%
 	String drama = request.getParameter("drama");
+	drama = StringUtils.capitalize(drama);
 	String type = request.getParameter("type");
 	response.setCharacterEncoding("UTF-8");
 %>

@@ -65,15 +65,16 @@ public class spellCheck {
 				List<List<String>> dramaList = searcher.findByTitle(userQuery);
 				// check if search not returns null
 				if (dramaList.isEmpty()) {
-					List<String> newQuery = new ArrayList<String>();
+				
 					String query = userQuery.toLowerCase();
 
-					if (!query.contains(" ")) {
+					if (query.contains(" ")) {
+						List<String> newQuery = new ArrayList<String>();
 						SpellChecker spell = new SpellChecker(
 								FSDirectory.open(directory));
 
 						spell.indexDictionary(new PlainTextDictionary(
-								dictionary_word), config, true);
+								dictionary), config, true);
 
 						String[] suggestions = spell.suggestSimilar(query, 3);
 						// if there's no suggestions
@@ -91,12 +92,12 @@ public class spellCheck {
 						}
 
 					} else {
-
+						List<String> newQuery = new ArrayList<String>();
 						SpellChecker spell = new SpellChecker(
 								FSDirectory.open(directory));
 
 						spell.indexDictionary(new PlainTextDictionary(
-								dictionary), config, true);
+								dictionary_word), config, true);
 
 						String[] suggestions = spell.suggestSimilar(query, 3);
 						// if there's no suggestions

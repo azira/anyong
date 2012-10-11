@@ -79,7 +79,7 @@
 					
 					if (i == spellCheck.size()-1) { %> 
 				
-					<a href="search.jsp?query=<%=queryCheck%>"><%=queryCheck + ""%></a>
+					<a href="search.jsp?query=<%=queryCheck%>"><%=queryCheck %></a>
 			        <% } else { %>
 			        <a href="search.jsp?query=<%=queryCheck%>"><%=queryCheck + ""%></a>,
 			        
