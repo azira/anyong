@@ -11,21 +11,21 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Set;
 import java.util.TreeSet;
-
+import org.apache.lucene.queryparser.classic.ParseException;
 import org.apache.lucene.index.IndexWriterConfig;
 import org.apache.lucene.search.spell.PlainTextDictionary;
 import org.apache.lucene.search.spell.SpellChecker;
 import org.apache.lucene.store.FSDirectory;
 import org.apache.lucene.util.Version;
 
-import com.sun.org.apache.xerces.internal.impl.xpath.regex.ParseException;
-
 public class spellCheck {
 
 	private File directory;
 	private File dictionary;
+	private File dictionary_word;
 	private IndexWriterConfig config;
-	private String DIC_FILE = "/Users/Azira/Documents/Assignment/anyong/src/LuceneSearch/thedic.txt";
+	private String DIC_FILE = "/Users/Azira/Documents/Assignment/anyong/src/LuceneSearch/dictionary.txt";
+	private String DIC_WORD = "/Users/Azira/Documents/Assignment/anyong/src/LuceneSearch/thedic.txt";
 	private static final String INDEX_DIR = "/Users/Azira/Documents/Assignment/anyong/index";
 	private Set<String> wordDic = new TreeSet<String>();
 
@@ -33,6 +33,7 @@ public class spellCheck {
 
 		directory = new File(INDEX_DIR);
 		dictionary = new File(DIC_FILE);
+		dictionary_word = new File(DIC_WORD);
 		config = new IndexWriterConfig(Version.LUCENE_40, null);
 	}
 
@@ -49,8 +50,7 @@ public class spellCheck {
 	 * @throws ParseException
 	 */
 
-	public List correctWords(String userQuery) throws FileNotFoundException,
-			IOException, ParseException {
+	public List correctWords(String userQuery) {
 
 		if (!directory.exists() || !dictionary.exists()) {
 			System.out
@@ -59,80 +59,75 @@ public class spellCheck {
 			return null;
 		} else {
 
-			SpellChecker spell = new SpellChecker(FSDirectory.open(directory));
-			spell.indexDictionary(new PlainTextDictionary(dictionary), config,
-					true);
+			try {
 
-			// Adding dictionary to temporary list
-			addWords();
+				Searcher searcher = new Searcher();
+				List<List<String>> dramaList = searcher.findByTitle(userQuery);
+				// check if search not returns null
+				if (dramaList.isEmpty()) {
+					List<String> newQuery = new ArrayList<String>();
+					String query = userQuery.toLowerCase();
 
-			List newQuery = new ArrayList();
-			String[] queryword = null;
-			String query1 = null;
+					if (!query.contains(" ")) {
+						SpellChecker spell = new SpellChecker(
+								FSDirectory.open(directory));
 
-			// make query to lowercase to easy find incorrect words
-			userQuery = userQuery.toLowerCase();
-			String query = userQuery;
+						spell.indexDictionary(new PlainTextDictionary(
+								dictionary_word), config, true);
 
-			// check if input is a sentence
-			if (query.contains(" ")) {
-				queryword = query.split(" ");
-				// check each word whether it is in dictionary
-				for (int i = 0; i < queryword.length; i++) {
-
-					// check word if in wordDic
-					if (!(wordDic.contains(queryword[i]))) {
-
-						// System.out.println(queryword[i]);
-						String[] spellSuggest = spell.suggestSimilar(
-								queryword[i], 1);
-						if (spellSuggest.length == 0) {
+						String[] suggestions = spell.suggestSimilar(query, 3);
+						// if there's no suggestions
+						if (suggestions.length == 0) {
 							return null;
 						} else {
 
-							// replacing the wrong word with the suggested words
-							query = query
-									.replace(queryword[i], spellSuggest[0]);
+							// add to newQuery arraylist
+							for (int i = 0; i < suggestions.length; i++) {
+								newQuery.add(suggestions[i]);
+
+							}
+
+							return newQuery;
 						}
 
-					}
-
-				}
-
-				newQuery.add(query);
-
-				// System.out.println("1" + newQuery.get(0));
-
-				// check if query words is changed
-				if (newQuery.get(0) != userQuery) {
-					return newQuery;
-				} else {
-					return null;
-				}
-
-			} else {
-				if (!(wordDic.contains(query))) {
-
-					String[] suggestions = spell.suggestSimilar(query, 3);
-					// if there's no suggestions
-					if (suggestions.length == 0) {
-						return null;
 					} else {
 
-						// add to newQuery arraylist
-						for (int i = 0; i < suggestions.length; i++) {
-							newQuery.add(suggestions[i]);
+						SpellChecker spell = new SpellChecker(
+								FSDirectory.open(directory));
 
+						spell.indexDictionary(new PlainTextDictionary(
+								dictionary), config, true);
+
+						String[] suggestions = spell.suggestSimilar(query, 3);
+						// if there's no suggestions
+						if (suggestions.length == 0) {
+							return null;
+						} else {
+
+							// add to newQuery arraylist
+							for (int i = 0; i < suggestions.length; i++) {
+								newQuery.add(suggestions[i]);
+
+							}
+
+							return newQuery;
 						}
-
-						return newQuery;
 					}
-				} else {
-					return null;
 				}
+
+			} catch (IOException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+				return null;
+			} catch (ParseException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+				return null;
 			}
 
 		}
+		return null;
+
 	}
 
 	/**

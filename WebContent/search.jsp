@@ -42,7 +42,7 @@
 			String redirectURL = "index.jsp";
 			response.sendRedirect(redirectURL);
 		
-	} %>
+	} else { %> 
     <div class="wrapper">
             <!-- #Header -->
             <div class="header">
@@ -75,13 +75,15 @@
             <% // Display spell check suggestions 
 
 			for (int i=0; i < spellCheck.size(); i++) {
-					String queryCheck = spellCheck.get(i).toString();%>
-
-			<a href="search.jsp?query=<%=queryCheck%>"><%=queryCheck + ""%></a>
-			            
-         
-			
-			<% } %>
+					String queryCheck = spellCheck.get(i).toString();
+					
+					if (i == spellCheck.size()-1) { %> 
+				
+					<a href="search.jsp?query=<%=queryCheck%>"><%=queryCheck + ""%></a>
+			        <% } else { %>
+			        <a href="search.jsp?query=<%=queryCheck%>"><%=queryCheck + ""%></a>,
+			        
+			        <% } } %>
 			 ?</p>
 			<% } else {
 				Searcher searcher = new Searcher();
@@ -197,7 +199,11 @@
              <div class="footer">
                 <div class="aboutAnyoung">
                     <b>About Anyong</b>
-                   <p></p>
+                   <p>anyoung is your Korean Drama-specific search engine implemented with <a href="http://lucene.apache.org/core/" target="_blank">
+                   Apache Lucene</a>. It searches webpages from <a href="http://wikipedia.org">Wikipedia</a> ,<a href="http://wiki.d-addicts.com"
+								target="_blank">D-Addicts Wiki</a> and <a
+								href="http://asianwiki.com" target="_blank">Asian Wiki</a> covering Korean Dramas from the year 2003 to the latest.</p>
+								<p>Downloads and Streaming will include a full description of the drama as well as links for downloads/streaming.</p>
                  
                 </div>
                   <div class="footerText"> Copyright &#169; 2012 anyong, inc. All rights reserved.<br>
@@ -210,6 +216,6 @@
              </div>
              <!-- #End Footer -->
     </div>
- 
+ <% } %>
 </body>
 </html>

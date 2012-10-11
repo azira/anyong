@@ -163,7 +163,7 @@ div.footer {
     z-index: auto;
     float: left;
     padding-top: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
     background-color: #FBF7F6;
     margin-bottom: 20px;
   
@@ -175,16 +175,16 @@ div.aboutAnyoung {
    margin-left: 20px;
     line-height:20px;
     margin-right: 10px;
-    height: 100px;
+    height: 150px;
 }
 
 .footerText {
-    padding-top: 30px;
+    padding-top: 110px;
     font-size: 11px;
     text-align: right;
     padding-left: 20px;
     padding-right: 10px;
-     font-family: proximasansregularregular, Arial,  Helvetica, sans-serif;
+    font-family: proximasansregularregular, Arial,  Helvetica, sans-serif;
 }
 
 /* Style for basic navigation */

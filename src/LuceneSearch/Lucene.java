@@ -35,7 +35,7 @@ public class Lucene {
 
 	public static void main(String[] args) throws IOException, ParseException {
 		// Remember to comment if already have index
-		indexList();
+		//indexList();
 
 		// creating the Searcher to the same index location as the Indexer
 		Searcher searcher = new Searcher();
@@ -43,7 +43,7 @@ public class Lucene {
 		// String content =
 		// getImageLink("http://asianwiki.com/Faith_(Korean_Drama)");
 
-		String query = "arang";
+		String query = "winter son";
 
 		// Check if it returns empty
 

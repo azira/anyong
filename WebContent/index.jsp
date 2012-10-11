@@ -18,7 +18,7 @@
        
             <img src="images/logo.png" alt="anyoung" id="logo">
                 <p>Your korean drama web search</p>
-           <form method="post" action="search.jsp">
+           <form action="search.jsp">
              
             <input type="text" name="query" id="queryTextBox" id="search" size="70" class="searchbox" autofocus="autofocus"><p></p>
           <input type="submit" value="SEARCH">
