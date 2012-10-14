@@ -144,7 +144,7 @@
 				}
 		%>	
 		
-                    <tr>
+                    <tr id="dramaResult">
                     <td id="imgResult">
                         <img src="<%= imageSrc %>" onerror="this.onerror=null;this.src='images/nopic.png';"; alt="<%= title %>" 
 		height="<%=height %>" width="<%= width %>">
@@ -156,9 +156,7 @@
                 </td>
                     </tr>
                     
-                    <tr>
-                        <td id="space" height="20"></td>
-                    </tr>
+              
                       
                    <% } %>
                 </table>     
@@ -169,7 +167,7 @@
 	</form>
 
 <script type="text/javascript">
-        var pager = new Pager('resultsTable', 8); 
+        var pager = new Pager('resultsTable', 5); 
         pager.init(); 
         pager.showPageNav('pager', 'pageNavPosition'); 
         pager.showPage(1);

@@ -2,6 +2,7 @@
 /** Date: 22 Sept 2012 **/
 /** Tools used: http://www.xml-sitemaps.com **/
 /** Source from http://en.wikipedia.org/wiki/Category:South_Korean_television_drama **/
+The Legend::http://wiki.d-addicts.com/The_Legend::images/King%5C%27sfourgods.jpg
 The 3rd Hospital::http://en.wikipedia.org/wiki/The_3rd_Hospital::images/nopic.png
 5th Republic::http://en.wikipedia.org/wiki/5th_Republic_(TV_series)::images/nopic.png
 A Thousand Kisses::http://en.wikipedia.org/wiki/A_Thousand_Kisses_(TV_series)::images/nopic.png
