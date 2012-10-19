@@ -1,5 +1,11 @@
 package anyong;
 
+/**
+ * @author Hazirah Hamdani
+ * File name: anyongStyle.java
+ * Description: Resizing image thumb for the drama results
+ */
+
 import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;

@@ -6,6 +6,7 @@ package LuceneSearch;
 
  * Title: anyoung
  * Description: Korea drama search using Lucene
+ * Version: 1.0
  * 
  * Tutorial from 
  * http://fazlansabar.blogspot.com.au/2012/06/apache-lucene-tutorial-lucene-for-text.html
@@ -33,6 +34,7 @@ public class Lucene {
 	private static final String dataFiles = "/Users/Azira/Documents/Assignment/anyong/src/LuceneSearch/data";
 	private static ArrayList<File> queue = new ArrayList<File>();
 
+	// For test purposes
 	public static void main(String[] args) throws IOException, ParseException {
 		// Remember to comment if already have index
 		//indexList();
@@ -83,6 +85,11 @@ public class Lucene {
 		}
 	}
 
+	/**
+	 * Indexing website list in text file resource
+	 * 
+	 * @throws IOException
+	 */
 	public static void indexList() throws IOException {
 		// deleting indexes
 		File indexF = new File(INDEX_DIR);
@@ -210,7 +217,7 @@ public class Lucene {
 	}
 
 	/**
-	 * Get description of website
+	 * Get summary of website of search results
 	 * 
 	 * @param weburl
 	 * @return webcontents without HTML codes

@@ -1,5 +1,12 @@
 package LuceneSearch;
 
+/***
+ * @author Hazirah Hamdani
+ * File name: spellCheck.java
+ * Description: Suggest related queries to user
+ * Version: 1.0
+ */
+
 import java.io.BufferedReader;
 import java.io.DataInputStream;
 import java.io.File;
@@ -50,7 +57,7 @@ public class spellCheck {
 	 * @throws ParseException
 	 */
 
-	public List correctWords(String userQuery) {
+	public List correctWords(String userQuery) throws ParseException {
 
 		if (!directory.exists() || !dictionary.exists()) {
 			System.out
@@ -117,10 +124,6 @@ public class spellCheck {
 				}
 
 			} catch (IOException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
-				return null;
-			} catch (ParseException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
 				return null;

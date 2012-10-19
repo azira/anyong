@@ -1,5 +1,11 @@
 package LuceneSearch;
 
+/***
+ * @author Hazirah Hamdani
+ * File name: Indexer.java
+ * Description: Index List of drama weblinks in text file resource
+ * Version: 1.0
+ */
 
 import org.apache.lucene.analysis.standard.StandardAnalyzer;
 import org.apache.lucene.document.Document;
